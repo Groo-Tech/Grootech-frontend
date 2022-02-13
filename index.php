@@ -68,7 +68,7 @@
                             <div class="search__icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                             </div>
-                            <input type="text" class="search__input" placeholder="Enter a keyword to search try 'Potato Farms'">
+                            <input type="text" name="search_name" class="search__input" placeholder="Enter a keyword to search try 'Potato Farms'">
                         </div>
                     </div>
                     <div class="search__group search__group--2">
@@ -76,7 +76,7 @@
                             <div class="search__icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
                             </div>
-                            <input type="text" class="search__input" placeholder="Filter by Location">
+                            <input type="text" name="search_location" class="search__input" placeholder="Filter by Location">
                         </div>
                     </div>
                     <div class="search__group search__group--3">
@@ -98,9 +98,29 @@
             </div>
             <div class="features__wrapper">
                 <div class="card card--features">
-                    <a href="#" class="card__link">
+                    <a href="#" class="card__link" name="Egunjobi Farms">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--1.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--1.jpg" alt="Egunjobi Farms" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link" name="Egunjobi Farms">
+                        <span class="card__image-box">
+                            <img src="./assets/images/businesses/grootech__image--2.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -120,7 +140,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--2.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--3.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -140,7 +160,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--3.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--4.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -160,7 +180,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--4.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--5.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -180,7 +200,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--5.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--10.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -200,7 +220,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--10.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--9.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -220,27 +240,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--9.jpg" alt="" class="card__image">
-                        </span>
-                        <div class="card__body">
-                            <h1 class="card__header">
-                                Egunjobi Farms
-                            </h1>
-                            <p class="card__paragraph">
-                                <span class="card__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                                </span>
-                                <span class="card__text">
-                                    Lagos, Nigeria
-                                </span>
-                            </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card card--features">
-                    <a href="#" class="card__link">
-                        <span class="card__image-box">
-                            <img src="./assets/images/businesses/grootech__image--8.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--8.jpg" alt="Egunjobi Farms" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -270,7 +270,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -292,7 +292,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -314,7 +314,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -336,7 +336,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -358,7 +358,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -380,7 +380,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -402,7 +402,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -424,7 +424,7 @@
                     <div class="card card--features">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="" class="card__image">
+                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="Lagos, Nigeria" class="card__image">
                             </span>
                             <div class="card__body">
                                 <h1 class="card__header">
@@ -584,6 +584,15 @@
                 <h1 class="newsletter__header">
                     Want More?
                 </h1>
+                <p class="newsletter__paragraph">
+                    Enter your email address to receive special deals and tips on investment.
+                </p>
+                <form action="" class="newsletter__form">
+                    <input type="email" class="newsletter__input" name="newsletter_email">
+                    <button type="submit" class="newsletter__button">
+                        Subscribe
+                    </button>
+                </form>
             </div>
         </div>
     </section>

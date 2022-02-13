@@ -32,9 +32,17 @@
 
   //colors
 
+  //color - white
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
   --grootech__background__white: #ffffff;
+
+  //color - light gray
+  --grootech__background__gray: #f8f8f8;
+  --grootech__input__focus: #eeeeee;
+  --grootech__shadow: #ebebeb;
+
+  //color - brown
   --grootech__brown: #ce8339;
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
@@ -44,11 +52,14 @@
   --grootech__text__brown__2: #ce8339;
   --grootech__text__brown__3: #cd8136;
   --grootech__button__brown: #ce8339;
+
+  //color - gray
   --grootech__gray: #848484;
   --grootech__icon__gray: #848484;
   --grootech__text__gray: #848484;
   --grootech__header__gray: #848484;
-  --grootech__background__gray: #f8f8f8;
-  --grootech__input__focus: #eeeeee;
-  --grootech__shadow: #ebebeb;
+
+  //color - black
+  --grootech__black: #000000;
+  --grootech__text__black: #000000;
 }
