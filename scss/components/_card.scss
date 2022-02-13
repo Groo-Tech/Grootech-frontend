@@ -2,23 +2,67 @@
   max-height: 100%;
 
   &--features {
+    border-radius: 10px;
     background: var(--grootech__white);
     box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+    padding-bottom: var(--span-s);
   }
 
   &__image {
     display: block;
     width: 100%;
-    max-height: 300px;
+    height: 300px;
     object-fit: cover;
   }
 
   &__link {
     display: inline-block;
     width: 100%;
+    text-decoration: none;
   }
 
   &__image-box {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     display: block;
+    overflow: hidden;
+  }
+
+  &__body {
+    margin-top: var(--span-s);
+    padding: 0 var(--span-s);
+  }
+
+  &__header {
+    font-family: var(--Montserrat);
+    font-size: var(--size-m);
+    font-weight: var(--weight-md);
+    line-height: 25px;
+    text-align: left;
+    color: var(--grootech__text__gray);
+  }
+
+  &__paragraph {
+    display: flex;
+    align-items: center;
+    margin-top: var(--span-xs);
+
+    & .card__icon {
+      width: 16px;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: var(--span-xs);
+    }
+
+    & .card__text {
+      font-family: var(--Montserrat);
+      font-size: var(--size-s);
+      font-weight: var(--weight-sm);
+      line-height: 23px;
+      text-align: left;
+      color: var(--grootech__text__brown);
+    }
   }
 }

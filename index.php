@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Grootech is an agro-based platform with the primary purpose of interconnecting all the players in the agricultural sector">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/grootech_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/home.css">
@@ -101,6 +102,159 @@
                         <span class="card__image-box">
                             <img src="./assets/images/grootech__image--1.jpg" alt="" class="card__image">
                         </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--2.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--3.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--4.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--5.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--10.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--9.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--8.jpg" alt="" class="card__image">
+                        </span>
+                        <div class="card__body">
+                            <h1 class="card__header">
+                                Egunjobi Farms
+                            </h1>
+                            <p class="card__paragraph">
+                                <span class="card__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </span>
+                                <span class="card__text">
+                                    Lagos, Nigeria
+                                </span>
+                            </p>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -109,7 +263,12 @@
     <section class="section-popular">
         <div class="container">
             <div class="popular">
-                &nbsp;
+                <h1 class="popular__header">
+                    Popular Cities
+                </h1>
+                <div class="popular__wrapper">
+                    &nbsp;
+                </div>
             </div>
         </div>
     </section>

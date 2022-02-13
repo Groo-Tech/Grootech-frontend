@@ -27,6 +27,8 @@
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
   --grootech__logo__text: #a55a28;
+  --grootech__icon__brown: #a55a28;
+  --grootech__text__brown: #a55a28;
   --grootech__button__brown: #ce8339;
   --grootech__gray: #848484;
   --grootech__icon__gray: #848484;
@@ -74,24 +76,68 @@ body {
 }
 
 .card--features {
+  border-radius: 10px;
   background: var(--grootech__white);
   box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+  padding-bottom: var(--span-s);
 }
 
 .card__image {
   display: block;
   width: 100%;
-  max-height: 300px;
+  height: 300px;
   object-fit: cover;
 }
 
 .card__link {
   display: inline-block;
   width: 100%;
+  text-decoration: none;
 }
 
 .card__image-box {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   display: block;
+  overflow: hidden;
+}
+
+.card__body {
+  margin-top: var(--span-s);
+  padding: 0 var(--span-s);
+}
+
+.card__header {
+  font-family: var(--Montserrat);
+  font-size: var(--size-m);
+  font-weight: var(--weight-md);
+  line-height: 25px;
+  text-align: left;
+  color: var(--grootech__text__gray);
+}
+
+.card__paragraph {
+  display: flex;
+  align-items: center;
+  margin-top: var(--span-xs);
+}
+
+.card__paragraph .card__icon {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: var(--span-xs);
+}
+
+.card__paragraph .card__text {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 23px;
+  text-align: left;
+  color: var(--grootech__text__brown);
 }
 
 .search {
@@ -336,5 +382,18 @@ body {
 
 .section-popular {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
+}
+
+.popular__header {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-md);
+  line-height: 43px;
+  text-align: left;
+  color: var(--grootech__header__gray);
+}
+
+.popular__wrapper {
+  margin-top: var(--span-l);
 }
 /*# sourceMappingURL=home.css.map */
