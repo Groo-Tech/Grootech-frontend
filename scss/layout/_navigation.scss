@@ -1,0 +1,39 @@
+.navigation {
+  align-self: center;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    padding: 0 var(--span-s);
+
+    &:last-child {
+      padding-right: 0;
+      padding-left: var(--span-s);
+    }
+    &:last-child {
+      padding-right: 0;
+      padding-left: var(--span-s);
+    }
+
+    &:first-child {
+      padding-left: 0;
+      padding-right: var(--span-s);
+    }
+  }
+
+  &__link {
+    text-transform: capitalize;
+    font-family: var(--Montserrat);
+    font-size: var(--size-m);
+    font-weight: var(--weight-md);
+    line-height: 25px;
+    text-align: left;
+    color: var(--grootech__navigation__link__brown);
+    text-decoration: none;
+    display: inline-block;
+  }
+}

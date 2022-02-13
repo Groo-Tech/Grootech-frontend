@@ -1,0 +1,14 @@
+.search {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__box {
+    display: flex;
+  }
+
+  &__icon {
+    padding: var(--span-s);
+  }
+}

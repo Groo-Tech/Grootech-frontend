@@ -1,0 +1,16 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+
+  &--join {
+    padding: var(--span-xs) var(--span-xl);
+    background: var(--grootech__join__button__brown);
+    font-family: var(--Montserrat);
+    font-size: var(--size-m);
+    font-weight: var(--weight-md);
+    line-height: 28px;
+    text-align: left;
+    color: var(--grootech__text__white);
+    border-radius: 10px;
+  }
+}
