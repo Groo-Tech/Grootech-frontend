@@ -581,7 +581,9 @@
     <section class="section-newsletter">
         <div class="container">
             <div class="newsletter">
-                &nbsp;
+                <h1 class="newsletter__header">
+                    Want More?
+                </h1>
             </div>
         </div>
     </section>

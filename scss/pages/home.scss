@@ -176,3 +176,14 @@
   @include __section__space;
   @include __section__background(var(--grootech__background__gray));
 }
+
+.newsletter {
+  &__header {
+    font-family: var(--Montserrat);
+    font-size: var(--size-xl);
+    font-weight: var(--weight-xlg);
+    line-height: 43px;
+    text-align: center;
+    color: var(--grootech__text__brown__2);
+  }
+}

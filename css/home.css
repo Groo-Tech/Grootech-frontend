@@ -31,6 +31,7 @@
   --grootech__icon__brown: #a55a28;
   --grootech__text__brown: #a55a28;
   --grootech__text__brown__2: #ce8339;
+  --grootech__text__brown__3: #cd8136;
   --grootech__button__brown: #ce8339;
   --grootech__gray: #848484;
   --grootech__icon__gray: #848484;
@@ -482,5 +483,14 @@ body {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
   background: var(--grootech__background__gray);
+}
+
+.newsletter__header {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-xlg);
+  line-height: 43px;
+  text-align: center;
+  color: var(--grootech__text__brown__2);
 }
 /*# sourceMappingURL=home.css.map */
