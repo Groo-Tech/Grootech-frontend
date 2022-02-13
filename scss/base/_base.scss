@@ -15,3 +15,8 @@ html {
 body {
   font-family: var(--Montserrat);
 }
+
+::selection {
+  color: var(--grootech__text__white);
+  background: var(--grootech__brown);
+}

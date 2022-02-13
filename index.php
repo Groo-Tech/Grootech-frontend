@@ -100,7 +100,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--1.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--1.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -120,7 +120,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--2.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--2.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -140,7 +140,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--3.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--3.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -160,7 +160,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--4.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--4.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -180,7 +180,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--5.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--5.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -200,7 +200,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--10.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--10.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -220,7 +220,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--9.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--9.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -240,7 +240,7 @@
                 <div class="card card--features">
                     <a href="#" class="card__link">
                         <span class="card__image-box">
-                            <img src="./assets/images/grootech__image--8.jpg" alt="" class="card__image">
+                            <img src="./assets/images/businesses/grootech__image--8.jpg" alt="" class="card__image">
                         </span>
                         <div class="card__body">
                             <h1 class="card__header">
@@ -267,10 +267,188 @@
                     Popular Cities
                 </h1>
                 <div class="popular__wrapper">
-                    &nbsp;
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features">
+                        <a href="#" class="card__link">
+                            <span class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="" class="card__image">
+                            </span>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    <div class="card__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </div>
+                                    <span>
+                                        Lagos, Nigeria
+                                    </span>
+                                </h1>
+                                <p class="card__paragraph">
+                                    <span class="card__text card__text--brown">
+                                        Over 1000 businesses
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="section-categories">
+        &nbsp;
     </section>
 </body>
 </html>

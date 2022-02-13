@@ -116,5 +116,12 @@
 
   &__wrapper {
     margin-top: var(--span-l);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
   }
+}
+
+.section-categories {
+  @include __section__space__top;
 }
