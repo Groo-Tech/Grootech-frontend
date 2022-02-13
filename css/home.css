@@ -94,10 +94,6 @@ body {
   height: 100%;
 }
 
-.card__link:hover .card__image {
-  transform: scale(1.25);
-}
-
 .card__image-box {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -110,7 +106,6 @@ body {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  transition: all 300ms;
 }
 
 .card__body {
