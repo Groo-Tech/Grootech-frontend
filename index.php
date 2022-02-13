@@ -448,7 +448,149 @@
         </div>
     </section>
     <section class="section-categories">
-        &nbsp;
+        <div class="container">
+            <div class="categories">
+                <h1 class="categories__header">
+                    Businesses by Category
+                </h1>
+                <ul class="categories__list">
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                    <li class="categories__item">
+                        <a href="#" class="categories__link">
+                            <span class="categories__heading">
+                                Cattle Farms
+                            </span>
+                            <span class="categories__paragraph">
+                                20 businesses in 6 cities with over 10% return on investment 
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
+    <section class="section-newsletter">
+        <div class="container">
+            <div class="newsletter">
+                &nbsp;
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                &nbsp;
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -14,6 +14,7 @@ html {
 
 body {
   font-family: var(--Montserrat);
+  @include __section__background(var(--grootech__background__white));
 }
 
 ::selection {

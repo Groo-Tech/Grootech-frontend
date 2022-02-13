@@ -19,3 +19,7 @@
   text-align: left;
   color: var(--grootech__header__gray);
 }
+
+@mixin __section__background($color) {
+  background: $color;
+}

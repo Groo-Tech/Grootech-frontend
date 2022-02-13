@@ -23,6 +23,7 @@
   --weight-2xxlg: 900;
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
+  --grootech__background__white: #ffffff;
   --grootech__brown: #ce8339;
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
@@ -35,6 +36,7 @@
   --grootech__icon__gray: #848484;
   --grootech__text__gray: #848484;
   --grootech__header__gray: #848484;
+  --grootech__background__gray: #f8f8f8;
   --grootech__input__focus: #eeeeee;
   --grootech__shadow: #ebebeb;
 }
@@ -53,6 +55,7 @@ html {
 
 body {
   font-family: var(--Montserrat);
+  background: var(--grootech__background__white);
 }
 
 ::selection {
@@ -263,6 +266,10 @@ body {
   }
 }
 
+.footer {
+  padding-top: calc(var(--span-2xl) + var(--span-xs));
+}
+
 .navigation {
   align-self: center;
 }
@@ -380,6 +387,7 @@ body {
 
 .section-features {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
+  background: var(--grootech__background__white);
 }
 
 .features__header {
@@ -420,5 +428,59 @@ body {
 
 .section-categories {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
+  padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+  background: var(--grootech__background__white);
+}
+
+.categories__header {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-md);
+  line-height: 43px;
+  text-align: left;
+  color: var(--grootech__header__gray);
+}
+
+.categories__list {
+  list-style-type: none;
+  margin-top: var(--span-l);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.categories__link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.categories__link span {
+  display: block;
+}
+
+.categories__heading {
+  text-transform: capitalize;
+  font-family: var(--Montserrat);
+  font-size: var(--size-l);
+  font-weight: var(--weight-xlg);
+  line-height: 32px;
+  text-align: left;
+  color: var(--grootech__text__brown);
+}
+
+.categories__paragraph {
+  margin-top: calc(var(--span-xs) / 2);
+  font-family: var(--Montserrat);
+  font-size: var(--size-m);
+  font-weight: var(--weight-sm);
+  line-height: 25px;
+  text-align: left;
+  color: var(--grootech__text__gray);
+}
+
+.section-newsletter {
+  padding-top: calc(var(--span-2xl) + var(--span-xs));
+  padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+  background: var(--grootech__background__gray);
 }
 /*# sourceMappingURL=home.css.map */
