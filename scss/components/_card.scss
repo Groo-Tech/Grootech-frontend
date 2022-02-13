@@ -1,0 +1,24 @@
+.card {
+  max-height: 100%;
+
+  &--features {
+    background: var(--grootech__white);
+    box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 100%;
+  }
+
+  &__image-box {
+    display: block;
+  }
+}

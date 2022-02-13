@@ -6,6 +6,7 @@
 @import "../base/utlities";
 
 @import "../components/button";
+@import "../components/card";
 @import "../components/search";
 
 @import "../layout/grid";
@@ -50,7 +51,6 @@
   background-image: url(../assets/images/grootech__banner.png);
   background-size: cover;
   background-position: center;
-  height: 600px;
 
   .overlay {
     position: absolute;
@@ -81,13 +81,30 @@
     margin-top: var(--span-s);
     font-family: var(--Montserrat);
     font-size: var(--size-xl);
-    font-weight: var(--weight-md);
+    font-weight: var(--weight-sm);
     line-height: 43px;
     text-align: center;
     color: var(--grootech__text__white);
   }
 }
 
-.section {
-  padding: calc(2.5 * var(--span-2xl)) 0;
+.section-features {
+  @include __section__space__top;
+}
+
+.features {
+  &__header {
+    @include __section__header__gray;
+  }
+
+  &__wrapper {
+    margin-top: var(--span-l);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+}
+
+.section-popular {
+  @include __section__space__top;
 }

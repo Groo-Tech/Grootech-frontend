@@ -1,0 +1,21 @@
+@mixin __section__space__top {
+  padding-top: calc(var(--span-2xl) + var(--span-xs));
+}
+
+@mixin __section__space__bottom {
+  padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+}
+
+@mixin __section__space {
+  padding-top: calc(var(--span-2xl) + var(--span-xs));
+  padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+}
+
+@mixin __section__header__gray {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-md);
+  line-height: 43px;
+  text-align: left;
+  color: var(--grootech__header__gray);
+}

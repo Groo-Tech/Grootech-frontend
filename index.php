@@ -62,21 +62,56 @@
             </h2>
             <form action="#" class="search">
                 <div class="search__wrapper">
-                    <div class="search__group">
+                    <div class="search__group search__group--1">
                         <div class="search__box">
                             <div class="search__icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                             </div>
-                            <input type="text" class="search__input">
+                            <input type="text" class="search__input" placeholder="Enter a keyword to search try 'Potato Farms'">
                         </div>
+                    </div>
+                    <div class="search__group search__group--2">
+                        <div class="search__box">
+                            <div class="search__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__gray)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+                            </div>
+                            <input type="text" class="search__input" placeholder="Filter by Location">
+                        </div>
+                    </div>
+                    <div class="search__group search__group--3">
+                        <button type="submit" class="search__button">
+                            Search
+                        </button>
                     </div>
                 </div>
             </form>
         </div>
         <div class="overlay">&nbsp;</div>
     </section>
-    <section class="section">
-        &nbsp;
+    <section class="section-features">
+        <div class="container">
+            <div class="features">
+                <h1 class="features__header">
+                    Featured Businesses
+                </h1>
+            </div>
+            <div class="features__wrapper">
+                <div class="card card--features">
+                    <a href="#" class="card__link">
+                        <span class="card__image-box">
+                            <img src="./assets/images/grootech__image--1.jpg" alt="" class="card__image">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-popular">
+        <div class="container">
+            <div class="popular">
+                &nbsp;
+            </div>
+        </div>
     </section>
 </body>
 </html>
