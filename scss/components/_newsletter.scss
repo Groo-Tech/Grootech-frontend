@@ -7,6 +7,10 @@
     display: grid;
     grid-template-columns: 2fr 0.5fr;
     gap: 15px;
+
+    label {
+      display: none;
+    }
   }
 
   &__input {

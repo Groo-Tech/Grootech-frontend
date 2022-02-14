@@ -1,3 +1,120 @@
 .footer {
   @include __section__space__top;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    &-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    &-image {
+      margin-right: calc(var(--span-xs) + 5px);
+      display: block;
+      width: 48px;
+      height: 48px;
+    }
+
+    &-text {
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-l) + 3px);
+      font-weight: var(--weight-xxlg);
+      line-height: 33px;
+      text-align: left;
+      color: var(--grootech__logo__text);
+    }
+  }
+
+  &__paragraph {
+    margin-top: var(--span-s);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-sm);
+    line-height: 28px;
+    text-align: left;
+    color: var(--grootech__text__gray);
+    max-width: 560px;
+  }
+
+  &__header {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 4px);
+    font-weight: var(--weight-xxlg);
+    line-height: 30px;
+    text-align: left;
+    color: var(--grootech__text__brown);
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-top: var(--span-s);
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: var(--span-xs);
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-sm);
+    line-height: 28px;
+    text-align: left;
+    color: var(--grootech__text__gray);
+  }
+
+  &__copyright {
+    margin-top: var(--span-l);
+    padding-top: var(--span-m);
+    padding-bottom: var(--span-m);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-sm);
+    line-height: 28px;
+    text-align: center;
+    color: var(--grootech__text__white);
+    background: var(--grootech__text__brown);
+  }
+}
+
+.socials {
+  margin-top: var(--span-m);
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    &:not(:last-child) {
+      margin-right: var(--span-s);
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
 }

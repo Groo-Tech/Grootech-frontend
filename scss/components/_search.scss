@@ -16,6 +16,10 @@
     border-radius: 10px;
     transition: all 300ms;
 
+    label {
+      display: none;
+    }
+
     &:focus-within {
       background: var(--grootech__input__focus);
     }

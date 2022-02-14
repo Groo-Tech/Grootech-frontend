@@ -10,6 +10,19 @@
     <title>Grootech</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img src="./assets/images/grootech_logo.png" alt="grootech logo" class="logo__image">
+                        <p class="logo__text">
+                            Grootech
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
