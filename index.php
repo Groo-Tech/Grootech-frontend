@@ -269,7 +269,7 @@
                     Popular Cities
                 </h1>
                 <div class="popular__wrapper">
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--8.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -291,7 +291,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--6.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -313,7 +313,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--7.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -335,7 +335,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--4.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -357,7 +357,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--5.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -379,7 +379,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--3.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -401,7 +401,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--1.jpg" alt="Lagos, Nigeria" class="card__image">
@@ -423,7 +423,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features">
+                    <div class="card card--popular">
                         <a href="#" class="card__link">
                             <span class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--2.jpg" alt="Lagos, Nigeria" class="card__image">

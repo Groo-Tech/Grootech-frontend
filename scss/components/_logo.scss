@@ -1,0 +1,23 @@
+.logo {
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  &__image {
+    margin-right: calc(var(--span-xs) + 5px);
+    display: block;
+    width: 48px;
+    height: 48px;
+  }
+
+  &__text {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-l) + 3px);
+    font-weight: var(--weight-xxlg);
+    line-height: 33px;
+    text-align: left;
+    color: var(--grootech__logo__text);
+  }
+}

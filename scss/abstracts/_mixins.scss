@@ -23,3 +23,27 @@
 @mixin __section__background($color) {
   background: $color;
 }
+
+@mixin __card__wrapper__ {
+  margin-top: var(--span-l);
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@mixin __card__ {
+  max-width: calc(100% / 4 - 30px);
+  flex: calc(100% / 4 - 30px);
+  border-radius: 10px;
+  background: var(--grootech__white);
+  box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+
+  @media only screen and (max-width: 1200px) {
+    max-width: calc(100% / 3 - 30px);
+    flex: calc(100% / 3 - 30px);
+  }
+}
+
+@mixin __header__space {
+  padding: var(--span-s) 0;
+}

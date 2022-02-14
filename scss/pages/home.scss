@@ -16,7 +16,7 @@
 @import "../layout/navigation";
 
 .header {
-  padding: var(--span-s) 0;
+  @include __header__space;
   background: var(--grootech__white);
 
   &__wrapper {
@@ -102,10 +102,7 @@
   }
 
   &__wrapper {
-    margin-top: var(--span-l);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    @include __card__wrapper__;
   }
 }
 
@@ -119,10 +116,7 @@
   }
 
   &__wrapper {
-    margin-top: var(--span-l);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    @include __card__wrapper__;
   }
 }
 

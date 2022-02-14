@@ -2,9 +2,11 @@
   max-height: 100%;
 
   &--features {
-    border-radius: 10px;
-    background: var(--grootech__white);
-    box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+    @include __card__;
+  }
+
+  &--popular {
+    @include __card__;
   }
 
   &__link {

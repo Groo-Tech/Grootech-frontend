@@ -69,6 +69,10 @@
     line-height: 28px;
     text-align: left;
     color: var(--grootech__text__gray);
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__copyright {
