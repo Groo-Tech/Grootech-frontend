@@ -14,7 +14,7 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <a href="#" class="header__logo-link">
+                    <a href="" class="header__logo-link">
                         <img src="./assets/images/grootech_logo.png" alt="grootech logo" class="header__logo-image">
                         <p class="header__logo-text">
                             Grootech
@@ -24,27 +24,27 @@
                 <nav class="navigation">
                     <ul class="navigation__list">
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link" name="about us">
+                            <a href="" class="navigation__link" name="about us">
                                 About Us
                             </a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link" name="partners">
+                            <a href="" class="navigation__link" name="partners">
                                 Partners
                             </a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link" name="about us">
+                            <a href="" class="navigation__link" name="about us">
                                 Opportunities
                             </a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="navigation__link" name="about us">
+                            <a href="" class="navigation__link" name="about us">
                                 Sign In
                             </a>
                         </li>
                         <li class="navigation__item">
-                            <a href="#" class="btn btn--join" name="join grootech">
+                            <a href="" class="btn btn--join" name="join grootech">
                                 Join Grootech
                             </a>
                         </li>
@@ -604,7 +604,7 @@
             <div class="footer__wrapper">
                 <div class="footer__group">
                     <div class="footer__logo">
-                        <a href="#" class="footer__logo-link">
+                        <a href="" class="footer__logo-link">
                             <img src="./assets/images/grootech_logo.png" alt="grootech logo" class="footer__logo-image">
                             <p class="footer__logo-text">
                                 Grootech
@@ -617,21 +617,21 @@
                     <div class="socials">
                         <ul class="socials__list">
                             <li class="socials__item">
-                                <a href="#" class="socials__link">
+                                <a href="" class="socials__link">
                                     <div class="socials__icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                                     </div>
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a href="#" class="socials__link">
+                                <a href="" class="socials__link">
                                     <div class="socials__icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
                                     </div>
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a href="#" class="socials__link">
+                                <a href="" class="socials__link">
                                     <div class="socials__icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__icon__brown)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
                                     </div>
@@ -646,27 +646,27 @@
                     </h1>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="About Grootech">
+                            <a href="" class="footer__link" name="About Grootech">
                                 About Grootech
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Customer Review">
+                            <a href="" class="footer__link" name="Customer Review">
                                 Customer Review
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Contact Us">
+                            <a href="" class="footer__link" name="Contact Us">
                                 Contact Us
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Site Map">
+                            <a href="" class="footer__link" name="Site Map">
                                 Site Map
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Help & FAQS">
+                            <a href="" class="footer__link" name="Help & FAQS">
                                 Help & FAQS
                             </a>
                         </li>
@@ -678,27 +678,27 @@
                     </h1>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Donations">
+                            <a href="" class="footer__link" name="Donations">
                                 Donations
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Meetups">
+                            <a href="" class="footer__link" name="Meetups">
                                 Meetups
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Contact Us">
+                            <a href="" class="footer__link" name="Contact Us">
                                 Contact Us
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Site Map">
+                            <a href="" class="footer__link" name="Site Map">
                                 Site Map
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Help & FAQS">
+                            <a href="" class="footer__link" name="Help & FAQS">
                                 Help & FAQS
                             </a>
                         </li>
@@ -710,27 +710,27 @@
                     </h1>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Donations">
+                            <a href="" class="footer__link" name="Donations">
                                 Donations
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Meetups">
+                            <a href="" class="footer__link" name="Meetups">
                                 Meetups
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Contact Us">
+                            <a href="" class="footer__link" name="Contact Us">
                                 Contact Us
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Site Map">
+                            <a href="" class="footer__link" name="Site Map">
                                 Site Map
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link" name="Help & FAQS">
+                            <a href="" class="footer__link" name="Help & FAQS">
                                 Help & FAQS
                             </a>
                         </li>

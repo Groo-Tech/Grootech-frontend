@@ -43,6 +43,8 @@
   --grootech__border__gray: #848484;
   --grootech__black: #000000;
   --grootech__text__black: #000000;
+  --grootech__grey: #222222;
+  --grootech__text__gray: #222222;
 }
 
 *,
@@ -75,6 +77,9 @@ input {
 
 button {
   cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
 }
 
 h1,
