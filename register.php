@@ -24,5 +24,32 @@
             </div>
         </div>
     </header>
+    <div class="register">
+        <div class="container u-h-100">
+            <div class="register__container">
+                <h1 class="register__header">
+                    Join Grootech
+                </h1>
+                <form action="#" class="register__form">
+                    <div class="register__group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" class="register__input" placeholder="Full Name" name="full-name">
+                    </div>
+                    <div class="register__group">
+                        <label for="email">email</label>
+                        <input type="email" class="register__input" placeholder="Email Address" name="full-name">
+                    </div>
+                    <div class="register__group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="register__input" placeholder="Password" name="Password">
+                    </div>
+                    <div class="register__group">
+                        <label for="full-name">Confirm Password</label>
+                        <input type="password" class="register__input" placeholder="Confirm Password" name="confirm-password">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

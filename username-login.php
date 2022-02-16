@@ -6,7 +6,7 @@
     <meta name="description" content="Grootech is an agro-based platform with the primary purpose of interconnecting all the players in the agricultural sector">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/grootech_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/username-login.css">
     <title>Grootech</title>
 </head>
 <body>
@@ -32,8 +32,8 @@
                 </h1>
                 <form action="#" class="login__form">
                     <div class="login__group">
-                        <label for="email">Email Address</label>
-                        <input type="email" name="Email Address" id="email" class="login__input" placeholder="Email Address">
+                        <label for="username">Username</label>
+                        <input type="text" name="Username" id="username" class="login__input" placeholder="Username">
                     </div>
                     <div class="login__group">
                         <label for="Password">Password</label>

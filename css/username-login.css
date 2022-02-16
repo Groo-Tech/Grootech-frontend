@@ -160,19 +160,19 @@ p {
   justify-content: center;
 }
 
-.register {
+.login {
   height: calc(100vh - 68px);
 }
 
-.register__container {
+.login__container {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   flex-direction: column;
 }
 
-.register__header {
+.login__header {
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
   font-weight: var(--weight-lg);
@@ -181,26 +181,26 @@ p {
   color: var(--grootech__text__brown__3);
 }
 
-.register__group:not(:last-child) {
+.login__group:not(:last-child) {
   margin-bottom: var(--span-s);
 }
 
-.register__group label {
+.login__group label {
   display: none;
 }
 
-.register__form {
+.login__form {
   margin-top: var(--span-xl);
   min-width: calc(var(--unit) * 60);
 }
 
 @media only screen and (max-width: 600px) {
-  .register__form {
+  .login__form {
     min-width: 100%;
   }
 }
 
-.register__input {
+.login__input {
   display: block;
   width: 100%;
   outline: none;
@@ -215,7 +215,7 @@ p {
   padding: calc(var(--span-xs) + 5px) var(--span-m);
 }
 
-.register__input::-webkit-input-placeholder {
+.login__input::-webkit-input-placeholder {
   font-family: var(--Montserrat);
   font-size: calc(var(--size-m) + 2px);
   font-weight: var(--weight-md);
@@ -224,12 +224,12 @@ p {
   color: var(--grootech__text__brown__3);
 }
 
-.register__input:internal-autofill-selected {
+.login__input:internal-autofill-selected {
   background-color: transparent !important;
   color: var(--grootech__text__brown__3) !important;
 }
 
-.register__button {
+.login__button {
   width: 100%;
   outline: none;
   border: none;
@@ -239,8 +239,33 @@ p {
   line-height: 28px;
   text-align: center;
   color: var(--grootech__text__white);
-  border-radius: 6px;
   padding: calc(var(--span-xs) + 5px) var(--span-m);
   background: var(--grootech__join__button__brown);
 }
-/*# sourceMappingURL=register.css.map */
+
+.login__extras {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__link, .login__text {
+  text-decoration: none;
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--grootech__text__brown__3);
+}
+
+@media only screen and (max-width: 600px) {
+  .login__link, .login__text {
+    font-size: var(--size-xs);
+    line-height: 20px;
+  }
+}
+
+.login__link:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=username-login.css.map */
