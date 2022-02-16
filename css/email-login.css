@@ -50,6 +50,7 @@
   --grootech-placement-max-height: calc(
     100vh - var(--navigation-bar-offset, 80px)
   ) !important;
+  --grootech__footer__background: #f7f7f7;
   --navigation-bar-offset: 91px;
   --navigation-space: 25px;
 }
@@ -80,6 +81,7 @@ input {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+  background-color: transparent;
 }
 
 button {
@@ -98,6 +100,25 @@ h6,
 p {
   margin: 0;
   padding: 0;
+}
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill:active {
+  background: transparent;
+  color: var(--grootech__text__brown__3) !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  font-family: var(--Montserrat);
+  font-size: calc(var(--size-m) + 2px);
+  font-weight: var(--weight-md);
+  line-height: 28px;
+  text-align: left;
 }
 
 .u-h-100 {
@@ -209,10 +230,14 @@ p {
   font-weight: var(--weight-md);
   line-height: 28px;
   text-align: left;
-  color: var(--grootech__text__brown__3);
+  color: var(--grootech__text__brown__3) !important;
   border-radius: 6px;
   border: 1px solid var(--grootech__border__gray);
   padding: calc(var(--span-xs) + 5px) var(--span-m);
+}
+
+.login__input::-ms-value {
+  color: var(--grootech__text__brown__3) !important;
 }
 
 .login__input::-webkit-input-placeholder {

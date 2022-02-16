@@ -302,6 +302,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
     transition: all 300ms;
     z-index: 3;
 
@@ -319,11 +321,26 @@
 
     &--left {
       left: 10px;
+
+      &.hidden {
+        opacity: 0 !important;
+        visibility: hidden !important;
+      }
     }
 
     &--right {
       right: 10px;
     }
+  }
+
+  &__item:hover &__button {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__link:hover &__button {
+    opacity: 1;
+    visibility: visible;
   }
 
   &__controls {
@@ -485,5 +502,5 @@
 }
 
 .footer {
-  background: var(--grootech__text__gray);
+  background: var(--grootech__footer__background);
 }

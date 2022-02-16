@@ -36,6 +36,22 @@
                         <input type="text" class="register__input" placeholder="Full Name" name="full-name">
                     </div>
                     <div class="register__group">
+                        <div class="select">
+                            <div class="select__wrapper">
+                                <div class="select__field ">
+                                    <input type="text" class="register__input register__input--select" placeholder="Register As">
+                                </div>
+                                <ul class="select__list hidden">
+                                    <li class="select__item">Farmer</li>
+                                    <li class="select__item">Investor</li>
+                                    <li class="select__item">Tourist</li>
+                                    <li class="select__item">Marketer</li>
+                                    <li class="select__item">Consumer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register__group">
                         <label for="email">email</label>
                         <input type="email" class="register__input" placeholder="Email Address" name="full-name">
                     </div>
@@ -47,9 +63,15 @@
                         <label for="full-name">Confirm Password</label>
                         <input type="password" class="register__input" placeholder="Confirm Password" name="confirm-password">
                     </div>
+                    <div class="register__group">
+                        <button type="submit" class="register__button">
+                            Create Account
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
+    <script src="./Js/register.js"></script>
 </body>
 </html>

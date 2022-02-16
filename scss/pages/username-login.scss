@@ -66,7 +66,7 @@
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: left;
-    color: var(--grootech__text__brown__3);
+    color: var(--grootech__text__brown__3) !important;
     border-radius: 6px;
     border: 1px solid var(--grootech__border__gray);
     padding: calc(var(--span-xs) + 5px) var(--span-m);

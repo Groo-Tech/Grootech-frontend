@@ -7,6 +7,7 @@
 @import "../base/utlities";
 
 @import "../components/logo";
+@import "../components/select";
 
 @import "../layout/grid";
 
@@ -96,7 +97,6 @@
     line-height: 28px;
     text-align: center;
     color: var(--grootech__text__white);
-    border-radius: 6px;
     padding: calc(var(--span-xs) + 5px) var(--span-m);
     background: var(--grootech__join__button__brown);
   }
