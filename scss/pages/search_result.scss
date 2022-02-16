@@ -587,3 +587,55 @@
     }
   }
 }
+
+.locale {
+  display: flex;
+  gap: 30px;
+
+  &__language {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .icon-globe {
+      margin-right: var(--span-xs);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        stroke: var(--grootech__black);
+      }
+    }
+  }
+
+  &__link {
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__gray);
+  }
+
+  &__currency {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .icon-currency {
+      margin-right: var(--span-xs);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        stroke: var(--grootech__black);
+      }
+    }
+  }
+}

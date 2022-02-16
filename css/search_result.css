@@ -989,4 +989,56 @@ select:-webkit-autofill:active {
 .extras__link:hover {
   text-decoration: underline;
 }
+
+.locale {
+  display: flex;
+  gap: 30px;
+}
+
+.locale__language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.locale__language .icon-globe {
+  margin-right: var(--span-xs);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locale__language .icon-globe svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--grootech__black);
+}
+
+.locale__link {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 20px;
+  text-align: left;
+  color: var(--grootech__text__gray);
+}
+
+.locale__currency {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.locale__currency .icon-currency {
+  margin-right: var(--span-xs);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locale__currency .icon-currency svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--grootech__black);
+}
 /*# sourceMappingURL=search_result.css.map */
