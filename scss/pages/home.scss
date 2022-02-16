@@ -150,9 +150,9 @@
   &__heading {
     text-transform: capitalize;
     font-family: var(--Montserrat);
-    font-size: var(--size-l);
+    font-size: calc(var(--size-m) + 2px);
     font-weight: var(--weight-xlg);
-    line-height: 32px;
+    line-height: 28px;
     text-align: left;
     color: var(--grootech__text__brown);
   }
@@ -162,7 +162,7 @@
     font-family: var(--Montserrat);
     font-size: var(--size-m);
     font-weight: var(--weight-sm);
-    line-height: 25px;
+    line-height: 23px;
     text-align: left;
     color: var(--grootech__text__gray);
   }

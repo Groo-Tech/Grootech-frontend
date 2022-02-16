@@ -64,9 +64,9 @@
   &__link {
     text-decoration: none;
     font-family: var(--Montserrat);
-    font-size: calc(var(--size-m) + 2px);
+    font-size: var(--size-s);
     font-weight: var(--weight-sm);
-    line-height: 28px;
+    line-height: 21px;
     text-align: left;
     color: var(--grootech__text__gray);
 
@@ -77,12 +77,12 @@
 
   &__copyright {
     margin-top: var(--span-l);
-    padding-top: var(--span-m);
-    padding-bottom: var(--span-m);
+    padding-top: var(--span-xs);
+    padding-bottom: var(--span-xs);
     font-family: var(--Montserrat);
-    font-size: calc(var(--size-m) + 2px);
+    font-size: var(--size-s);
     font-weight: var(--weight-sm);
-    line-height: 28px;
+    line-height: 23px;
     text-align: center;
     color: var(--grootech__text__white);
     background: var(--grootech__text__brown);

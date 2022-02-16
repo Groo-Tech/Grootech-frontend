@@ -476,9 +476,9 @@ select:-webkit-autofill:active {
 .footer__link {
   text-decoration: none;
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-m) + 2px);
+  font-size: var(--size-s);
   font-weight: var(--weight-sm);
-  line-height: 28px;
+  line-height: 21px;
   text-align: left;
   color: var(--grootech__text__gray);
 }
@@ -489,12 +489,12 @@ select:-webkit-autofill:active {
 
 .footer__copyright {
   margin-top: var(--span-l);
-  padding-top: var(--span-m);
-  padding-bottom: var(--span-m);
+  padding-top: var(--span-xs);
+  padding-bottom: var(--span-xs);
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-m) + 2px);
+  font-size: var(--size-s);
   font-weight: var(--weight-sm);
-  line-height: 28px;
+  line-height: 23px;
   text-align: center;
   color: var(--grootech__text__white);
   background: var(--grootech__text__brown);
@@ -724,9 +724,9 @@ select:-webkit-autofill:active {
 .categories__heading {
   text-transform: capitalize;
   font-family: var(--Montserrat);
-  font-size: var(--size-l);
+  font-size: calc(var(--size-m) + 2px);
   font-weight: var(--weight-xlg);
-  line-height: 32px;
+  line-height: 28px;
   text-align: left;
   color: var(--grootech__text__brown);
 }
@@ -736,7 +736,7 @@ select:-webkit-autofill:active {
   font-family: var(--Montserrat);
   font-size: var(--size-m);
   font-weight: var(--weight-sm);
-  line-height: 25px;
+  line-height: 23px;
   text-align: left;
   color: var(--grootech__text__gray);
 }

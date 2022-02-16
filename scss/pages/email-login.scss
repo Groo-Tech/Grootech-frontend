@@ -31,9 +31,9 @@
 
   &__header {
     font-family: var(--Montserrat);
-    font-size: var(--size-xl);
+    font-size: var(--size-l);
     font-weight: var(--weight-lg);
-    line-height: 35px;
+    line-height: 28px;
     text-align: left;
     color: var(--grootech__text__brown__3);
   }
@@ -49,8 +49,8 @@
   }
 
   &__form {
-    margin-top: var(--span-xl);
-    min-width: calc(var(--unit) * 60);
+    margin-top: var(--span-l);
+    min-width: calc(var(--unit) * 45);
 
     @media only screen and (max-width: 600px) {
       min-width: 100%;
