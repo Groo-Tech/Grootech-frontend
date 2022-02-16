@@ -110,6 +110,11 @@
     line-height: 23px;
     text-align: left;
     color: var(--grootech__text__brown__3);
+
+    @media only screen and (max-width: 600px) {
+      font-size: var(--size-xs);
+      line-height: 20px;
+    }
   }
 
   &__link:hover {

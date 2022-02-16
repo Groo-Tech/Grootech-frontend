@@ -1,0 +1,19 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+@import "../base/base";
+@import "../base/reset";
+@import "../base/typography";
+@import "../base/utlities";
+
+@import "../components/logo";
+
+@import "../layout/grid";
+
+.header {
+  &__container {
+    padding-top: var(--span-s);
+    display: flex;
+    justify-content: center;
+  }
+}

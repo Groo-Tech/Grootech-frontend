@@ -49,6 +49,35 @@
                 <button class="user__icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__white)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                 </button>
+                <div class="actions">
+                    <ul class="actions__list">
+                        <li class="actions__item">
+                            <a href="#" class="actions__link" name="Sign up">
+                                Sign Up
+                            </a>
+                        </li>
+                        <li class="actions__item">
+                            <a href="#" class="actions__link" name="Log in">
+                                Log in
+                            </a>
+                        </li>
+                        <li class="actions__item">
+                            <a href="#" class="actions__link" name="FAQ">
+                                FAQ
+                            </a>
+                        </li>
+                        <li class="actions__item">
+                            <a href="#" class="actions__link" name="Review">
+                                Review
+                            </a>
+                        </li>
+                        <li class="actions__item">
+                            <a href="#" class="actions__link" name="Help">
+                                Help
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -623,42 +652,42 @@
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number pagination__number--active">
                                     1
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     2
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     3
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     4
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     5
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     6
                                 </div>
                             </button>
@@ -670,14 +699,14 @@
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="pagination__numbeer">
+                                <div class="pagination__number">
                                     15
                                 </div>
                             </button>
                         </li>
                         <li class="pagination__item">
                             <button class="pagination__button">
-                                <div class="icon-prev">
+                                <div class="icon-next active">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                                 </div>
                             </button>
@@ -693,5 +722,6 @@
     <footer class="footer">
         &nbsp;
     </footer>
+    <script src="./Js/search_result.js"></script>
 </body>
 </html>
