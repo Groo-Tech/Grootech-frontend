@@ -65,13 +65,17 @@
   --grootech__text__black: #000000;
 
   //color - grey
-
   --grootech__grey: #222222;
   --grootech__text__gray: #222222;
+
+  //color - red
+  --grootech__red: #ff385c;
+  --grootech__icon__red: #ff385c;
 
   --grootech-placement-max-height: calc(
     100vh - var(--navigation-bar-offset, 80px)
   ) !important;
 
   --navigation-bar-offset: 91px;
+  --navigation-space: 25px;
 }

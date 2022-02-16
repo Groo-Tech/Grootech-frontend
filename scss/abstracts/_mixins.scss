@@ -47,3 +47,7 @@
 @mixin __header__space {
   padding: var(--span-s) 0;
 }
+
+@mixin __header__space__modified {
+  padding: var(--span-s) var(--navigation-space);
+}

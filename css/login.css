@@ -45,10 +45,13 @@
   --grootech__text__black: #000000;
   --grootech__grey: #222222;
   --grootech__text__gray: #222222;
+  --grootech__red: #ff385c;
+  --grootech__icon__red: #ff385c;
   --grootech-placement-max-height: calc(
     100vh - var(--navigation-bar-offset, 80px)
   ) !important;
   --navigation-bar-offset: 91px;
+  --navigation-space: 25px;
 }
 
 *,
@@ -125,8 +128,8 @@ p {
 
 @media only screen and (min-width: 1800px) {
   .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
