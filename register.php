@@ -63,6 +63,21 @@
                         <label for="full-name">Confirm Password</label>
                         <input type="password" class="register__input" placeholder="Confirm Password" name="confirm-password">
                     </div>
+                    <div class="register__wrapper">
+                        <div class="register__check">
+                            <label for="agree">Agree to terms and condition</label>
+                            <input type="checkbox" name="agree" id="agree" class="register__checkbox">
+                            <span class="checkmark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </span>
+                        </div>
+                        <p class="register__terms">
+                            I have read and agreed to the 
+                            <a href="" class="">
+                                Terms and Conditions
+                            </a>
+                        </p>
+                    </div>
                     <div class="register__group">
                         <button type="submit" class="register__button">
                             Create Account

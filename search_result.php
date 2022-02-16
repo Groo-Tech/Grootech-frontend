@@ -720,7 +720,226 @@
         </div>
     </section>
     <footer class="footer">
-        &nbsp;
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Organization
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Donations
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Support
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Donations
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Community
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Support
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Donations
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Support
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Donations
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__group">
+                    <h1 class="footer__header">
+                        Support
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Donations">
+                                Donations
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Meetups">
+                                Meetups
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact Us">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help & FAQS">
+                                Help & FAQS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="extras">
+                <div class="copyright">
+                    <p class="extras__text">
+                        &copy; 2022 Grootech, Inc.
+                    </p>
+                    <ul class="extras__list">
+                        <li class="extras__item">
+                            <a href="#" class="extras__link" name="Privacy">
+                                Privacy
+                            </a>
+                        </li>
+                        <li class="extras__item">
+                            <a href="#" class="extras__link" name="Terms">
+                                Terms
+                            </a>
+                        </li>
+                        <li class="extras__item">
+                            <a href="#" class="extras__link" name="Site Map">
+                                Site Map
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./Js/search_result.js"></script>
 </body>

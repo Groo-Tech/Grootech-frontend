@@ -192,7 +192,7 @@ select:-webkit-autofill:active {
   font-size: var(--size-m);
   font-weight: var(--weight-md);
   line-height: 23px;
-  padding: var(--span-xs) var(--span-s);
+  padding: var(--span-s) var(--span-m);
   color: var(--grootech__text__gray);
   cursor: pointer;
   background: var(--grootech__white);
@@ -277,7 +277,7 @@ select:-webkit-autofill:active {
 }
 
 .register__form {
-  margin-top: var(--span-xl);
+  margin-top: var(--span-m);
   min-width: calc(var(--unit) * 60);
 }
 
@@ -328,5 +328,75 @@ select:-webkit-autofill:active {
   color: var(--grootech__text__white);
   padding: calc(var(--span-xs) + 5px) var(--span-m);
   background: var(--grootech__join__button__brown);
+}
+
+.register__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--span-s);
+}
+
+.register__checkbox {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.register__check {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.register__check label {
+  display: none;
+}
+
+.register__check .checkmark {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--grootech__border__gray);
+  transition: all 300ms;
+}
+
+.register__check .checkmark:hover {
+  background: var(--grootech__input__focus);
+}
+
+.register__check .checkmark svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--grootech__border__gray);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms;
+}
+
+.register__checkbox:checked + .checkmark svg {
+  opacity: 1;
+  visibility: visible;
+}
+
+.register__terms {
+  margin-left: var(--span-s);
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 23px;
+  text-align: center;
+  color: var(--grootech__text__grey);
+}
+
+.register__terms a {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--grootech__text__brown__2);
 }
 /*# sourceMappingURL=register.css.map */
