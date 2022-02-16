@@ -612,11 +612,86 @@
                         </div>
                     </li>
                 </ul>
+                <div class="pagination">
+                    <ul class="pagination__list">
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="icon-prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    1
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    2
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    3
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    4
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    5
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    6
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <div class="pagination__divide">
+                                ...
+                            </div>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="pagination__numbeer">
+                                    15
+                                </div>
+                            </button>
+                        </li>
+                        <li class="pagination__item">
+                            <button class="pagination__button">
+                                <div class="icon-prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="results__map">
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:calc(100%);width:100%;}</style><a href="https://www.embedgooglemap.net">responsive google map embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        &nbsp;
+    </footer>
 </body>
 </html>

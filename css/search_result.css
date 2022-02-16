@@ -479,7 +479,7 @@ p {
   list-style-type: none;
   display: grid;
   gap: 20px;
-  margin-bottom: var(--span-m);
+  margin-bottom: var(--span-xl);
 }
 
 .results__link {
@@ -497,6 +497,7 @@ p {
   position: relative;
   padding-bottom: var(--span-s);
   display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .results__button {
