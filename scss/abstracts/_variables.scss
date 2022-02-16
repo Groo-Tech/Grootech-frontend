@@ -68,4 +68,10 @@
 
   --grootech__grey: #222222;
   --grootech__text__gray: #222222;
+
+  --grootech-placement-max-height: calc(
+    100vh - var(--navigation-bar-offset, 80px)
+  ) !important;
+
+  --navigation-bar-offset: 91px;
 }
