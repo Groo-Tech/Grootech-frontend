@@ -178,7 +178,7 @@
     }
 
     &:nth-child(2) {
-      border-bottom: 1px solid var(--grootech__input__focus);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 
     &:hover {
@@ -198,7 +198,7 @@
     font-weight: var(--weight-md);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__grey);
+    color: var(--grootech__text__gray);
   }
 }
 

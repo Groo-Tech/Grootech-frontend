@@ -44,7 +44,7 @@
   --grootech__black: #000000;
   --grootech__text__black: #000000;
   --grootech__grey: #222222;
-  --grootech__text__gray: #222222;
+  --grootech__text__grey: #222222;
   --grootech__red: #ff385c;
   --grootech__icon__red: #ff385c;
   --grootech-placement-max-height: calc(
@@ -578,7 +578,7 @@ select:-webkit-autofill:active {
 }
 
 .actions__item:nth-child(2) {
-  border-bottom: 1px solid var(--grootech__input__focus);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .actions__item:hover {
@@ -597,7 +597,7 @@ select:-webkit-autofill:active {
   font-weight: var(--weight-md);
   line-height: 23px;
   text-align: left;
-  color: var(--grootech__text__grey);
+  color: var(--grootech__text__gray);
 }
 
 .section-results {

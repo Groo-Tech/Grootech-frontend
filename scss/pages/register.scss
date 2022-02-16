@@ -72,6 +72,12 @@
     border: 1px solid var(--grootech__border__gray);
     padding: calc(var(--span-xs) + 5px) var(--span-m);
 
+    @media only screen and (max-width: 600px) {
+      font-size: var(--size-m);
+      font-weight: var(--weight-md);
+      line-height: 25px;
+    }
+
     &::-webkit-input-placeholder {
       font-family: var(--Montserrat);
       font-size: calc(var(--size-m) + 2px);
@@ -79,6 +85,12 @@
       line-height: 28px;
       text-align: left;
       color: var(--grootech__text__brown__3);
+
+      @media only screen and (max-width: 600px) {
+        font-size: var(--size-m);
+        font-weight: var(--weight-md);
+        line-height: 25px;
+      }
     }
 
     &:internal-autofill-selected {
