@@ -33,12 +33,12 @@
   &__paragraph {
     margin-top: var(--span-s);
     font-family: var(--Montserrat);
-    font-size: calc(var(--size-m) + 2px);
+    font-size: calc(var(--size-m));
     font-weight: var(--weight-sm);
     line-height: 28px;
     text-align: left;
     color: var(--grootech__text__gray);
-    max-width: 560px;
+    max-width: 360px;
   }
 
   &__header {

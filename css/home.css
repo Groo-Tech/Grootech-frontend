@@ -149,31 +149,31 @@ select:-webkit-autofill:active {
 
 .card--features {
   max-width: calc(100% / 4 - 30px);
-  flex: calc(100% / 4 - 30px);
+  flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
-  box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
 
 @media only screen and (max-width: 1200px) {
   .card--features {
     max-width: calc(100% / 3 - 30px);
-    flex: calc(100% / 3 - 30px);
+    flex: 0 0 calc(100% / 3 - 30px);
   }
 }
 
 .card--popular {
   max-width: calc(100% / 4 - 30px);
-  flex: calc(100% / 4 - 30px);
+  flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
-  box-shadow: 0 5px 30px 4px var(--grootech__shadow);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05) !important;
 }
 
 @media only screen and (max-width: 1200px) {
   .card--popular {
     max-width: calc(100% / 3 - 30px);
-    flex: calc(100% / 3 - 30px);
+    flex: 0 0 calc(100% / 3 - 30px);
   }
 }
 
@@ -447,12 +447,12 @@ select:-webkit-autofill:active {
 .footer__paragraph {
   margin-top: var(--span-s);
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-m) + 2px);
+  font-size: calc(var(--size-m));
   font-weight: var(--weight-sm);
   line-height: 28px;
   text-align: left;
   color: var(--grootech__text__gray);
-  max-width: 560px;
+  max-width: 360px;
 }
 
 .footer__header {
@@ -663,10 +663,19 @@ select:-webkit-autofill:active {
 }
 
 .features__wrapper {
-  margin-top: var(--span-l);
+  margin-top: var(--span-l) !important;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1200px) {
+  .features__wrapper {
+    margin: 0 -5%;
+    padding: 0 5%;
+    overflow-x: clip;
+    flex-wrap: nowrap;
+  }
 }
 
 .section-popular {
@@ -683,10 +692,19 @@ select:-webkit-autofill:active {
 }
 
 .popular__wrapper {
-  margin-top: var(--span-l);
+  margin-top: var(--span-l) !important;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1200px) {
+  .popular__wrapper {
+    margin: 0 -5%;
+    padding: 0 5%;
+    overflow-x: clip;
+    flex-wrap: nowrap;
+  }
 }
 
 .section-categories {
