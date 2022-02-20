@@ -742,5 +742,6 @@
             Copyright &copy; 2021 Grootech
         </p>
     </footer>
+    <script src="./Js/home.js"></script>
 </body>
 </html>

@@ -673,8 +673,10 @@ select:-webkit-autofill:active {
   .features__wrapper {
     margin: 0 -5%;
     padding: 0 5%;
-    overflow-x: clip;
+    overflow-x: hidden;
     flex-wrap: nowrap;
+    padding-bottom: 3px;
+    padding-top: 3px;
   }
 }
 
@@ -702,8 +704,10 @@ select:-webkit-autofill:active {
   .popular__wrapper {
     margin: 0 -5%;
     padding: 0 5%;
-    overflow-x: clip;
+    overflow-x: hidden;
     flex-wrap: nowrap;
+    padding-bottom: 3px;
+    padding-top: 3px;
   }
 }
 
