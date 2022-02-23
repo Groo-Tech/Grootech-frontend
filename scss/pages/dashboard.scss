@@ -8,9 +8,21 @@
 
 @import "../components/button";
 @import "../components/card";
+@import "../components/logo";
 @import "../components/newsletter";
 @import "../components/search";
 
 @import "../layout/grid";
 @import "../layout/footer";
 @import "../layout/navigation";
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 4.5fr;
+  min-height: 100vh;
+  &__sidebar {
+    padding: var(--span-m) var(--span-m);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+  }
+}

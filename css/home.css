@@ -445,11 +445,11 @@ select:-webkit-autofill:active {
 }
 
 .footer__paragraph {
-  margin-top: var(--span-s);
+  margin-top: var(--span-xs);
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-m));
+  font-size: var(--size-s);
   font-weight: var(--weight-sm);
-  line-height: 28px;
+  line-height: 20px;
   text-align: left;
   color: var(--grootech__text__gray);
   max-width: 360px;
@@ -466,7 +466,7 @@ select:-webkit-autofill:active {
 
 .footer__list {
   list-style-type: none;
-  margin-top: var(--span-s);
+  margin-top: var(--span-xs);
 }
 
 .footer__item:not(:last-child) {
@@ -514,8 +514,6 @@ select:-webkit-autofill:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
 }
 
 .socials__item:not(:last-child) {
@@ -529,8 +527,8 @@ select:-webkit-autofill:active {
 }
 
 .socials__icon svg {
-  width: 32px;
-  height: 32px;
+  width: 18px;
+  height: 18px;
 }
 
 .navigation {

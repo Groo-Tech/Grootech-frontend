@@ -628,6 +628,24 @@ select:-webkit-autofill:active {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .results {
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .results {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .results {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .results {
     padding-left: 20px;
@@ -644,6 +662,12 @@ select:-webkit-autofill:active {
   z-index: 1 !important;
   width: 100% !important;
   height: var(--grootech-placement-max-height, "auto") !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .results__map {
+    display: none;
+  }
 }
 
 .results__overview {
