@@ -13,4 +13,17 @@
     color: var(--grootech__text__white);
     border-radius: 10px;
   }
+
+  &--verify {
+    margin-top: var(--span-s);
+    padding: calc(var(--span-xs) + 5px) var(--span-s);
+    background: var(--grootech__black);
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: center;
+    color: var(--grootech__text__white);
+    border-radius: 10px;
+  }
 }

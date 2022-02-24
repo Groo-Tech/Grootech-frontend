@@ -144,6 +144,19 @@ select:-webkit-autofill:active {
   border-radius: 10px;
 }
 
+.btn--verify {
+  margin-top: var(--span-s);
+  padding: calc(var(--span-xs) + 5px) var(--span-s);
+  background: var(--grootech__black);
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 20px;
+  text-align: center;
+  color: var(--grootech__text__white);
+  border-radius: 10px;
+}
+
 .card {
   max-height: 100%;
 }
@@ -599,7 +612,18 @@ select:-webkit-autofill:active {
 .dashboard {
   display: grid;
   grid-template-columns: 1fr 4.5fr;
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.dashboard .logo__image {
+  width: 36px;
+  height: 36px;
+}
+
+.dashboard .logo__text {
+  font-size: calc(var(--size-l));
+  line-height: 25px;
 }
 
 .dashboard__sidebar {
@@ -623,7 +647,7 @@ select:-webkit-autofill:active {
 
 .dashboard__list {
   list-style-type: none;
-  margin-top: var(--span-2xl);
+  margin-top: var(--span-l);
   display: grid;
   gap: 20px;
 }
@@ -662,5 +686,48 @@ select:-webkit-autofill:active {
 .dashboard__link .icon-link svg {
   transition: all 300ms;
   stroke: var(--grootech__icon__gray);
+}
+
+.dashboard .cta {
+  background: var(--grootech__gray);
+  padding: var(--span-s);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: var(--span-m);
+  margin-bottom: var(--span-m);
+}
+
+.dashboard .cta__image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard .cta__image {
+  width: 36px;
+  height: 36px;
+}
+
+.dashboard .cta__paragraph {
+  margin-top: var(--span-s);
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 20px;
+  text-align: center;
+  color: var(--grootech__text__white);
+}
+
+.dashboard__footer {
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard__footer .dashboard__link {
+  display: flex;
+  gap: 20px;
+  justify-content: initial;
 }
 /*# sourceMappingURL=dashboard.css.map */
