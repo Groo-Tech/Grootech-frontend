@@ -635,14 +635,11 @@ select:-webkit-autofill:active {
 .dashboard__sidebar::-webkit-scrollbar {
   opacity: 0;
   visibility: hidden;
-  width: 2px;
-  background: var(--scrollbar);
 }
 
 .dashboard__sidebar::-webkit-scrollbar-thumb {
-  width: 2px;
-  background: var(--scrollbar);
-  height: 40px;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .dashboard__list {
@@ -729,5 +726,16 @@ select:-webkit-autofill:active {
   display: flex;
   gap: 20px;
   justify-content: initial;
+}
+
+.dashboard__view {
+  padding: var(--span-m);
+}
+
+.dashboard__banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=dashboard.css.map */

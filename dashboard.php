@@ -97,7 +97,9 @@
             </ul>
         </div>
         <div class="dashboard__view">
-            &nbsp;
+            <div class="dashboard__banner-box">
+                <img src="./assets/images/cities/grootech__city--2.jpg" alt="banner" class="dashboard__banner">
+            </div>
         </div>
     </div>
 </body>
