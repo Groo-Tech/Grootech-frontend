@@ -16,10 +16,6 @@
     height: 100%;
   }
 
-  //   &__link:hover &__image {
-  //     transform: scale(1.25);
-  //   }
-
   &__image-box {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -32,7 +28,6 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
-    // transition: all 300ms;
   }
 
   &__body {
