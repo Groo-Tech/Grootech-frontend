@@ -17,13 +17,14 @@
 @import "../layout/navigation";
 
 .dashboard {
-  display: grid;
-  grid-template-columns: 1fr 4.5fr;
+  display: flex;
   min-height: 100vh;
 
   &__sidebar {
     background: var(--dark);
     height: 100%;
+    position: fixed;
+    width: var(--sidebar__width);
   }
 
   &__logo {
@@ -111,6 +112,79 @@
 
     &--active {
       background: var(--darker);
+    }
+  }
+
+  &__view {
+    position: relative;
+    margin-left: var(--sidebar__width);
+    flex-grow: 1;
+  }
+
+  &__header {
+    position: sticky;
+    top: 0;
+    height: var(--dashboard__header__height);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05),
+      0px 4px 12px rgba(0, 0, 0, 0.01) !important;
+    display: flex;
+    padding: var(--span-xs) var(--span-m);
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.nav {
+  height: 36px;
+
+  &__details {
+    display: flex;
+    gap: calc(var(--span-xs) + 5px);
+    cursor: pointer;
+  }
+
+  &__header {
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-xlg);
+    line-height: 20px;
+    text-align: left;
+    color: var(--darker);
+  }
+
+  &__paragraph {
+    font-family: var(--Montserrat);
+    font-size: var(--size-xs);
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: right;
+    color: var(--grootech__text__gray);
+  }
+
+  &__image-box {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+
+  &__image {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__indicator {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    border: 1.5px solid var(--grootech__white);
+    border-radius: 50%;
+
+    &--active {
+      background: #06c43f;
     }
   }
 }
