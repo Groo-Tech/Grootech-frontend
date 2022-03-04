@@ -19,131 +19,98 @@
 .dashboard {
   display: grid;
   grid-template-columns: 1fr 4.5fr;
-  height: 100vh;
-  overflow-y: hidden;
-
-  .logo {
-    &__image {
-      width: 36px;
-      height: 36px;
-    }
-
-    &__text {
-      font-size: calc(var(--size-l));
-      line-height: 25px;
-    }
-  }
+  min-height: 100vh;
 
   &__sidebar {
-    padding: var(--span-m) var(--span-m);
-    border-right: 2px solid var(--scrollbar);
-    overflow-y: scroll;
+    background: var(--dark);
+    height: 100%;
+  }
 
-    &::-webkit-scrollbar {
-      opacity: 0;
-      visibility: hidden;
+  &__logo {
+    height: var(--dashboard__header__height);
+    background: var(--darker);
+    display: flex;
+    align-items: center;
+    padding: 0 calc(var(--span-s) + 5px);
+    justify-content: space-between;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  &__text {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 2px);
+    font-weight: var(--weight-xlg);
+    line-height: 25px;
+    text-align: left;
+    color: var(--grootech__text__white);
+    letter-spacing: 0.05em;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover svg {
+      stroke: var(--hover-light);
     }
 
-    &::-webkit-scrollbar-thumb {
-      opacity: 0;
-      visibility: hidden;
+    svg {
+      transition: all 300ms;
+      stroke: var(--hover-light);
     }
   }
 
   &__list {
+    margin-top: var(--span-m);
     list-style-type: none;
-    margin-top: var(--span-l);
-    display: grid;
-    gap: 20px;
   }
 
   &__link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    font-family: var(--Montserrat);
-    font-size: var(--size-s);
-    font-weight: var(--weight-md);
-    line-height: 20px;
-    text-align: left;
-    color: var(--grootech__text__gray);
-    transition: all 300ms;
-    padding: var(--span-xs) var(--span-s);
-    border-radius: 10px;
-
-    &:hover {
-      background: #eee;
-      color: var(--grootech__text__black);
-    }
-
-    &:hover .icon-link svg {
-      stroke: var(--grootech__text__black);
-    }
-
-    .icon-link {
+    &--flex {
       display: flex;
+      gap: var(--span-s);
       align-items: center;
-      justify-content: center;
 
-      svg {
-        transition: all 300ms;
-        stroke: var(--grootech__icon__gray);
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 20px;
+          height: 20px;
+          stroke: #ffaf5f;
+        }
+      }
+
+      .text {
+        font-family: var(--Montserrat);
+        font-size: var(--size-s);
+        font-weight: var(--weight-sm);
+        line-height: 20px;
+        text-align: left;
+        color: var(--grootech__text__white);
+        letter-spacing: -0.035em;
       }
     }
   }
 
-  .cta {
-    background: var(--grootech__gray);
-    padding: var(--span-s);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: var(--span-m);
-    margin-bottom: var(--span-m);
+  &__item {
+    padding: var(--span-xs) calc(var(--span-s) + 5px);
+    transition: all 300ms;
+    cursor: pointer;
 
-    &__image-box {
-      display: flex;
-      justify-content: center;
+    &:hover {
+      background: var(--darker);
     }
 
-    &__image {
-      width: 36px;
-      height: 36px;
+    &--active {
+      background: var(--darker);
     }
-
-    &__paragraph {
-      margin-top: var(--span-s);
-      font-family: var(--Montserrat);
-      font-size: var(--size-s);
-      font-weight: var(--weight-sm);
-      line-height: 20px;
-      text-align: center;
-      color: var(--grootech__text__white);
-    }
-  }
-
-  &__footer {
-    display: grid;
-    gap: 20px;
-
-    .dashboard__link {
-      display: flex;
-      gap: 20px;
-      justify-content: initial;
-    }
-  }
-
-  &__view {
-    padding: var(--span-m);
-  }
-
-  &__banner {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
   }
 }

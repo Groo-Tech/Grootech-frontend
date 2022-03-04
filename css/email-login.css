@@ -54,6 +54,10 @@
   --navigation-bar-offset: 91px;
   --navigation-space: 25px;
   --scrollbar: #eeeeee;
+  --dark: #240e01;
+  --darker: #130801;
+  --hover-light: #ce8339;
+  --dashboard__header__height: 65px;
 }
 
 *,
