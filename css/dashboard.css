@@ -755,6 +755,21 @@ select:-webkit-autofill:active {
   padding-right: var(--span-s);
 }
 
+.dashboard__main {
+  background: #f8f8f8;
+  padding: var(--span-m);
+}
+
+.dashboard__footer {
+  padding: var(--span-xs) var(--span-m);
+  height: calc(var(--dashboard__header__height) - var(--span-s));
+  background: var(--grootech__white);
+}
+
+.dashboard__card {
+  background: var(--grootech__white);
+}
+
 .nav {
   height: 36px;
 }
@@ -869,6 +884,14 @@ select:-webkit-autofill:active {
   gap: calc(var(--span-xs) + 5px);
   align-items: center;
   padding: var(--span-xs) var(--span-s);
+}
+
+.actions__link.unverified .text {
+  color: #f64e60;
+}
+
+.actions__link.unverified .icon svg {
+  stroke: #f64e60;
 }
 
 .actions__link .icon {

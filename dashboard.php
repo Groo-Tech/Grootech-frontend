@@ -105,6 +105,16 @@
                             <div class="actions actions--hidden">
                                 <ul class="actions__list">
                                     <li class="actions__item">
+                                        <button href="" class="actions__link unverified">
+                                            <span class="icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                                            </span>
+                                            <span class="text">
+                                                Unverified
+                                            </span>
+                                        </button>
+                                    </li>
+                                    <li class="actions__item">
                                         <a href="" class="actions__link">
                                             <span class="icon">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -164,6 +174,14 @@
                         Dashboard
                     </h1>
                 </div>
+            </div>
+            <div class="dashboard__main">
+                <div class="dashboard__card">
+                    &nbsp;
+                </div>
+            </div>
+            <div class="dashboard__footer">
+                &nbsp;
             </div>
         </div>
     </div>
