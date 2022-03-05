@@ -176,8 +176,10 @@
                 </div>
             </div>
             <div class="dashboard__main">
-                <div class="dashboard__card">
-                    &nbsp;
+                <div class="dashboard__row">
+                    <div class="dashboard__card dashboard__card--sm">
+                        &nbsp;
+                    </div>
                 </div>
             </div>
             <div class="dashboard__footer">
