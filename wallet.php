@@ -23,7 +23,7 @@
                 </button>
             </div>
             <ul class="dashboard__list">
-                <li class="dashboard__item dashboard__item--active">
+                <li class="dashboard__item">
                     <a href="dashboard.php" class="dashboard__link dashboard__link--flex">
                         <span class="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
@@ -33,7 +33,7 @@
                         </p>
                     </a>
                 </li>
-                <li class="dashboard__item">
+                <li class="dashboard__item dashboard__item--active">
                     <a href="wallet.php" class="dashboard__link dashboard__link--flex">
                         <span class="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="dashboard__page">
                     <h1 class="dashboard__heading">
-                        Dashboard
+                        Wallet
                     </h1>
                 </div>
             </div>

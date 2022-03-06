@@ -42,7 +42,14 @@
 
   &__link {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+
+    span {
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
   }
 
   &__text {
@@ -187,13 +194,58 @@
 
   &__card {
     background: var(--grootech__white);
-    padding: var(--span-s) var(--span-m);
-    box-shadow: 0px 0px 30px 0px #523f690d;
     border-radius: 10px;
 
     &--sm {
       flex: 0 0 33%;
+      box-shadow: 0px 0px 30px 0px #523f690d;
+      padding: var(--span-s) var(--span-m);
     }
+
+    &--brown {
+      background: #f7d0a4;
+    }
+
+    &--red {
+      background: var(--grootech__light__red);
+    }
+
+    &--xsm {
+      padding: var(--span-s) calc(var(--span-xs) + 5px);
+    }
+
+    &--icon {
+      width: 24px;
+      height: 24px;
+
+      span {
+        svg {
+          width: 24px;
+          height: 24px;
+          stroke: var(--grootech__icon__red);
+        }
+      }
+    }
+
+    &--body {
+      margin-top: var(--span-xs);
+      a {
+        display: inline-block;
+        text-decoration: none;
+        font-family: var(--Montserrat);
+        font-size: var(--size-s);
+        font-weight: var(--weight-lg);
+        line-height: 16px;
+        text-align: left;
+        color: var(--grootech__red);
+      }
+    }
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: var(--span-s);
   }
 
   &__footer {
