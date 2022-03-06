@@ -61,6 +61,7 @@
   --sidebar__width: 300px;
   --active__indicator: #06c43f;
   --dashboard__menu__text: #eeedfd;
+  --sidebar__width--tablet: 250px;
 }
 
 *,

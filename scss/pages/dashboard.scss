@@ -25,6 +25,10 @@
     height: 100%;
     position: fixed;
     width: var(--sidebar__width);
+
+    @media only screen and (max-width: 1140px) {
+      width: var(--sidebar__width--tablet);
+    }
   }
 
   &__logo {
@@ -119,6 +123,10 @@
     position: relative;
     margin-left: var(--sidebar__width);
     flex-grow: 1;
+
+    @media only screen and (max-width: 1140px) {
+      margin-left: var(--sidebar__width--tablet);
+    }
   }
 
   &__header {
@@ -127,6 +135,10 @@
     width: calc(100vw - var(--sidebar__width));
     z-index: 5;
     box-shadow: 0px 10px 30px 0px #523f6914;
+
+    @media only screen and (max-width: 1140px) {
+      width: calc(100vw - var(--sidebar__width--tablet));
+    }
   }
 
   &__top {

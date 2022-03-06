@@ -61,6 +61,7 @@
   --sidebar__width: 300px;
   --active__indicator: #06c43f;
   --dashboard__menu__text: #eeedfd;
+  --sidebar__width--tablet: 250px;
 }
 
 *,
@@ -628,6 +629,12 @@ select:-webkit-autofill:active {
   width: var(--sidebar__width);
 }
 
+@media only screen and (max-width: 1140px) {
+  .dashboard__sidebar {
+    width: var(--sidebar__width--tablet);
+  }
+}
+
 .dashboard__logo {
   height: var(--dashboard__header__height);
   background: var(--darker);
@@ -720,12 +727,24 @@ select:-webkit-autofill:active {
   flex-grow: 1;
 }
 
+@media only screen and (max-width: 1140px) {
+  .dashboard__view {
+    margin-left: var(--sidebar__width--tablet);
+  }
+}
+
 .dashboard__header {
   position: fixed;
   top: 0;
   width: calc(100vw - var(--sidebar__width));
   z-index: 5;
   box-shadow: 0px 10px 30px 0px #523f6914;
+}
+
+@media only screen and (max-width: 1140px) {
+  .dashboard__header {
+    width: calc(100vw - var(--sidebar__width--tablet));
+  }
 }
 
 .dashboard__top {
