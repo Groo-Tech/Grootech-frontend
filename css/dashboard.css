@@ -855,6 +855,14 @@ select:-webkit-autofill:active {
   height: calc(var(--dashboard__header__height) - var(--span-s));
   background: var(--grootech__white);
   position: fixed;
+  bottom: 0;
+  width: calc(100vw - var(--sidebar__width));
+}
+
+@media only screen and (max-width: 1140px) {
+  .dashboard__footer {
+    width: calc(100vw - var(--sidebar__width--tablet));
+  }
 }
 
 .nav {
