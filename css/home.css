@@ -136,6 +136,10 @@ select:-webkit-autofill:active {
   height: 100%;
 }
 
+.u-mb-sm {
+  margin-bottom: 20px;
+}
+
 .btn {
   text-decoration: none;
   display: inline-block;

@@ -176,6 +176,21 @@
                 </div>
             </div>
             <div class="dashboard__main">
+                <h1 class="dashboard__heading dashboard__heading--brown">
+                    Business Information
+                </h1>
+                <div class="dashboard__row u-mb-sm">
+                    <div class="dashboard__card dashboard__card--full">
+                        <div class="dashboard__image-box">
+                            <img src="./assets/images/businesses/grootech__image--9.jpg" alt="" class="dashboard__image">
+                            <div class="dashboard__edit">
+                                <a href="" class="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="dashboard__row">
                     <div class="dashboard__card dashboard__card--sm">
                         &nbsp;
