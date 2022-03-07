@@ -285,11 +285,12 @@
     bottom: 0px;
     left: var(--span-s);
     z-index: 4;
+
     a {
       text-decoration: none;
       width: 32px;
       height: 32px;
-      border: 4px solid var(--grootech__white);
+      padding: 5px;
       display: flex;
       justify-content: center;
       align-items: center;
