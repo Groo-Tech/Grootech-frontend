@@ -11,7 +11,7 @@
 </head>
 <body>
     <section class="section-header">
-        <header class="header u-flex u-align-center">
+        <header class="header header--1 u-flex u-align-center header--hidden">
             <div class="container u-w-full">
                 <div class="header__wrapper">
                     <div class="header__logo">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </header>
-        <header class="header header--fixed">
+        <header class="header header--2 header--fixed ">
             <div class="container u-w-full">
                 <div class="header__wrapper">
                     <div class="header__logo">
@@ -86,18 +86,18 @@
                 </div>
             </div>
         </header>
-        <div class="container">
+        <div class="drop">&nbsp;</div>
+        <div class="container header__search-container header__search-container--hidden">
             <div class="header__search-box">
-                <div class="header__search">
+                <form action="" class="header__search">
                     <div class="header__box">
                         <div class="header__group">
                             <div class="header__container header__container--location">
                                 <label for="location" class="header__label">
                                     Location
                                 </label>
-                                <input type="text" placeholder="Preferred location" class="header__input header__input--tag" name="tag" id="tag">
+                                <input type="text" placeholder="Preferred location" class="header__input" name="location" id="location">
                             </div>
-                            <input type="text" class="header__input" name="location">
                         </div>
                         <span class="divider">&nbsp;</span>
                         <div class="header__group">
@@ -107,12 +107,12 @@
                                 </label>
                                 <input type="text" placeholder="What are you looking for?" class="header__input header__input--tag" name="tag" id="tag">
                             </div>
-                            <button class="header__button">
+                            <button class="header__button" type="submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                             </button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
@@ -135,7 +135,75 @@
     </div>
     <section class="section-intro">
         <div class="container">
-            &nbsp;
+            <div class="intro">
+                <div class="intro__wrapper">
+                    <h1 class="intro__heading">
+                        Popular Cities
+                    </h1>
+                    <div class="intro__container">
+                        <div class="card card--intro card--light">
+                            <a href="" class="card__link" name="">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header">
+                                        Canada
+                                    </h1>
+                                    <p class="card__paragraph">
+                                        Over 1000 Businesses
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--intro card--dark">
+                            <a href="" class="card__link" name="">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header">
+                                        Lagos
+                                    </h1>
+                                    <p class="card__paragraph">
+                                        Over 700 Businesses
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--intro card--darker">
+                            <a href="" class="card__link" name="">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header">
+                                        Abuja
+                                    </h1>
+                                    <p class="card__paragraph">
+                                        Over 500 Businesses
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--intro card--lighter">
+                            <a href="" class="card__link" name="">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header">
+                                        Las Vegas
+                                    </h1>
+                                    <p class="card__paragraph">
+                                        Over 200 Businesses
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="./Js/home.js"></script>

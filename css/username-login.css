@@ -52,6 +52,11 @@
   --header__height: 80px;
   --search__height: 70px;
   --banner-image-height: 600px;
+  --palette__brown__darker: #552200;
+  --palette__brown__dark: #7f3a0b;
+  --palette__brown__base: #a55b28;
+  --palette__brown__lighter: #eeac7f;
+  --palette__brown__light: #c47a48;
 }
 
 *,
@@ -131,7 +136,7 @@ select:-webkit-autofill:active {
 
 .heading--primary {
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-xl));
+  font-size: calc(var(--size-xl) + 4px);
   font-weight: var(--weight-xlg);
   line-height: 44px;
   text-align: center;
