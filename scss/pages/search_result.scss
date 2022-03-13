@@ -19,12 +19,17 @@
   width: 100vw;
   z-index: 5;
   background: var(--grootech__white);
+  height: var(--header__height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--span-s);
 
   &__wrapper {
     @include __header__space__modified;
     display: flex;
     margin-right: calc(var(--span-xs) + 5px);
     justify-content: space-between;
+    flex: 0 0 100%;
   }
 }
 

@@ -73,25 +73,9 @@
   --grootech__red: #ff385c;
   --grootech__icon__red: #ff385c;
 
-  --grootech-placement-max-height: calc(
-    100vh - var(--navigation-bar-offset, 80px)
-  ) !important;
-
   --grootech__footer__background: #f7f7f7;
 
-  --navigation-bar-offset: 91px;
-  --navigation-space: 25px;
-
-  --scrollbar: #eeeeee;
-  --dark: #240e01;
-  --darker: #130801;
-  --hover-light: #ce8339;
-
-  --dashboard__header__height: 65px;
-
-  --sidebar__width: 300px;
-
-  --active__indicator: #06c43f;
-  --dashboard__menu__text: #eeedfd;
-  --sidebar__width--tablet: 250px;
+  --header__height: 80px;
+  --search__height: 70px;
+  --banner-image-height: 600px;
 }

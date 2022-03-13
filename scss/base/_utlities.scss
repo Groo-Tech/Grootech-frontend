@@ -3,5 +3,17 @@
 }
 
 .u-mb-sm {
-  margin-bottom: 20px;
+  margin-bottom: var(--span-m) !important;
+}
+
+.u-flex {
+  display: flex !important;
+}
+
+.u-w-full {
+  flex: 0 0 100% !important;
+}
+
+.u-align-center {
+  align-items: center !important;
 }

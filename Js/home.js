@@ -49,3 +49,29 @@ slideContainer.addEventListener("mouseleave", stopDragging, false);
 popularContainer.addEventListener("mousedown", startDraggingList, false);
 popularContainer.addEventListener("mouseup", stopDraggingList, false);
 popularContainer.addEventListener("mouseleave", stopDraggingList, false);
+
+const links = Array.from(document.querySelectorAll("a"));
+
+console.log(links);
+
+links.forEach((link) => {
+  link.addEventListener("dragstart", (e) => {
+    e.preventDefault();
+  });
+
+  link.addEventListener("dragleave", (e) => {
+    e.preventDefault();
+  });
+
+  link.addEventListener("dragover", (e) => {
+    e.preventDefault();
+  });
+
+  link.addEventListener("dragend", (e) => {
+    e.preventDefault();
+  });
+
+  link.addEventListener("drag", (e) => {
+    e.preventDefault();
+  });
+});
