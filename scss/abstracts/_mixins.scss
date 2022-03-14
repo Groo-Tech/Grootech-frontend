@@ -50,11 +50,14 @@
 @mixin __card__ {
   border-radius: 10px;
   background: var(--grootech__white);
-  min-width: calc(100% / 4 - 30px);
-  flex-grow: 1;
+  max-width: calc(100% / 4);
+  flex-grow: 1 !important;
+  flex-basis: calc(100% / 4);
 
   @media only screen and (max-width: 1200px) {
-    min-width: calc(100% / 3.5 - 30px);
+    max-width: calc(100% / 3.5);
+    flex-basis: calc(100% / 3.5);
+    flex-shrink: 0 !important;
   }
 }
 

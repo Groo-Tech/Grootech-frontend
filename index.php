@@ -46,7 +46,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </button>
                         <div class="header__image-box">
-                            <img src="./assets/images/avatar--1.png" alt="" class="header__image">
+                            <img src="./assets/images/avatars/avatar--1.png" alt="" class="header__image">
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </button>
                         <div class="header__image-box">
-                            <img src="./assets/images/avatar--1.png" alt="" class="header__image">
+                            <img src="./assets/images/avatars/avatar--1.png" alt="" class="header__image">
                         </div>
                     </div>
                 </div>
@@ -328,29 +328,81 @@
                         See Our Reviews
                     </h1>
                 </div>
-                <ul class="testimonial__list">
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                    <li class="testimonial__item">
-                        &nbsp;
-                    </li>
-                </ul>
+                <div class="testimonial__wrapper">
+                    <ul class="testimonial__list">
+                        <li class="testimonial__item">
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <img src="./asset/images/avatars/avatar--9.jpg" alt="" class="testimonial__image">
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                    </ul>
+                    <ul class="testimonial__list">
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                    </ul>
+                    <ul class="testimonial__list">
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                        <li class="testimonial__item">
+                            &nbsp;
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

@@ -490,6 +490,8 @@
 }
 
 .testimonial {
+  position: relative;
+
   &__heading {
     display: flex;
     justify-content: flex-start;
@@ -499,9 +501,16 @@
     @include __section__header__;
   }
 
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--span-m);
+    grid-auto-flow: dense;
+  }
+
   &__list {
     list-style-type: none;
-    display: flex;
+    display: grid;
     gap: var(--span-m);
   }
 
