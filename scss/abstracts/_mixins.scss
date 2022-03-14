@@ -1,5 +1,5 @@
 @mixin __section__space__top {
-  padding-top: calc(var(--span-2xl) + var(--span-xs));
+  padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
 @mixin __section__space__bottom {

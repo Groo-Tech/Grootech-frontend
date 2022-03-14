@@ -323,88 +323,489 @@
     <section class="section-testimonial">
         <div class="container">
             <div class="testimonial">
-                <div class="testimonial__heading">
-                    <h1 class="testimonial__header">
-                        See Our Reviews
-                    </h1>
+                <div class="testimonial__container">
+                    <div class="review">
+                        <h1 class="review__header review__header--lg">
+                            “Agriculture” is the new normal
+                        </h1>
+                        <p class="review__paragraph review__paragraph--lg">
+                            <span> “Lorem ipsum dolor” </span> sit amet consectetur adipisicing elit. Ut modi odit blanditiis at itaque cumque explicabo, officiis placeat dolores eos tempora ad fugiat recusandae repellat, harum nostrum in numquam aspernatur laborum, earum temporibus. Sequi ut alias corrupti aspernatur nobis praesentium facere  <span> “earum temporibus” </span> ducimus.
+                        </p>
+                        <div class="review__box">
+                            <div class="review__image-box">
+                                <img src="./assets/images/avatars/avatar--7.jpg" alt="" class="review__image">
+                            </div>
+                            <div class="review__info">
+                                <h2 class="review__header review__header--sm">
+                                    Eto
+                                </h2>
+                                <p class="review__paragraph review__paragraph--sm">
+                                    CEO of Grootech
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="testimonial__wrapper">
                     <ul class="testimonial__list">
                         <li class="testimonial__item">
                             <figure class="testimonial__figure">
                                 <figcaption class="testimonial__figcation">
-                                    <img src="./asset/images/avatars/avatar--9.jpg" alt="" class="testimonial__image">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--7.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
                                 </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit.
+                                    </p>
+                                </blockquote>
                             </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--8.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, esse?
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--2.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim incidunt quibusdam placeat, aperiam perspiciatis maxime.
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--5.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dicta, ad commodi perferendis libero officiis deserunt facere tenetur culpa! Eveniet incidunt nesciunt ipsam assumenda sapiente!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--6.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dolorum dolor necessitatibus laborum explicabo recusandae. Nemo labore aliquid at aliquam?
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--10.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi reiciendis impedit sed placeat asperiores adipisci, cumque at nostrum nihil sapiente quidem animi officiis consequatur. Commodi perferendis voluptatibus atque vel?
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--21.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim expedita quidem optio in maiores harum ducimus labore eligendi doloremque architecto delectus, repellat, inventore, quod fuga?
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                     </ul>
                     <ul class="testimonial__list">
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--13.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus deleniti unde minus voluptatibus vitae tem
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--14.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis too!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--15.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--16.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, 
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--17.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, 
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--18.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet 
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--10.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, optio dolor ea quibusdam. Alias enim ullam nostrum exercitationem fuga neque, impedit quam incidunt facere distinctio, omnis nihil voluptatem quo!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                     </ul>
                     <ul class="testimonial__list">
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--6.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus deleniti unde minus voluptatibus vitae temporibus ab, voluptates, eius, aut itaque quas vero non repellat nisi voluptate consequatur suscipit odit impedit laboriosam id? Animi esse incidunt commodi facilis voluptatibus quia iusto deleniti beatae minus quis.
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--7.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, optio dolor ea quibusdam. Alias enim ullam nostrum exercitationem fuga neque, impedit quam incidunt facere distinctio, omnis nihil voluptatem quo!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--8.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, optio dolor ea quibusdam. Alias enim ullam nostrum exercitationem fuga neque, impedit quam incidunt facere distinctio, omnis nihil voluptatem quo!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--12.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, optio dolor ea quibusdam. Alias enim ullam nostrum exercitationem fuga neque, impedit quam incidunt facere distinctio, omnis nihil voluptatem quo!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--11.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritatis totam odit omnis reprehenderit. Fugit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis officiis aut perferendis accusamus illum, optio dolor ea quibusdam. Alias enim ullam nostrum exercitationem fuga neque, impedit quam incidunt facere distinctio, omnis nihil voluptatem quo!
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                         <li class="testimonial__item">
-                            &nbsp;
-                        </li>
-                        <li class="testimonial__item">
-                            &nbsp;
+                            <figure class="testimonial__figure">
+                                <figcaption class="testimonial__figcation">
+                                    <div class="testimonial__image-box">
+                                        <img src="./assets/images/avatars/avatar--14.jpg" alt="" class="testimonial__image">
+                                    </div>
+                                    <div class="testimonial__info">
+                                        <h1 class="testimonial__name">
+                                            Harry Kane
+                                        </h1>
+                                        <p class="testimonial__role">
+                                            Manager
+                                        </p>
+                                    </div>
+                                </figcaption>
+                                <blockquote class="testimonial__blockquote">
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero veritati
+                                    </p>
+                                </blockquote>
+                            </figure>
                         </li>
                     </ul>
                 </div>
+                <div class="testimonial__overlay">
+                    <div class="testimonial__button-box">
+                        <button class="testimonial__button">
+                            Show more...
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
+    <section class="section-lo">
+        &nbsp;
     </section>
     <script src="./Js/home.js"></script>
 </body>

@@ -57,6 +57,7 @@
   --palette__brown__base: #a55b28;
   --palette__brown__lighter: #eeac7f;
   --palette__brown__light: #c47a48;
+  --reviews__list__height: 550px;
 }
 
 *,
@@ -536,7 +537,7 @@ select:-webkit-autofill:active {
 }
 
 .footer {
-  padding-top: calc(var(--span-2xl) + var(--span-xs));
+  padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
 .footer__wrapper {
