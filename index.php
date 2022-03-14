@@ -77,7 +77,7 @@
                     </div>
                     <div class="header__profile">
                         <button class="header__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </button>
                         <div class="header__image-box">
                             <img src="./assets/images/avatar--1.png" alt="" class="header__image">
@@ -201,6 +201,45 @@
                                 </div>
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-features">
+        <div class="container">
+            <div class="features">
+                <h1 class="features__header">
+                    Popular Businesses
+                </h1>
+                <div class="features__wrapper">
+                    <div class="card card--features card--light">
+                        <a href="" class="card__link" name="businesses">
+                            <div class="card__image-box">
+                                <img src="./assets/images/businesses/grootech__image--8.jpg" alt="image" class="card__image">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features card--dark">
+                        <a href="" class="card__link" name="businesses">
+                            <div class="card__image-box">
+                                <img src="./assets/images/businesses/grootech__image--2.jpg" alt="image" class="card__image">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features card--darker">
+                        <a href="" class="card__link" name="businesses">
+                            <div class="card__image-box">
+                                <img src="./assets/images/businesses/grootech__image--1.jpg" alt="image" class="card__image">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--features card--lighter">
+                        <a href="" class="card__link" name="businesses">
+                            <div class="card__image-box">
+                                <img src="./assets/images/businesses/grootech__image--9.jpg" alt="image" class="card__image">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

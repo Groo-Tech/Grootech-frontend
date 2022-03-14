@@ -210,6 +210,7 @@ select:-webkit-autofill:active {
           flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -246,7 +247,7 @@ select:-webkit-autofill:active {
           flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
-  height: 400px;
+  min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -295,9 +296,9 @@ select:-webkit-autofill:active {
 }
 
 .card__paragraph {
-  margin-top: var(--span-xs);
+  margin-top: calc(var(--span-xs) + 5px);
   font-family: var(--Montserrat);
-  font-size: var(--size-s);
+  font-size: var(--size-m);
   font-weight: var(--weight-sm);
   line-height: 23px;
   text-align: left;
@@ -341,6 +342,13 @@ select:-webkit-autofill:active {
 }
 
 .logo__text {
+  background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(135.12%, #a55b28)) !important;
+  background: linear-gradient(90deg, #552200 0%, #a55b28 135.12%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
   font-family: var(--Montserrat);
   font-size: calc(var(--size-l) + 3px);
   font-weight: var(--weight-xxlg);
@@ -506,15 +514,15 @@ select:-webkit-autofill:active {
 
 @media only screen and (max-width: 1799px) {
   .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 

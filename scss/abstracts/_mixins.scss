@@ -20,15 +20,24 @@
   color: var(--grootech__header__gray);
 }
 
+@mixin __section__header__ {
+  margin-top: var(--span-s);
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-xlg);
+  line-height: 43px;
+  text-align: left;
+  color: var(--palette__brown__darker);
+}
+
 @mixin __section__background($color) {
   background: $color;
 }
 
 @mixin __card__wrapper__ {
-  margin-top: var(--span-l) !important;
+  margin-top: var(--span-m) !important;
   display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
+  gap: var(--span-m);
 }
 
 @mixin __card__ {

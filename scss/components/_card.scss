@@ -3,6 +3,7 @@
 
   &--features {
     @include __card__;
+    min-height: 400px;
   }
 
   &--popular {
@@ -11,7 +12,7 @@
 
   &--intro {
     @include __card__;
-    height: 400px;
+    min-height: 400px;
   }
 
   &__link {
@@ -50,9 +51,9 @@
   }
 
   &__paragraph {
-    margin-top: var(--span-xs);
+    margin-top: calc(var(--span-xs) + 5px);
     font-family: var(--Montserrat);
-    font-size: var(--size-s);
+    font-size: var(--size-m);
     font-weight: var(--weight-sm);
     line-height: 23px;
     text-align: left;

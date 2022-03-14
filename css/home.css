@@ -210,6 +210,7 @@ select:-webkit-autofill:active {
           flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -246,7 +247,7 @@ select:-webkit-autofill:active {
           flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
-  height: 400px;
+  min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -295,9 +296,9 @@ select:-webkit-autofill:active {
 }
 
 .card__paragraph {
-  margin-top: var(--span-xs);
+  margin-top: calc(var(--span-xs) + 5px);
   font-family: var(--Montserrat);
-  font-size: var(--size-s);
+  font-size: var(--size-m);
   font-weight: var(--weight-sm);
   line-height: 23px;
   text-align: left;
@@ -479,15 +480,15 @@ select:-webkit-autofill:active {
 
 @media only screen and (max-width: 1799px) {
   .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .container {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -826,6 +827,10 @@ select:-webkit-autofill:active {
   stroke: var(--grootech__white);
 }
 
+.header--fixed .header__icon svg {
+  stroke: var(--grootech__black);
+}
+
 .header__image-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -866,16 +871,29 @@ select:-webkit-autofill:active {
 }
 
 .header__logo-text {
+  background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(90%, #a55b28)) !important;
+  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-l));
+  font-size: calc(var(--size-l) + 3px);
   font-weight: var(--weight-xxlg);
-  line-height: 30px;
+  line-height: 33px;
   text-align: left;
   color: var(--grootech__logo__text);
 }
 
 .header__logo-text--white {
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(131.25%, #ffffffe8)) !important;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffffe8 131.25%) !important;
   color: var(--grootech__text__white);
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .header__search-box {
@@ -1181,7 +1199,6 @@ select:-webkit-autofill:active {
   display: -ms-flexbox;
   display: flex;
   gap: var(--span-m);
-  padding-bottom: var(--span-2xl);
 }
 
 .section-features {
@@ -1190,34 +1207,22 @@ select:-webkit-autofill:active {
 }
 
 .features__header {
+  margin-top: var(--span-s);
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
-  font-weight: var(--weight-md);
+  font-weight: var(--weight-xlg);
   line-height: 43px;
   text-align: left;
-  color: var(--grootech__header__gray);
+  color: var(--palette__brown__darker);
 }
 
 .features__wrapper {
-  margin-top: var(--span-l) !important;
+  margin-top: var(--span-m) !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 1200px) {
-  .features__wrapper {
-    margin: 0 -5%;
-    padding: 0 5%;
-    overflow-x: hidden;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    padding-bottom: 3px;
-    padding-top: 3px;
-  }
+  gap: var(--span-m);
+  padding-bottom: var(--span-2xl);
 }
 
 .section-popular {
@@ -1234,13 +1239,11 @@ select:-webkit-autofill:active {
 }
 
 .popular__wrapper {
-  margin-top: var(--span-l) !important;
+  margin-top: var(--span-m) !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  gap: var(--span-m);
 }
 
 @media only screen and (max-width: 1200px) {
