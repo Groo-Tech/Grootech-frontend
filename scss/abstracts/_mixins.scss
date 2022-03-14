@@ -21,6 +21,12 @@
 }
 
 @mixin __section__header__ {
+  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
   margin-top: var(--span-s);
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
@@ -38,17 +44,17 @@
   margin-top: var(--span-m) !important;
   display: flex;
   gap: var(--span-m);
+  overflow-x: hidden;
 }
 
 @mixin __card__ {
-  max-width: calc(100% / 4 - 30px);
-  flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-width: calc(100% / 4 - 30px);
+  flex-grow: 1;
 
   @media only screen and (max-width: 1200px) {
-    max-width: calc(100% / 3 - 30px);
-    flex: 0 0 calc(100% / 3 - 30px);
+    min-width: calc(100% / 3.5 - 30px);
   }
 }
 

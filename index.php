@@ -137,9 +137,11 @@
         <div class="container">
             <div class="intro">
                 <div class="intro__wrapper">
-                    <h1 class="intro__heading">
-                        Popular Cities
-                    </h1>
+                    <div class="intro__heading">
+                        <h1 class="intro__header">
+                            Popular Cities
+                        </h1>
+                    </div>
                     <div class="intro__container">
                         <div class="card card--intro card--light">
                             <a href="" class="card__link" name="">
@@ -209,14 +211,24 @@
     <section class="section-features">
         <div class="container">
             <div class="features">
-                <h1 class="features__header">
-                    Popular Businesses
-                </h1>
+                <div class="features__heading">
+                    <h1 class="features__header">
+                        Popular Businesses
+                    </h1>
+                </div>
                 <div class="features__wrapper">
                     <div class="card card--features card--light">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--8.jpg" alt="image" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    Forage
+                                </h1>
+                                <p class="card__paragraph">
+                                    Over 2000 farms
+                                </p>
                             </div>
                         </a>
                     </div>
@@ -225,12 +237,28 @@
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--2.jpg" alt="image" class="card__image">
                             </div>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    Marketing
+                                </h1>
+                                <p class="card__paragraph">
+                                    Over 1500 farms
+                                </p>
+                            </div>
                         </a>
                     </div>
                     <div class="card card--features card--darker">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--1.jpg" alt="image" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    Cattle
+                                </h1>
+                                <p class="card__paragraph">
+                                    Over 1000 farms
+                                </p>
                             </div>
                         </a>
                     </div>
@@ -239,7 +267,38 @@
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--9.jpg" alt="image" class="card__image">
                             </div>
+                            <div class="card__body">
+                                <h1 class="card__header">
+                                    Maize
+                                </h1>
+                                <p class="card__paragraph">
+                                    Over 700 farms
+                                </p>
+                            </div>
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-experience">
+        <div class="container">
+            <div class="experience">
+                <div class="experience__heading">
+                    <h1 class="experience__header">
+                        Discover Our Experiences
+                    </h1>
+                </div>
+                <div class="experience__wrapper">
+                    <div class="experience__tutorials">
+                        <div class="experience__image-box">
+                            <img src="./assets/images/cities/grootech__city--9.jpg" alt="" class="experience__image">
+                        </div>
+                    </div>
+                    <div class="experience__startups">
+                        <div class="experience__image-box">
+                            <img src="./assets/images/cities/grootech__city--8.jpg" alt="" class="experience__image">
+                        </div>
                     </div>
                 </div>
             </div>

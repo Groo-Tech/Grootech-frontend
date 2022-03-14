@@ -78,16 +78,6 @@ body {
   background: var(--grootech__background__white);
 }
 
-::-moz-selection {
-  color: var(--grootech__text__white);
-  background: var(--grootech__brown);
-}
-
-::selection {
-  color: var(--grootech__text__white);
-  background: var(--grootech__brown);
-}
-
 input {
   appearance: none;
   -moz-appearance: none;
@@ -204,58 +194,49 @@ select:-webkit-autofill:active {
 }
 
 .card--features {
-  max-width: calc(100% / 4 - 30px);
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(100% / 4 - 30px);
-          flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-width: calc(100% / 4 - 30px);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
   .card--features {
-    max-width: calc(100% / 3 - 30px);
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 calc(100% / 3 - 30px);
-            flex: 0 0 calc(100% / 3 - 30px);
+    min-width: calc(100% / 3.5 - 30px);
   }
 }
 
 .card--popular {
-  max-width: calc(100% / 4 - 30px);
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(100% / 4 - 30px);
-          flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-width: calc(100% / 4 - 30px);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 @media only screen and (max-width: 1200px) {
   .card--popular {
-    max-width: calc(100% / 3 - 30px);
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 calc(100% / 3 - 30px);
-            flex: 0 0 calc(100% / 3 - 30px);
+    min-width: calc(100% / 3.5 - 30px);
   }
 }
 
 .card--intro {
-  max-width: calc(100% / 4 - 30px);
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 calc(100% / 4 - 30px);
-          flex: 0 0 calc(100% / 4 - 30px);
   border-radius: 10px;
   background: var(--grootech__white);
+  min-width: calc(100% / 4 - 30px);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   min-height: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
   .card--intro {
-    max-width: calc(100% / 3 - 30px);
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 calc(100% / 3 - 30px);
-            flex: 0 0 calc(100% / 3 - 30px);
+    min-width: calc(100% / 3.5 - 30px);
   }
 }
 
@@ -761,6 +742,7 @@ select:-webkit-autofill:active {
   position: fixed;
   width: 100vw;
   top: 0;
+  left: 0;
   background: var(--grootech__white);
   height: var(--header__height);
   display: -webkit-box;
@@ -1184,6 +1166,22 @@ select:-webkit-autofill:active {
 }
 
 .intro__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.intro__header {
+  background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(90%, #a55b28)) !important;
+  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
   margin-top: var(--span-s);
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
@@ -1194,11 +1192,12 @@ select:-webkit-autofill:active {
 }
 
 .intro__container {
-  margin-top: var(--span-m);
+  margin-top: var(--span-m) !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: var(--span-m);
+  overflow-x: hidden;
 }
 
 .section-features {
@@ -1206,7 +1205,23 @@ select:-webkit-autofill:active {
   background: var(--grootech__background__white);
 }
 
+.features__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .features__header {
+  background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(90%, #a55b28)) !important;
+  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
   margin-top: var(--span-s);
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
@@ -1222,40 +1237,57 @@ select:-webkit-autofill:active {
   display: -ms-flexbox;
   display: flex;
   gap: var(--span-m);
-  padding-bottom: var(--span-2xl);
+  overflow-x: hidden;
 }
 
-.section-popular {
+.section-experience {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
 }
 
-.popular__header {
-  font-family: var(--Montserrat);
-  font-size: var(--size-xl);
-  font-weight: var(--weight-md);
-  line-height: 43px;
-  text-align: left;
-  color: var(--grootech__header__gray);
-}
-
-.popular__wrapper {
-  margin-top: var(--span-m) !important;
+.experience__heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: var(--span-m);
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-@media only screen and (max-width: 1200px) {
-  .popular__wrapper {
-    margin: 0 -5%;
-    padding: 0 5%;
-    overflow-x: hidden;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    padding-bottom: 3px;
-    padding-top: 3px;
-  }
+.experience__header {
+  background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(90%, #a55b28)) !important;
+  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
+  margin-top: var(--span-s);
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-xlg);
+  line-height: 43px;
+  text-align: left;
+  color: var(--palette__brown__darker);
+}
+
+.experience__wrapper {
+  margin-top: var(--span-m);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: var(--span-m);
+  padding-bottom: var(--span-2xl);
+}
+
+.experience__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 550px;
+  border-radius: 15px;
 }
 
 .section-categories {

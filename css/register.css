@@ -78,16 +78,6 @@ body {
   background: var(--grootech__background__white);
 }
 
-::-moz-selection {
-  color: var(--grootech__text__white);
-  background: var(--grootech__brown);
-}
-
-::selection {
-  color: var(--grootech__text__white);
-  background: var(--grootech__brown);
-}
-
 input {
   appearance: none;
   -moz-appearance: none;
