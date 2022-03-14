@@ -120,7 +120,7 @@
         <div class="banner">
             <img src="./assets/images/grootech__banner.png" alt="" class="banner__image">
             <div class="banner__overlay">
-                <h1 class="heading--primary">
+                <h1 class="heading--primary u-mb-sm">
                     Invest in the agricultural sector today
                 </h1>
                 <div class="banner__link-box">
@@ -293,14 +293,64 @@
                     <div class="experience__tutorials">
                         <div class="experience__image-box">
                             <img src="./assets/images/cities/grootech__city--9.jpg" alt="" class="experience__image">
+                            <div class="experience__overlay">
+                                <h1 class="experience__text">
+                                    Take Our Tutorials
+                                </h1>
+                                <a href="" class="experience__link" name="">
+                                    Our Tutorials
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="experience__startups">
                         <div class="experience__image-box">
                             <img src="./assets/images/cities/grootech__city--8.jpg" alt="" class="experience__image">
+                            <div class="experience__overlay">
+                                <h1 class="experience__text">
+                                    Explore Our Guide
+                                </h1>
+                                <a href="" class="experience__link" name="">
+                                    Read Guide
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-testimonial">
+        <div class="container">
+            <div class="testimonial">
+                <div class="testimonial__heading">
+                    <h1 class="testimonial__header">
+                        See Our Reviews
+                    </h1>
+                </div>
+                <ul class="testimonial__list">
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                    <li class="testimonial__item">
+                        &nbsp;
+                    </li>
+                </ul>
             </div>
         </div>
     </section>

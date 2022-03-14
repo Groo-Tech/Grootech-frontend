@@ -75,6 +75,7 @@ html {
 
 body {
   font-family: var(--Montserrat);
+  -webkit-font-smoothing: antialiased;
   background: var(--grootech__background__white);
 }
 
@@ -126,9 +127,9 @@ select:-webkit-autofill:active {
 
 .heading--primary {
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-xl) + 4px);
+  font-size: calc(var(--size-2xl));
   font-weight: var(--weight-xlg);
-  line-height: 44px;
+  line-height: 54px;
   text-align: center;
   color: var(--grootech__text__white);
 }
