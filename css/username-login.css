@@ -43,7 +43,24 @@
   --grootech__border__gray: #848484;
   --grootech__black: #000000;
   --grootech__text__black: #000000;
-  --grootech__text__black__shade--1: rgba(0, 0, 0, 0.8);
+  --grootech__black__shade--1: #000000cc;
+  --grootech__black__shade--2: #000000b3;
+  --grootech__black__shade--3: #00000099;
+  --grootech__black__shade--4: #00000080;
+  --grootech__black__shade--5: #00000066;
+  --grootech__black__shade--6: #0000004d;
+  --grootech__black__shade--7: #00000033;
+  --grootech__black__shade--8: #0000001a;
+  --grootech__black__shade--9: #000000e6;
+  --grootech__text__black__shade--1: #000000cc;
+  --grootech__text__black__shade--2: #000000b3;
+  --grootech__text__black__shade--3: #00000099;
+  --grootech__text__black__shade--4: #00000080;
+  --grootech__text__black__shade--5: #00000066;
+  --grootech__text__black__shade--6: #0000004d;
+  --grootech__text__black__shade--7: #00000033;
+  --grootech__text__black__shade--8: #0000001a;
+  --grootech__text__black__shade--9: #000000e6;
   --grootech__grey: #222222;
   --grootech__text__grey: #222222;
   --grootech__light__red: #ffe2e5;
@@ -53,12 +70,12 @@
   --header__height: 80px;
   --search__height: 70px;
   --banner-image-height: 600px;
+  --reviews__list__height: 550px;
   --palette__brown__darker: #552200;
   --palette__brown__dark: #7f3a0b;
   --palette__brown__base: #a55b28;
   --palette__brown__lighter: #eeac7f;
   --palette__brown__light: #c47a48;
-  --reviews__list__height: 550px;
   --windsor-tan: #a25a2aff;
   --brown-sugar: #aa5a30ff;
   --windsor-tan-2: #a55a27ff;
@@ -262,17 +279,17 @@ select:-webkit-autofill:active {
 .logo__text {
   background: -webkit-gradient(linear, left top, right top, from(#552200), color-stop(135.12%, #a55b28)) !important;
   background: linear-gradient(90deg, #552200 0%, #a55b28 135.12%) !important;
-  -webkit-background-clip: text !important;
-  -moz-background-clip: text !important;
-  -ms-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  overflow: clip;
   font-family: var(--Montserrat);
   font-size: calc(var(--size-l) + 3px);
   font-weight: var(--weight-xxlg);
   line-height: 33px;
   text-align: left;
   color: var(--grootech__logo__text);
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip !important;
 }
 
 @media only screen and (min-width: 1800px) {

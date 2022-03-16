@@ -68,3 +68,24 @@
 @mixin __header__space__modified {
   padding: var(--span-s) var(--navigation-space);
 }
+
+@mixin __text__clip {
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip !important;
+}
+
+@mixin __form__login {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@mixin __form__border($thickness) {
+  border: $thickness solid var(--grootech__black__shade--6);
+}
+
+@mixin __form__curve($borderRadius) {
+  border-radius: $borderRadius;
+}

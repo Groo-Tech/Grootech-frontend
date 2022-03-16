@@ -37,5 +37,26 @@
             </div>
         </header>
     </section>
+    <section class="section-login">
+        <div class="container">
+            <div class="login">
+                <form action="" class="form">
+                    <div class="form__header">
+                        <p class="form__paragraph">
+                            Log in or sign up
+                        </p>
+                    </div>
+                    <div class="form__body">
+                        <h1 class="form__heading">
+                            Welcome to Grootech
+                        </h1>
+                        <div class="form__group">
+                            &nbsp;
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -99,6 +99,15 @@
 
     &--blank {
       background: #c4c4c4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        width: 18px;
+        height: 18px;
+        stroke: var(--grootech__white);
+      }
     }
   }
 
@@ -118,11 +127,7 @@
 
     &-text {
       background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
-      -webkit-background-clip: text !important;
-      -moz-background-clip: text !important;
-      -ms-background-clip: text !important;
-      -webkit-text-fill-color: transparent !important;
-      overflow: clip;
+      @include __text__clip;
       font-family: var(--Montserrat);
       font-size: calc(var(--size-l) + 3px);
       font-weight: var(--weight-xxlg);
@@ -136,12 +141,51 @@
           #ffffff 0%,
           #ffffffe8 131.25%
         ) !important;
+        @include __text__clip;
         color: var(--grootech__text__white);
-        -webkit-background-clip: text !important;
-        -moz-background-clip: text !important;
-        -ms-background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
       }
     }
+  }
+}
+
+.section-login {
+  padding-top: calc(var(--header__height) + 1.5 * var(--span-2xl));
+}
+
+.form {
+  @include __form__login;
+  @include __form__border(1px);
+  @include __form__curve(10px);
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    padding: var(--span-s) 0;
+    border-bottom: 1px solid var(--grootech__black__shade--8);
+  }
+
+  &__paragraph {
+    font-family: var(--Montserrat);
+    font-size: var(--size-m);
+    font-weight: var(--weight-xlg);
+    line-height: 25px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--1);
+  }
+
+  &__body {
+    padding-top: var(--span-m);
+    padding-left: var(--span-m);
+    padding-right: var(--span-m);
+    padding-bottom: var(--span-s);
+  }
+
+  &__heading {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-m) + 6px);
+    font-weight: var(--weight-lg);
+    line-height: 30px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--1);
   }
 }
