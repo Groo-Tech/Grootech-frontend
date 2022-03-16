@@ -104,3 +104,16 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 });
 
 headerObserver.observe(sectionHeader);
+
+const showMore = document.querySelector(".testimonial__button");
+const allList = Array.from(document.querySelectorAll(".testimonial__list"));
+const overlay = document.querySelector(".testimonial__overlay");
+
+showMore.addEventListener("click", function (e) {
+  allList.forEach((list) => {
+    list.style.maxHeight = "100%";
+    list.style.overflow = "visible";
+  });
+
+  overlay.style.display = "none";
+});
