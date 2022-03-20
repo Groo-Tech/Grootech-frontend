@@ -37,7 +37,7 @@
             </div>
         </header>
     </section>
-    <section class="section-login">
+    <section class="section-login u-mb-sm">
         <div class="container">
             <div class="login">
                 <form action="" class="form">
@@ -50,8 +50,77 @@
                         <h1 class="form__heading">
                             Welcome to Grootech
                         </h1>
-                        <div class="form__group">
-                            &nbsp;
+                        <div class="form__group u-mt-sm form__group--no-margin-bottom form__group--border-top form__group--border-top-radius form__group--border-round-top form__group--border-bottom">
+                            <label for="country-code" class="form__label">
+                                Country/Region
+                            </label>
+                            <input type="text" class="form__input" id="country-code" placeholder="Nigeria (+234)" name="country-code">
+                        </div>
+                        <div class="form__group form__group--no-margin-bottom form__group--border-round-bottom form__group--border-bottom form__group--border-bottom-radius">
+                            <label for="phone-number" class="form__label">Phone number</label>
+                            <div class="form__wrapper">
+                                <span class="form__code-placeholder">
+                                    +234
+                                </span>
+                                <input type="text" class="form__input" placeholder="(+XXX XXX-XXXX)" name="phone-number">
+                            </div>
+                        </div>
+                        <p class="form__text">
+                            We’ll call or text you to confirm your number. Standard message and data rates apply.
+                        </p>
+                        <a href="" class="form__link" name="Privacy Policy">
+                            Privacy Policy
+                        </a>
+                        <button class="form__button" role="form">
+                            Continue
+                        </button>
+                        <div class="form__group form__group--sm form__group--no-padding u-mt-sm">
+                            <button class="form__alternative">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </span>
+                                <span class="text">
+                                    <span>
+                                        Continue with Facebook
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="form__group form__group--sm form__group--no-padding">
+                            <button class="form__alternative">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </span>
+                                <span class="text">
+                                    <span>
+                                        Continue with Facebook
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="form__group form__group--sm form__group--no-padding ">
+                            <button class="form__alternative">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </span>
+                                <span class="text">
+                                    <span>
+                                        Continue with Facebook
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="form__group form__group--sm form__group--no-padding ">
+                            <button class="form__alternative">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </span>
+                                <span class="text">
+                                    <span>
+                                        Continue with Facebook
+                                    </span>
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </form>

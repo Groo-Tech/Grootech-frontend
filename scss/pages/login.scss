@@ -188,4 +188,174 @@
     text-align: left;
     color: var(--grootech__text__black__shade--1);
   }
+
+  &__group {
+    padding: var(--span-xs);
+    height: 60px;
+
+    &--sm {
+      height: 40px;
+    }
+
+    &--no-padding {
+      padding: 0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: var(--span-s);
+    }
+
+    &--no-margin-bottom {
+      margin-bottom: 0 !important;
+    }
+
+    &--border-top {
+      @include __form__border__top(1px, var(--grootech__black__shade--6));
+    }
+
+    &--border-round-top {
+      @include __form__border__top(1px, var(--grootech__black__shade--6));
+      @include __form__border__left(1px, var(--grootech__black__shade--6));
+      @include __form__border__right(1px, var(--grootech__black__shade--6));
+    }
+
+    &--border-round-bottom {
+      @include __form__border__bottom(1px, var(--grootech__black__shade--6));
+      @include __form__border__left(1px, var(--grootech__black__shade--6));
+      @include __form__border__right(1px, var(--grootech__black__shade--6));
+    }
+
+    &--border-bottom {
+      @include __form__border__bottom(1px, var(--grootech__black__shade--6));
+    }
+
+    &--border-top-radius {
+      @include __form__curve__top(5px);
+    }
+
+    &--border-bottom-radius {
+      @include __form__curve__bottom(5px);
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__code-placeholder {
+    display: block;
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--3);
+    align-self: center;
+  }
+
+  &__label {
+    display: block;
+    font-family: var(--Montserrat);
+    font-size: var(--size-xs);
+    font-weight: var(--weight-sm);
+    line-height: 15px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--5);
+    margin-bottom: 3px;
+  }
+
+  &__input {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: block;
+    width: 100%;
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--3);
+
+    &::-webkit-input-placeholder {
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-s));
+      font-weight: var(--weight-md);
+      line-height: 20px;
+      text-align: left;
+      color: var(--grootech__text__black__shade--3);
+    }
+  }
+
+  &__text {
+    margin-top: 5px;
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-xs));
+    font-weight: var(--weight-sm);
+    line-height: 15px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--2);
+  }
+
+  &__link {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-xs));
+    font-weight: var(--weight-lg);
+    line-height: 15px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--1);
+  }
+
+  &__button {
+    margin-top: var(--span-s);
+    outline: none;
+    border: none;
+    width: 100%;
+    display: block;
+    background: var(--grootech__black);
+    color: var(--grootech__text__white);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-md);
+    line-height: 23px;
+    text-align: center;
+    padding: calc(var(--span-xs) + 5px) var(--span-m);
+    border-radius: 5px;
+  }
+
+  &__alternative {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: calc(var(--span-xs)) var(--span-m);
+    border: 1px solid var(--grootech__black);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+    .icon {
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    .text {
+      flex-grow: 1;
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-s));
+      font-weight: var(--weight-md);
+      line-height: 23px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+  }
 }

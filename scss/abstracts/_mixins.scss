@@ -78,7 +78,7 @@
 }
 
 @mixin __form__login {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -86,6 +86,32 @@
   border: $thickness solid var(--grootech__black__shade--6);
 }
 
+@mixin __form__border__top($thickness, $color) {
+  border-top: $thickness solid $color;
+}
+
+@mixin __form__border__right($thickness, $color) {
+  border-right: $thickness solid $color;
+}
+
+@mixin __form__border__left($thickness, $color) {
+  border-left: $thickness solid $color;
+}
+
+@mixin __form__border__bottom($thickness, $color) {
+  border-bottom: $thickness solid $color;
+}
+
 @mixin __form__curve($borderRadius) {
   border-radius: $borderRadius;
+}
+
+@mixin __form__curve__top($size) {
+  border-top-left-radius: $size;
+  border-top-right-radius: $size;
+}
+
+@mixin __form__curve__bottom($size) {
+  border-bottom-left-radius: $size;
+  border-bottom-right-radius: $size;
 }
