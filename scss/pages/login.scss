@@ -174,10 +174,8 @@
   }
 
   &__body {
-    padding-top: var(--span-m);
-    padding-left: var(--span-m);
-    padding-right: var(--span-m);
-    padding-bottom: var(--span-s);
+    padding: var(--span-m);
+    padding-bottom: var(--span-l);
   }
 
   &__heading {
@@ -335,15 +333,15 @@
     border-radius: 5px;
 
     .icon {
-      width: 18px;
-      height: 18px;
+      width: 24px;
+      height: 24px;
       display: flex;
       justify-content: center;
       align-items: center;
 
       svg {
-        width: 18px;
-        height: 18px;
+        width: 24px;
+        height: 24px;
       }
     }
 

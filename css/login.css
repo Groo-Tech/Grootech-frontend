@@ -1092,10 +1092,8 @@ select:-webkit-autofill:active {
 }
 
 .form__body {
-  padding-top: var(--span-m);
-  padding-left: var(--span-m);
-  padding-right: var(--span-m);
-  padding-bottom: var(--span-s);
+  padding: var(--span-m);
+  padding-bottom: var(--span-l);
 }
 
 .form__heading {
@@ -1264,8 +1262,8 @@ select:-webkit-autofill:active {
 }
 
 .form__alternative .icon {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1278,8 +1276,8 @@ select:-webkit-autofill:active {
 }
 
 .form__alternative .icon svg {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
 }
 
 .form__alternative .text {
