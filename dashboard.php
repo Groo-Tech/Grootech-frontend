@@ -66,14 +66,32 @@
         </header>
     </section>
     <section class="section-intro">
-        <div class="container">
-            &nbsp;
+        <div class="container u-h-100">
+            <div class="intro u-h-100">
+                <h1 class="intro__header">
+                    Today
+                </h1>
+                <a href="" class="intro__link">
+                    <div class="intro__box">
+                        <h4 class="intro__title">
+                            Complete important details
+                        </h4>
+                        <p class="intro__text">
+                            Required to publish
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
     <section class="section-dashboard">
         <div class="container">
             <div class="dashboard">
-                &nbsp;
+                <div class="dashboard__header">
+                    <h1 class="dashboard__heading">
+                        Welcome!
+                    </h1>
+                </div>
             </div>
         </div>
     </section>

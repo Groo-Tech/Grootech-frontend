@@ -2,6 +2,10 @@
   padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
+@mixin __section__space__top__md {
+  padding-top: calc(var(--span-2xl) + var(--span-xs));
+}
+
 @mixin __section__space__bottom {
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
 }
@@ -34,6 +38,13 @@
   line-height: 43px;
   text-align: left;
   color: var(--palette__brown__darker);
+}
+
+@mixin __section__header__sm {
+  @include __section__header__;
+  margin-top: 0;
+  font-size: calc(var(--size-l) + 2px);
+  line-height: 28px;
 }
 
 @mixin __section__background($color) {
