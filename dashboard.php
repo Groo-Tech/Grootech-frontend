@@ -11,7 +11,7 @@
 </head>
 <body>
     <section class="section-header">
-        <header class="header header--1 u-flex u-align-center header--hidden">
+        <header class="header header--1 u-flex u-align-center">
             <div class="container u-w-full">
                 <div class="header__wrapper">
                     <div class="header__logo">
@@ -25,13 +25,15 @@
                     <nav class="dashboard__nav">
                         <ul class="dashboard__list">
                             <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="messages">
-                                    Messages
+                                <a href="" class="dashboard__link dashboard__link--active" name="today">
+                                    <span>
+                                        Today
+                                    </span>
                                 </a>
                             </li>
                             <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="notifications">
-                                    Notifications
+                                <a href="" class="dashboard__link" name="inbox">
+                                    Inbox
                                 </a>
                             </li>
                             <li class="dashboard__item">
@@ -52,8 +54,8 @@
                         </ul>
                     </nav>
                     <div class="header__profile">
-                        <button class="header__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <button class="header__icon header__icon--lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
                         </button>
                         <div class="header__image-box">
                             <img src="./assets/images/avatars/avatar--1.png" alt="" class="header__image">
@@ -62,57 +64,11 @@
                 </div>
             </div>
         </header>
-        <header class="header header--2 header--fixed ">
-            <div class="container u-w-full">
-                <div class="header__wrapper">
-                    <div class="header__logo">
-                        <a href="" class="header__logo-link">
-                            <img src="./assets/illustrations/grootech__logo.svg" alt="grootech logo" class="header__logo-image">
-                            <p class="header__logo-text">
-                                Grootech
-                            </p>
-                        </a>
-                    </div>
-                    <nav class="dashboard__nav">
-                        <ul class="dashboard__list">
-                            <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="messages">
-                                    Messages
-                                </a>
-                            </li>
-                            <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="notifications">
-                                    Notifications
-                                </a>
-                            </li>
-                            <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="wallet">
-                                    Wallet
-                                </a>
-                            </li>
-                            <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="proposals">
-                                    Proposals
-                                </a>
-                            </li>
-                            <li class="dashboard__item">
-                                <a href="" class="dashboard__link" name="timeline">
-                                    Timeline
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header__profile">
-                        <button class="header__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                        </button>
-                        <div class="header__image-box">
-                            <img src="./assets/images/avatars/avatar--1.png" alt="" class="header__image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+    </section>
+    <section class="section-intro">
+        <div class="container">
+            &nbsp;
+        </div>
     </section>
     <section class="section-dashboard">
         <div class="container">
