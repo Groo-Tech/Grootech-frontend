@@ -1332,7 +1332,7 @@ select:-webkit-autofill:active {
       -ms-flex-align: center;
           align-items: center;
   font-family: var(--Montserrat);
-  font-size: calc(var(--size-s));
+  font-size: calc(var(--size-xs));
   font-weight: var(--weight-sm);
   line-height: 20px;
   text-align: center;
