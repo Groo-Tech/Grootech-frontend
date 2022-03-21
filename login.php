@@ -74,6 +74,13 @@
                         <button class="form__button" role="form">
                             Continue
                         </button>
+                        <div class="form__branch">
+                            <div class="dash">&nbsp;</div>
+                            <p class="text">
+                                Or
+                            </p>
+                            <div class="dash">&nbsp;</div>
+                        </div>
                         <div class="form__group form__group--sm form__group--no-padding u-mt-sm">
                             <button class="form__alternative">
                                 <span class="icon">
@@ -131,5 +138,9 @@
             </div>
         </div>
     </section>
+    <!-- mobile navigation -->
+    <footer class="footer">
+        &nbsp;
+    </footer>
 </body>
 </html>
