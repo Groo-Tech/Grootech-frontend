@@ -449,6 +449,40 @@
       }
     }
   }
+
+  /* */
+
+  &__box {
+    margin-top: var(--span-s);
+  }
+
+  &__label--lg {
+    display: flex;
+    gap: 5px;
+
+    .text {
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-s));
+      font-weight: var(--weight-md);
+      line-height: 23px;
+      text-align: left;
+      color: var(--grootech__text__black__shade--2);
+      align-self: center;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 22px;
+        height: 22px;
+        stroke: var(--grootech__black__shade--2);
+        stroke-width: 1px;
+      }
+    }
+  }
 }
 
 .footer {

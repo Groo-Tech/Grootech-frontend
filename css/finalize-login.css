@@ -963,6 +963,7 @@ select:-webkit-autofill:active {
   margin: 0 auto;
   border: 1px solid var(--grootech__black__shade--6);
   border-radius: 10px;
+  /* */
 }
 
 @media only screen and (max-width: 600px) {
@@ -1285,6 +1286,48 @@ select:-webkit-autofill:active {
   }
 }
 
+.form__box {
+  margin-top: var(--span-s);
+}
+
+.form__label--lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.form__label--lg .text {
+  font-family: var(--Montserrat);
+  font-size: calc(var(--size-s));
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--grootech__text__black__shade--2);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.form__label--lg .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__label--lg .icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: var(--grootech__black__shade--2);
+  stroke-width: 1px;
+}
+
 .footer {
   height: 70px;
   border-top: 1px solid var(--grootech__black__shade--8);
@@ -1348,4 +1391,4 @@ select:-webkit-autofill:active {
   stroke-width: 1px;
   stroke: var(--grootech__black__shade--4);
 }
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=finalize-login.css.map */
