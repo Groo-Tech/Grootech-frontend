@@ -260,6 +260,10 @@ select:-webkit-autofill:active {
   margin-top: var(--span-s) !important;
 }
 
+.u-mb-none {
+  margin-bottom: 0 !important;
+}
+
 .logo__link {
   display: -webkit-box;
   display: -ms-flexbox;

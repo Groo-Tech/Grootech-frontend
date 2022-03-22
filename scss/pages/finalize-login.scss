@@ -179,7 +179,7 @@
 
 .form {
   @include __form__login;
-  @include __form__border(1px);
+  @include __form__border(1px, var(--grootech__black__shade--6));
   @include __form__curve(10px);
 
   @media only screen and (max-width: 600px) {
@@ -237,6 +237,17 @@
 
     &--sm {
       height: 50px;
+    }
+
+    &--disabled {
+      cursor: not-allowed !important;
+      background: var(--grootech__black__shade--8);
+      @include __form__border(1px, --grootech__black__shade--8);
+      @include __form__curve(5px);
+
+      * {
+        cursor: inherit;
+      }
     }
 
     &--no-padding {
@@ -391,6 +402,7 @@
     width: 100%;
     display: block;
     background: var(--grootech__black);
+    background: var(--grootech__join__button__brown);
     color: var(--grootech__text__white);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-s));
@@ -450,8 +462,6 @@
     }
   }
 
-  /* */
-
   &__box {
     margin-top: var(--span-s);
   }
@@ -474,6 +484,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
 
       svg {
         width: 22px;
@@ -481,6 +492,56 @@
         stroke: var(--grootech__black__shade--2);
         stroke-width: 1px;
       }
+    }
+  }
+
+  &__dates {
+    margin-top: var(--span-s);
+    display: flex;
+    gap: var(--span-s);
+  }
+
+  &__date {
+    @include __form__border(1px, var(--grootech__black__shade--6));
+    @include __form__curve(5px);
+    padding: var(--span-xs);
+  }
+
+  &__disclaimer--text {
+    margin-top: var(--span-s);
+    margin-bottom: var(--span-xs);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-sm);
+    line-height: 23px;
+    text-align: center;
+    color: var(--grootech__text__black__shade--2);
+  }
+
+  &__agreement {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-xs));
+    font-weight: var(--weight-sm);
+    line-height: 18px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--2);
+
+    a {
+      color: var(--palette__brown__base);
+    }
+  }
+
+  .newsletter {
+    padding-top: var(--span-s);
+    @include __form__border__top(1px, var(--grootech__black__shade--8));
+
+    &__paragraph {
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-xs));
+      font-weight: var(--weight-sm);
+      line-height: 20px;
+      text-align: left;
+      color: var(--grootech__text__black__shade--2);
     }
   }
 }

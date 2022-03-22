@@ -260,6 +260,10 @@ select:-webkit-autofill:active {
   margin-top: var(--span-s) !important;
 }
 
+.u-mb-none {
+  margin-bottom: 0 !important;
+}
+
 .btn {
   text-decoration: none;
   display: inline-block;
@@ -303,7 +307,7 @@ select:-webkit-autofill:active {
           flex-grow: 1 !important;
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
-  min-height: 400px;
+  min-height: 350px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -346,7 +350,7 @@ select:-webkit-autofill:active {
           flex-grow: 1 !important;
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
-  min-height: 400px;
+  min-height: 350px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1189,6 +1193,7 @@ select:-webkit-autofill:active {
   line-height: 15px;
   text-align: left;
   color: var(--grootech__text__black__shade--1);
+  color: var(--palette__brown__base);
 }
 
 @media only screen and (max-width: 600px) {
@@ -1204,6 +1209,7 @@ select:-webkit-autofill:active {
   width: 100%;
   display: block;
   background: var(--grootech__black);
+  background: var(--grootech__join__button__brown);
   color: var(--grootech__text__white);
   font-family: var(--Montserrat);
   font-size: calc(var(--size-s));

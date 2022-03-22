@@ -70,6 +70,40 @@
                                 </span>
                             </label>
                         </div>
+                        <div class="form__dates">
+                            <div class="form__date">
+                                <input type="text" class="form__input" placeholder="Month">
+                            </div>
+                            <div class="form__date">
+                                <input type="text" class="form__input" placeholder="Day">
+                            </div>
+                            <div class="form__date">
+                                <input type="text" class="form__input" placeholder="Year">
+                            </div>
+                        </div>
+                        <div class="form__group form__group--disabled u-mt-sm u-mb-none">
+                            <label for="email" class="form__label">
+                                Email
+                            </label>
+                            <input disabled="true" type="text" class="form__input" id="email" placeholder="johndoe90@gmail.com" name="email">
+                        </div>
+                        <p class="form__text">
+                            We'll email you trip confirmations and receipts.
+                        </p>
+                        <p class="form__disclaimer--text">
+                            This info came from Google
+                        </p>
+                        <p class="form__agreement">
+                            By selecting Agree and continue, I agree to Grootech’s <a href="">Terms of Service</a>, <a href="">Payments Terms of Service</a>, and <a href="">Nondiscrimination Policy</a> and acknowledge the <a href="">Privacy Policy</a>.
+                        </p>
+                        <button class="form__button u-mb-sm" role="form">
+                            Agree & Continue
+                        </button>
+                        <div class="newsletter">
+                            <p class="newsletter__paragraph">
+                                Grootech will send you members-only deals, inspiration, marketing emails, and push notifications. You can opt out of receiving these at any time in your account settings or directly from the marketing notification.
+                            </p>
+                        </div>
                     </div>
                 </form>
             </div>

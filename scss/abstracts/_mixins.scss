@@ -93,8 +93,8 @@
   margin: 0 auto;
 }
 
-@mixin __form__border($thickness) {
-  border: $thickness solid var(--grootech__black__shade--6);
+@mixin __form__border($thickness, $color) {
+  border: $thickness solid $color;
 }
 
 @mixin __form__border__top($thickness, $color) {

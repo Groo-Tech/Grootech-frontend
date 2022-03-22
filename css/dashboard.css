@@ -260,6 +260,10 @@ select:-webkit-autofill:active {
   margin-top: var(--span-s) !important;
 }
 
+.u-mb-none {
+  margin-bottom: 0 !important;
+}
+
 .btn {
   text-decoration: none;
   display: inline-block;
@@ -303,7 +307,7 @@ select:-webkit-autofill:active {
           flex-grow: 1 !important;
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
-  min-height: 400px;
+  min-height: 350px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -346,7 +350,7 @@ select:-webkit-autofill:active {
           flex-grow: 1 !important;
   -ms-flex-preferred-size: calc(100% / 4);
       flex-basis: calc(100% / 4);
-  min-height: 400px;
+  min-height: 350px;
 }
 
 @media only screen and (max-width: 1200px) {

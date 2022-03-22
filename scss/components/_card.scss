@@ -3,7 +3,7 @@
 
   &--features {
     @include __card__;
-    min-height: 400px;
+    min-height: 350px;
   }
 
   &--popular {
@@ -12,7 +12,7 @@
 
   &--intro {
     @include __card__;
-    min-height: 400px;
+    min-height: 350px;
   }
 
   &__link {

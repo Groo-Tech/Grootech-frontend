@@ -179,7 +179,7 @@
 
 .form {
   @include __form__login;
-  @include __form__border(1px);
+  @include __form__border(1px, var(--grootech__black__shade--6));
   @include __form__curve(10px);
 
   @media only screen and (max-width: 600px) {
@@ -378,6 +378,7 @@
     line-height: 15px;
     text-align: left;
     color: var(--grootech__text__black__shade--1);
+    color: var(--palette__brown__base);
 
     @media only screen and (max-width: 600px) {
       font-size: 11px;
@@ -391,6 +392,7 @@
     width: 100%;
     display: block;
     background: var(--grootech__black);
+    background: var(--grootech__join__button__brown);
     color: var(--grootech__text__white);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-s));
