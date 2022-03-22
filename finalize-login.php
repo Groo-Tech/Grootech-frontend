@@ -103,6 +103,17 @@
                             <p class="newsletter__paragraph">
                                 Grootech will send you members-only deals, inspiration, marketing emails, and push notifications. You can opt out of receiving these at any time in your account settings or directly from the marketing notification.
                             </p>
+                            <div class="newsletter__box">
+                                <div class="newsletter__check">
+                                    <input type="checkbox" name="subscribe" class="newsletter__checkbox" id="subscribe">
+                                    <span class="newsletter__checkmark">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                    </span>
+                                </div>
+                                <label for="subscribe" class="newsletter__label">
+                                    I want to receive marketing messages from Grootech.
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </form>

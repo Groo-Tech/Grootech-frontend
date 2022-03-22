@@ -530,18 +530,91 @@
       color: var(--palette__brown__base);
     }
   }
+}
 
-  .newsletter {
-    padding-top: var(--span-s);
-    @include __form__border__top(1px, var(--grootech__black__shade--8));
+.newsletter {
+  padding-top: var(--span-s);
+  padding-bottom: var(--span-m);
+  @include __form__border__top(1px, var(--grootech__black__shade--8));
 
-    &__paragraph {
-      font-family: var(--Montserrat);
-      font-size: calc(var(--size-xs));
-      font-weight: var(--weight-sm);
-      line-height: 20px;
-      text-align: left;
-      color: var(--grootech__text__black__shade--2);
+  &__box {
+    margin-top: var(--span-s);
+    display: flex;
+    gap: var(--span-s);
+  }
+
+  &__box:hover &__checkmark {
+    border: 1px solid var(--grootech__black);
+  }
+
+  &__paragraph {
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-xs));
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--2);
+  }
+
+  &__checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+  }
+
+  &__check {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  &__checkmark {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grootech__black__shade--4);
+    transition: all 300ms;
+    border-radius: 5px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+      stroke: var(--grootech__white);
+      stroke-width: 2px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 300ms;
+    }
+  }
+
+  &__checkbox:checked + &__checkmark {
+    background: var(--grootech__black);
+  }
+
+  &__checkbox:checked + &__checkmark svg {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__label {
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-sm);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--2);
+
+    @media only screen and (max-width: 600px) {
+      font-size: var(--size-xs);
+      line-height: 18px;
     }
   }
 }

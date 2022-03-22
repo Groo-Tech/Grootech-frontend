@@ -1382,18 +1382,103 @@ select:-webkit-autofill:active {
   color: var(--palette__brown__base);
 }
 
-.form .newsletter {
+.newsletter {
   padding-top: var(--span-s);
+  padding-bottom: var(--span-m);
   border-top: 1px solid var(--grootech__black__shade--8);
 }
 
-.form .newsletter__paragraph {
+.newsletter__box {
+  margin-top: var(--span-s);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: var(--span-s);
+}
+
+.newsletter__box:hover .newsletter__checkmark {
+  border: 1px solid var(--grootech__black);
+}
+
+.newsletter__paragraph {
   font-family: var(--Montserrat);
   font-size: calc(var(--size-xs));
   font-weight: var(--weight-sm);
   line-height: 20px;
   text-align: left;
   color: var(--grootech__text__black__shade--2);
+}
+
+.newsletter__checkbox {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.newsletter__check {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.newsletter__checkmark {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid var(--grootech__black__shade--4);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  border-radius: 5px;
+}
+
+.newsletter__checkmark svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--grootech__white);
+  stroke-width: 2px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.newsletter__checkbox:checked + .newsletter__checkmark {
+  background: var(--grootech__black);
+}
+
+.newsletter__checkbox:checked + .newsletter__checkmark svg {
+  opacity: 1;
+  visibility: visible;
+}
+
+.newsletter__label {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 20px;
+  text-align: left;
+  color: var(--grootech__text__black__shade--2);
+}
+
+@media only screen and (max-width: 600px) {
+  .newsletter__label {
+    font-size: var(--size-xs);
+    line-height: 18px;
+  }
 }
 
 .footer {
