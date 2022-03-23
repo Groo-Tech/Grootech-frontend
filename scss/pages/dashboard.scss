@@ -13,7 +13,6 @@
 @import "../components/search";
 
 @import "../layout/grid";
-@import "../layout/footer";
 @import "../layout/navigation";
 
 @import "../vendors/dot-flashing-three-dots";
@@ -304,14 +303,39 @@
 
   &__tabs {
     margin-top: var(--span-m);
-    display: grid;
+    display: flex;
     gap: var(--span-s);
-    grid-template-columns: repeat(var(--tabs-number), minmax(150px, 1fr));
     list-style-type: none;
     margin-bottom: var(--span-m);
+
+    @media only screen and (max-width: 990px) {
+      overflow-x: scroll;
+      gap: 0;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        display: none;
+      }
+    }
+  }
+
+  &__tab {
+    &:last-child {
+      @media only screen and (max-width: 990px) {
+        margin-left: var(--span-s);
+      }
+    }
+
+    @media only screen and (max-width: 990px) {
+      min-width: 240px !important;
+    }
   }
 
   &__button {
+    display: block;
     padding: calc(var(--span-xs) + 5px) var(--span-s);
     border: 1px solid var(--grootech__black__shade--7);
     border-radius: 30px;
@@ -396,13 +420,11 @@
 .section-tips {
   @include __section__margin__top__md;
   @include __section__background(var(--grootech__black));
-  padding-top: var(--size-2xl);
+  padding-top: var(--span-2xl);
+  padding-bottom: var(--span-l);
 }
 
 .tips {
-  padding-bottom: var(--span-m);
-  margin-bottom: var(--span-m);
-
   &__header {
     display: flex;
     justify-content: flex-start;
@@ -432,5 +454,45 @@
     display: grid;
     grid-template-columns: repeat(var(--tips-box-number), minmax(150px, 1fr));
     gap: var(--span-m);
+  }
+
+  &__box {
+    background: var(--grootech__white);
+    border-radius: 10px;
+  }
+
+  &__link {
+    padding: calc(var(--span-xs) + 5px) var(--span-m);
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grootech__text__black__shade--1);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-md);
+    line-height: 18px;
+    text-align: center;
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.footer {
+  padding-top: var(--span-xl);
+  padding-bottom: var(--span-l);
+  background: #f7f7f7;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__box {
+    flex: 1 0 0% !important;
   }
 }

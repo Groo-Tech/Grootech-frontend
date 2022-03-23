@@ -297,13 +297,23 @@
                     </div>
                     <div class="tips__boxes">
                         <div class="tips__box">
-                            <a href="" class="tips__link">
-                                Take our tutorials
+                            <a href="" class="tips__link" name="Take our tutorials">
+                                <span class="text">
+                                    Take our tutorials
+                                </span>
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </span>
                             </a>
                         </div>
                         <div class="tips__box">
                             <a href="" class="tips__link">
-                                Take our tutorials
+                                <span class="text">
+                                    Join our community
+                                </span>
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -311,6 +321,24 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__box">
+                    &nbsp;
+                </div>
+                <div class="footer__box">
+                    &nbsp;
+                </div>
+                <div class="footer__box">
+                    &nbsp;
+                </div>
+                <div class="footer__box">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./js/dashboard.js"></script>
 </body>
 </html>

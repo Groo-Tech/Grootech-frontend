@@ -20,7 +20,7 @@
 }
 
 @mixin __section__margin__top__md {
-  margin-top: calc(var(--span-2xl) + var(--span-m));
+  margin-top: calc(var(--span-2xl) + var(--span-xs));
 }
 
 // set section header --gray
