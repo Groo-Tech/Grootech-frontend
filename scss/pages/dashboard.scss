@@ -273,7 +273,7 @@
 
   &__wrapper {
     &--grid {
-      @include __card__wrapper__grid;
+      @include __card__wrapper__grid(5);
     }
   }
 
@@ -304,8 +304,9 @@
 
   &__tabs {
     margin-top: var(--span-m);
-    display: flex;
+    display: grid;
     gap: var(--span-s);
+    grid-template-columns: repeat(var(--tabs-number), minmax(150px, 1fr));
     list-style-type: none;
     margin-bottom: var(--span-m);
   }
@@ -401,6 +402,7 @@
 .tips {
   padding-bottom: var(--span-m);
   margin-bottom: var(--span-m);
+
   &__header {
     display: flex;
     justify-content: flex-start;
@@ -408,5 +410,27 @@
 
   &__heading {
     @include __section__header__sm--white;
+
+    &--sm {
+      font-size: var(--size-m);
+      line-height: 25px;
+    }
+  }
+
+  &__container {
+    margin-top: var(--span-xl);
+  }
+
+  &__wrapper {
+    margin-top: var(--span-m) !important;
+    @include __card__wrapper__grid(var(--tips-and-updates-number));
+  }
+
+  &__boxes {
+    margin-top: var(--span-m);
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(var(--tips-box-number), minmax(150px, 1fr));
+    gap: var(--span-m);
   }
 }

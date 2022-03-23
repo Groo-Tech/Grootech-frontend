@@ -93,7 +93,7 @@
                     </h1>
                 </div>
                 <p class="dashboard__paragraph">
-                    You are on your way to be become a incredible member
+                    You are on your way to be become a incredible member—here’s how to start.
                 </p>
                 <div class="dashboard__wrapper dashboard__wrapper--grid">
                     <div class="card card--grid card--darker">
@@ -238,6 +238,75 @@
                     <h1 class="tips__heading">
                         Tips & Updates
                     </h1>
+                </div>
+                <div class="tips__wrapper">
+                    <div class="card card--tips card--white">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header card__header--sm card__header--black">
+                                    Create a guidebook to share your local tips
+                                </h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--tips card--white">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="img" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header card__header--sm card__header--black">
+                                    How to create a good listing
+                                </h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--tips card--white">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="img" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header card__header--sm card__header--black">
+                                    How to take good listing pictures
+                                </h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--tips card--white">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h1 class="card__header card__header--sm card__header--black">
+                                    Lorem ipsum dolor sit amet.
+                                </h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tips__container">
+                    <div class="tips__header">
+                        <h1 class="tips__heading tips__heading--sm">
+                            Learn from our guide
+                        </h1>
+                    </div>
+                    <div class="tips__boxes">
+                        <div class="tips__box">
+                            <a href="" class="tips__link">
+                                Take our tutorials
+                            </a>
+                        </div>
+                        <div class="tips__box">
+                            <a href="" class="tips__link">
+                                Take our tutorials
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

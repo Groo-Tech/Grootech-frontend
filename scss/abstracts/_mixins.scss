@@ -59,7 +59,7 @@
 }
 
 @mixin __section__header__sm--white {
-  background: linear-gradient(90deg, #ffffff 0%, #ffffffc7 90%) !important;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffffe8 131.25%) !important;
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -ms-background-clip: text !important;
@@ -77,11 +77,12 @@
   background: $color;
 }
 
-@mixin __card__wrapper__grid {
+@mixin __card__wrapper__grid($repeat-value) {
   margin-top: var(--span-m) !important;
   display: grid;
-  grid-template-columns: repeat(5, minmax(300px, 1fr));
+  grid-template-columns: repeat($repeat-value, minmax(300px, 1fr));
   gap: var(--span-m);
+  overflow-x: hidden;
 }
 
 @mixin __card__wrapper__ {

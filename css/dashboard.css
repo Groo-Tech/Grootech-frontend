@@ -71,6 +71,8 @@
   --search__height: 70px;
   --banner-image-height: 600px;
   --reviews__list__height: 550px;
+  --tips-box-number: 5;
+  --tips-and-updates-number: 5;
   --palette__brown__darker: #552200;
   --palette__brown__dark: #7f3a0b;
   --palette__brown__base: #a55b28;
@@ -349,6 +351,11 @@ select:-webkit-autofill:active {
   min-height: 300px;
 }
 
+.card--tips {
+  border-radius: 10px;
+  min-height: 300px;
+}
+
 .card--intro {
   border-radius: 10px;
   background: var(--grootech__white);
@@ -414,6 +421,13 @@ select:-webkit-autofill:active {
   line-height: 28px;
 }
 
+.card__header--black {
+  font-size: calc(var(--size-m));
+  font-weight: var(--weight-lg);
+  line-height: 23px;
+  color: var(--grootech__text__black__shade--1) !important;
+}
+
 .card__paragraph {
   margin-top: calc(var(--span-xs) + 5px);
   font-family: var(--Montserrat);
@@ -438,6 +452,10 @@ select:-webkit-autofill:active {
 
 .card--darker {
   background: var(--palette__brown__darker);
+}
+
+.card--white {
+  background: var(--grootech__white);
 }
 
 .logo__link {
@@ -1308,6 +1326,7 @@ select:-webkit-autofill:active {
   -ms-grid-columns: (minmax(300px, 1fr))[5];
       grid-template-columns: repeat(5, minmax(300px, 1fr));
   gap: var(--span-m);
+  overflow-x: hidden;
 }
 
 .dashboard__paragraph {
@@ -1355,10 +1374,11 @@ select:-webkit-autofill:active {
 
 .account__tabs {
   margin-top: var(--span-m);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
   gap: var(--span-s);
+  -ms-grid-columns: (minmax(150px, 1fr))[var];
+      grid-template-columns: repeat(var(--tabs-number), minmax(150px, 1fr));
   list-style-type: none;
   margin-bottom: var(--span-m);
 }
@@ -1482,8 +1502,8 @@ select:-webkit-autofill:active {
 }
 
 .tips__heading {
-  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(90%, #ffffffc7)) !important;
-  background: linear-gradient(90deg, #ffffff 0%, #ffffffc7 90%) !important;
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(131.25%, #ffffffe8)) !important;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffffe8 131.25%) !important;
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -ms-background-clip: text !important;
@@ -1493,5 +1513,35 @@ select:-webkit-autofill:active {
   font-size: calc(var(--size-l) + 2px);
   line-height: 28px;
   color: var(--grootech__white) !important;
+}
+
+.tips__heading--sm {
+  font-size: var(--size-m);
+  line-height: 25px;
+}
+
+.tips__container {
+  margin-top: var(--span-xl);
+}
+
+.tips__wrapper {
+  margin-top: var(--span-m) !important;
+  margin-top: var(--span-m) !important;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[var];
+      grid-template-columns: repeat(var(--tips-and-updates-number), minmax(300px, 1fr));
+  gap: var(--span-m);
+  overflow-x: hidden;
+}
+
+.tips__boxes {
+  margin-top: var(--span-m);
+  display: -ms-grid;
+  display: grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[var];
+      grid-template-columns: repeat(var(--tips-box-number), minmax(150px, 1fr));
+  gap: var(--span-m);
 }
 /*# sourceMappingURL=dashboard.css.map */
