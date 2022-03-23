@@ -12,7 +12,7 @@
 
   &--grid {
     border-radius: 10px;
-    min-height: 350px;
+    min-height: 300px;
   }
 
   &--intro {
@@ -53,6 +53,13 @@
     line-height: 35px;
     text-align: left;
     color: var(--grootech__text__white);
+
+    &--sm {
+      font-family: var(--Montserrat);
+      font-size: calc(var(--size-m) + 2px);
+      font-weight: var(--weight-md);
+      line-height: 28px;
+    }
   }
 
   &__paragraph {

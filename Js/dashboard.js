@@ -1,32 +1,21 @@
-const menuBtn = document.querySelector(".nav__details");
-const menu = document.querySelector(".actions");
+const tabContainer = document.querySelector(".account__wrapper");
+const tabsButton = document.querySelectorAll(".account__button");
+const tabsContent = document.querySelectorAll(".account__content");
 
-menuBtn.addEventListener("click", function (e) {
-  menu.classList.toggle("actions--hidden");
+tabContainer.addEventListener("click", function (e) {
+  let id = e.target.dataset.category;
+  if (!id) return;
+
+  tabsButton.forEach((tabBtn) => {
+    tabBtn.classList.remove("account__button--active");
+  });
+
+  e.target.classList.add("account__button--active");
+
+  tabsContent.forEach((tabContent) => {
+    tabContent.classList.remove("account__content--active");
+  });
+
+  const contentElement = document.querySelector(`#${id}`);
+  contentElement.classList.add("account__content--active");
 });
-
-const sectionHeader = document.querySelector(".section-dashboard");
-const header = document.querySelector(".header--1");
-const headerFixed = document.querySelector(".header--2");
-
-const headerHeight = header.getBoundingClientRect().height;
-
-const stickyNav = function (entries) {
-  const [entry] = entries;
-  console.log(entry);
-  if (!entry.isIntersecting) {
-    header.classList.add("header--hidden");
-    headerFixed.classList.remove("header--hidden");
-  } else {
-    header.classList.remove("header--hidden");
-    headerFixed.classList.add("header--hidden");
-  }
-};
-
-const headerObserver = new IntersectionObserver(stickyNav, {
-  root: null,
-  threshold: 0.5,
-  rootMargin: `${headerHeight}px`,
-});
-
-headerObserver.observe(sectionHeader);

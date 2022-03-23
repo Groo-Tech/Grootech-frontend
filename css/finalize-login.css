@@ -190,7 +190,6 @@ button {
   cursor: pointer;
   outline: none;
   border: none;
-  background: transparent;
 }
 
 h1,
@@ -347,7 +346,7 @@ select:-webkit-autofill:active {
 
 .card--grid {
   border-radius: 10px;
-  min-height: 350px;
+  min-height: 300px;
 }
 
 .card--intro {
@@ -406,6 +405,13 @@ select:-webkit-autofill:active {
   line-height: 35px;
   text-align: left;
   color: var(--grootech__text__white);
+}
+
+.card__header--sm {
+  font-family: var(--Montserrat);
+  font-size: calc(var(--size-m) + 2px);
+  font-weight: var(--weight-md);
+  line-height: 28px;
 }
 
 .card__paragraph {

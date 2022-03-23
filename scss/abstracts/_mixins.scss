@@ -19,6 +19,10 @@
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
 }
 
+@mixin __section__margin__top__md {
+  margin-top: calc(var(--span-2xl) + var(--span-m));
+}
+
 // set section header --gray
 @mixin __section__header__gray {
   font-family: var(--Montserrat);
@@ -52,6 +56,20 @@
   margin-top: 0;
   font-size: calc(var(--size-l) + 2px);
   line-height: 28px;
+}
+
+@mixin __section__header__sm--white {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffffc7 90%) !important;
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
+
+  margin-top: 0;
+  font-size: calc(var(--size-l) + 2px);
+  line-height: 28px;
+  color: var(--grootech__white) !important;
 }
 
 // sets section background
@@ -140,4 +158,18 @@
 @mixin __form__curve__bottom($size) {
   border-bottom-left-radius: $size;
   border-bottom-right-radius: $size;
+}
+
+@mixin dot(
+  $width: $dot-width,
+  $height: $dot-height,
+  $radius: $dot-radius,
+  $bg-color: $dot-bg-color,
+  $color: $dot-color
+) {
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+  background-color: $bg-color;
+  color: $color;
 }
