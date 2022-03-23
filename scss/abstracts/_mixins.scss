@@ -1,20 +1,25 @@
+// set top spacing between sections
 @mixin __section__space__top {
   padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
+// set top spacing between sections -- medium
 @mixin __section__space__top__md {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
 }
 
+// set bottom spacing between sections
 @mixin __section__space__bottom {
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
 }
 
+// set spacing between sections -- full
 @mixin __section__space {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
 }
 
+// set section header --gray
 @mixin __section__header__gray {
   font-family: var(--Montserrat);
   font-size: var(--size-xl);
@@ -24,6 +29,7 @@
   color: var(--grootech__header__gray);
 }
 
+// set section header clipped background
 @mixin __section__header__ {
   background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
   -webkit-background-clip: text !important;
@@ -40,6 +46,7 @@
   color: var(--palette__brown__darker);
 }
 
+// set section header clipped background -- small
 @mixin __section__header__sm {
   @include __section__header__;
   margin-top: 0;
@@ -47,8 +54,16 @@
   line-height: 28px;
 }
 
+// sets section background
 @mixin __section__background($color) {
   background: $color;
+}
+
+@mixin __card__wrapper__grid {
+  margin-top: var(--span-m) !important;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(300px, 1fr));
+  gap: var(--span-m);
 }
 
 @mixin __card__wrapper__ {

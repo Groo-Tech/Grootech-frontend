@@ -10,6 +10,11 @@
     @include __card__;
   }
 
+  &--grid {
+    border-radius: 10px;
+    min-height: 350px;
+  }
+
   &--intro {
     @include __card__;
     min-height: 350px;

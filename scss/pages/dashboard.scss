@@ -48,11 +48,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media only screen and (min-width: 1960px) {
-      margin-left: -15%;
-      margin-right: -15%;
-    }
   }
 
   &__profile {
@@ -272,5 +267,22 @@
 
   &__heading {
     @include __section__header__sm;
+  }
+
+  &__wrapper {
+    &--grid {
+      @include __card__wrapper__grid;
+      margin-bottom: var(--span-xl);
+    }
+  }
+
+  &__paragraph {
+    margin-top: var(--span-xs);
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-md);
+    line-height: 20px;
+    text-align: left;
+    color: var(--grootech__text__black__shade--4);
   }
 }

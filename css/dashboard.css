@@ -155,6 +155,10 @@
   );
 }
 
+/* check variables.scss for variable references
+  BEM convention (Not 100% perfect)
+  7 in 1 pattern Architure 
+*/
 *,
 *::before,
 *::after {
@@ -339,6 +343,11 @@ select:-webkit-autofill:active {
     -ms-flex-negative: 0 !important;
         flex-shrink: 0 !important;
   }
+}
+
+.card--grid {
+  border-radius: 10px;
+  min-height: 350px;
 }
 
 .card--intro {
@@ -938,13 +947,6 @@ select:-webkit-autofill:active {
           align-items: center;
 }
 
-@media only screen and (min-width: 1960px) {
-  .header__wrapper {
-    margin-left: -15%;
-    margin-right: -15%;
-  }
-}
-
 .header__profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1220,5 +1222,25 @@ select:-webkit-autofill:active {
   margin-top: 0;
   font-size: calc(var(--size-l) + 2px);
   line-height: 28px;
+}
+
+.dashboard__wrapper--grid {
+  margin-top: var(--span-m) !important;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[5];
+      grid-template-columns: repeat(5, minmax(300px, 1fr));
+  gap: var(--span-m);
+  margin-bottom: var(--span-xl);
+}
+
+.dashboard__paragraph {
+  margin-top: var(--span-xs);
+  font-family: var(--Montserrat);
+  font-size: calc(var(--size-s));
+  font-weight: var(--weight-md);
+  line-height: 20px;
+  text-align: left;
+  color: var(--grootech__text__black__shade--4);
 }
 /*# sourceMappingURL=dashboard.css.map */

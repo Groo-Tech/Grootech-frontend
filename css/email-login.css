@@ -155,6 +155,10 @@
   );
 }
 
+/* check variables.scss for variable references
+  BEM convention (Not 100% perfect)
+  7 in 1 pattern Architure 
+*/
 *,
 *::before,
 *::after {

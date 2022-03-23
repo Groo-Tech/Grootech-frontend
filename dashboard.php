@@ -92,6 +92,44 @@
                         Welcome!
                     </h1>
                 </div>
+                <p class="dashboard__paragraph">
+                    You are on your way to be become a incredible member
+                </p>
+                <div class="dashboard__wrapper dashboard__wrapper--grid">
+                    <div class="card card--grid card--darker">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                &nbsp;
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--grid card--darker">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                &nbsp;
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--grid card--darker">
+                        <a href="" class="card__link">
+                            <div class="card__image-box">
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                &nbsp;
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card card--grid">
+                        &nbsp;
+                    </div>
+                </div>
             </div>
         </div>
     </section>
