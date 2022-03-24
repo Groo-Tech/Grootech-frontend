@@ -1237,10 +1237,33 @@ select:-webkit-autofill:active {
   margin-top: var(--span-m) !important;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[5];
-      grid-template-columns: repeat(5, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(300px, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(300px, 1fr));
   gap: var(--span-m);
   overflow-x: hidden;
+  overflow-x: scroll !important;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dashboard__wrapper--grid {
+    margin-top: var(--span-m) !important;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(300px, 1fr))[3];
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: var(--span-m);
+    overflow-x: hidden;
+  }
+}
+
+.dashboard__wrapper--grid::-webkit-scrollbar {
+  display: none;
+}
+
+.dashboard__wrapper--grid::-webkit-scrollbar-thumb {
+  display: none;
 }
 
 .dashboard__paragraph {
@@ -1517,6 +1540,8 @@ select:-webkit-autofill:active {
       grid-template-columns: repeat(var(--tips-and-updates-number), minmax(300px, 1fr));
   gap: var(--span-m);
   overflow-x: hidden;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 .tips__boxes {

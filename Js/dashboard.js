@@ -27,3 +27,29 @@ const notificationBox = document.querySelector(".notification");
 notificationBtn.addEventListener("click", function (e) {
   notificationBox.classList.toggle("notification--hidden");
 });
+
+const slideContainer = document.querySelector(".dashboard__wrapper");
+let mouseDown = false;
+let startX, scrollLeft;
+
+const startDragging = function (event) {
+  mouseDown = true;
+  startX = event.pageX - slideContainer.offsetLeft;
+  scrollLeft = slideContainer.scrollLeft;
+};
+
+const stopDragging = function () {
+  mouseDown = false;
+};
+
+slideContainer.addEventListener("mousemove", function (e) {
+  e.preventDefault();
+  if (!mouseDown) return;
+  const x = e.pageX - slideContainer.offsetLeft;
+  const scroll = x - startX;
+  slideContainer.scrollLeft = scrollLeft - scroll;
+});
+
+slideContainer.addEventListener("mousedown", startDragging, false);
+slideContainer.addEventListener("mouseup", stopDragging, false);
+slideContainer.addEventListener("mouseleave", stopDragging, false);

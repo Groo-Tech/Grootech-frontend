@@ -148,7 +148,7 @@
                         </span>
                     </div>
                     <div class="card card--grid card--darker">
-                        <span href="" class="card__link">
+                        <span class="card__link">
                             <div class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--3.jpg" alt="" class="card__image">
                             </div>
@@ -159,9 +159,6 @@
                                 </h1>
                             </div>
                         </span>
-                    </div>
-                    <div class="card card--grid">
-                        &nbsp;
                     </div>
                 </div>
             </div>

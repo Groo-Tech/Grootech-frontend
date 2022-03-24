@@ -308,7 +308,21 @@
 
   &__wrapper {
     &--grid {
-      @include __card__wrapper__grid(5);
+      @include __card__wrapper__grid(4);
+      overflow-x: scroll !important;
+      transform-style: preserve-3d;
+
+      @media only screen and (max-width: 1024px) {
+        @include __card__wrapper__grid(3);
+      }
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        display: none;
+      }
     }
   }
 
@@ -524,6 +538,7 @@
   &__wrapper {
     margin-top: var(--span-m) !important;
     @include __card__wrapper__grid(var(--tips-and-updates-number));
+    transform-style: preserve-3d;
   }
 
   &__boxes {
