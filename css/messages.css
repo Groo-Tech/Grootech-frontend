@@ -384,9 +384,7 @@ select:-webkit-autofill:active {
   width: 100%;
   text-decoration: none;
   height: 100%;
-  border: none;
-  outline: none;
-  background: transparent;
+  cursor: pointer;
 }
 
 .card__image-box {

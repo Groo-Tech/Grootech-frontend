@@ -122,7 +122,7 @@
                 </p>
                 <div class="dashboard__wrapper dashboard__wrapper--grid">
                     <div class="card card--grid card--darker">
-                        <button class="card__link">
+                        <span class="card__link">
                             <div class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--5.jpg" alt="" class="card__image">
                             </div>
@@ -132,10 +132,10 @@
                                     Request for funding
                                 </h1>
                             </div>
-                        </button>
+                        </span>
                     </div>
                     <div class="card card--grid card--darker">
-                        <button class="card__link">
+                        <span class="card__link">
                             <div class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--9.jpg" alt="" class="card__image">
                             </div>
@@ -145,10 +145,10 @@
                                     Prepare for guest
                                 </h1>
                             </div>
-                        </button>
+                        </span>
                     </div>
                     <div class="card card--grid card--darker">
-                        <button href="" class="card__link">
+                        <span href="" class="card__link">
                             <div class="card__image-box">
                                 <img src="./assets/images/cities/grootech__city--3.jpg" alt="" class="card__image">
                             </div>
@@ -158,7 +158,7 @@
                                     Make a Todo List
                                 </h1>
                             </div>
-                        </button>
+                        </span>
                     </div>
                     <div class="card card--grid">
                         &nbsp;
