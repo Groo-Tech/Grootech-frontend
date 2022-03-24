@@ -54,11 +54,31 @@
                         </ul>
                     </nav>
                     <div class="header__profile">
-                        <button class="header__icon header__icon--lg">
+                        <button class="header__icon header__icon--lg header--notification">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
                         </button>
                         <div class="header__image-box">
                             <img src="./assets/images/avatars/avatar--1.png" alt="" class="header__image">
+                        </div>
+                        <div class="notification notification--hidden">
+                            <div class="notification__header">
+                                <h1 class="notification__heading">
+                                    Notifications
+                                </h1>
+                            </div>
+                            <div class="notification__body">
+                                <div class="notification__empty">
+                                    <span class="notification__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                    </span>
+                                    <p class="notification__update">
+                                        No notifications yet
+                                    </p>
+                                    <p class="notification__message">
+                                        You've got a blank slate (for now). We'll let you know when updates arrive!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -325,16 +345,188 @@
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__box">
-                    &nbsp;
+                    <h1 class="footer__header">
+                        Support
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Join Our Newsletter">
+                                Join Our Newsletter
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Help Center">
+                                Help Center
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Supporting People with disabilities">
+                                Supporting People with disabilities
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Write a review">
+                                Write a review
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Our COVID-19 response">
+                                Our COVID-19 response
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer__box">
-                    &nbsp;
+                    <h1 class="footer__header">
+                        Community
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Join Our Community Forum">
+                                Join Our Community Forum
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Explore our blog">
+                                Explore our blog
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Get our mobile app">
+                                Get our mobile app
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact us">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer__box">
-                    &nbsp;
+                    <h1 class="footer__header">
+                        Our Services
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="E-commerce">
+                                E-commerce
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Profile">
+                                Profile
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Networking">
+                                Networking
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Online Payment">
+                                Online Payment
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="footer__box">
-                    &nbsp;
+                    <h1 class="footer__header">
+                        About Us
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Newsroom">
+                                Newsroom
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Blog">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Learn about new features">
+                                Learn about new features
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Letter from our founder">
+                                Letter from our founder
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Careers">
+                                Careers
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Investors">
+                                Investors
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Sitemap">
+                                Sitemap
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container">
+                <div class="copyright">
+                    <p class="copyright__paragraph">
+                        &copy; 2022 Grootech, Inc.
+                    </p>
+                </div>
+                <div class="extras">
+                    <ul class="extras__list">
+                        <li class="extras__item">
+                            <a href="" class="extras__link" name="Privacy">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Privacy
+                                </span>
+                            </a>
+                        </li>
+                        <li class="extras__item">
+                            <a href="" class="extras__link" name="Terms">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Terms
+                                </span>
+                            </a>
+                        </li>
+                        <li class="extras__item">
+                            <a href="" class="extras__link" name="Sitemap">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Sitemap
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="social__language">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        </span>
+                        <span class="text">
+                            English (US)
+                        </span>
+                    </div>
+                    <div class="social__currency">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </span>
+                        <span class="text">
+                            USD
+                        </span>
+                    </div>
+                    <div class="social__media">
+                        &nbsp;
+                    </div>
                 </div>
             </div>
         </div>
