@@ -72,8 +72,11 @@
   --banner-image-height: 600px;
   --reviews__list__height: 550px;
   --tips-box-number: 5;
-  --tips-and-updates-number: 5;
+  --tips-and-updates-number: 6;
   --tabs-number: 4;
+  --view__height: 150px;
+  --navigation-bar-offset: 90px;
+  --grootech-placement-max-height: calc(100vh - var(--header__height) + 40px);
   --palette__brown__darker: #552200;
   --palette__brown__dark: #7f3a0b;
   --palette__brown__base: #a55b28;

@@ -53,3 +53,53 @@ slideContainer.addEventListener("mousemove", function (e) {
 slideContainer.addEventListener("mousedown", startDragging, false);
 slideContainer.addEventListener("mouseup", stopDragging, false);
 slideContainer.addEventListener("mouseleave", stopDragging, false);
+
+("use strict");
+
+const slider = document.querySelector(".tips__wrapper");
+const sliderImages = document.querySelectorAll(".card--tips");
+
+//buttons
+const prevBtn = document.querySelector(".icon__prev");
+const nextBtn = document.querySelector(".icon__next");
+
+//state
+
+let counter = 0;
+
+const size = sliderImages[0].clientWidth;
+
+slider.style.transform = `translateX(${-size * counter}px )`;
+
+//listeners
+
+const next = function () {
+  if (counter >= sliderImages.length - 1) return;
+  slider.style.transition = "transform 0.2s ease-in-out";
+  counter++;
+  slider.style.transform = `translateX(${-size * counter}px )`;
+};
+
+const previous = function () {
+  if (counter <= 0) return;
+  slider.style.transition = "transform 0.2s ease-in-out";
+  counter--;
+  slider.style.transform = `translateX(${-size * counter}px )`;
+};
+
+nextBtn.addEventListener("click", next);
+prevBtn.addEventListener("click", previous);
+
+slider.addEventListener("transitionend", () => {
+  if (sliderImages[counter].id === "lastClone") {
+    counter = sliderImages.length - 2;
+    slider.style.transform = `translateX(${-size * counter}px )`;
+    slider.style.transition = "none";
+  }
+  if (sliderImages[counter].id === "firstClone") {
+    slider.style.transition = "none";
+    counter = sliderImages.length - counter;
+    slider.style.transform = `translateX(0)`;
+    slider.style.transition = "none";
+  }
+});

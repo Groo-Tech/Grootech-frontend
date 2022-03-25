@@ -517,6 +517,9 @@
 }
 
 .tips {
+  overflow-x: hidden;
+  position: relative;
+
   &__header {
     display: flex;
     justify-content: flex-start;
@@ -535,10 +538,89 @@
     margin-top: var(--span-xl);
   }
 
+  &__wrap {
+    position: relative;
+  }
+
   &__wrapper {
     margin-top: var(--span-m) !important;
     @include __card__wrapper__grid(var(--tips-and-updates-number));
     transform-style: preserve-3d;
+    transition: transform 0.3s;
+    transform: translateX(0px);
+    overflow-x: visible !important;
+  }
+
+  #lastClone {
+    display: none;
+
+    @media only screen and (max-width: 1200px) {
+      display: block;
+    }
+  }
+
+  #firstClone {
+    display: none;
+
+    @media only screen and (max-width: 1200px) {
+      display: block;
+    }
+  }
+
+  .icon {
+    &__prev {
+      display: none;
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--grootech__white);
+      z-index: 5;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      @media only screen and (max-width: 1200px) {
+        display: flex;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+        stroke: var(--grootech__black);
+        pointer-events: none;
+      }
+    }
+
+    &__next {
+      display: none;
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--grootech__white);
+      z-index: 5;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      @media only screen and (max-width: 1200px) {
+        display: flex;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+        stroke: var(--grootech__black);
+        pointer-events: none;
+      }
+    }
   }
 
   &__boxes {

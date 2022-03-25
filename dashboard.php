@@ -273,54 +273,86 @@
                         Tips & Updates
                     </h1>
                 </div>
-                <div class="tips__wrapper">
-                    <div class="card card--tips card--white">
-                        <a href="" class="card__link">
-                            <div class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
-                            </div>
-                            <div class="card__body">
-                                <h1 class="card__header card__header--sm card__header--black">
-                                    Create a guidebook to share your local tips
-                                </h1>
-                            </div>
-                        </a>
+                <div class="tips__wrap">
+                    <div class="icon__prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
                     </div>
-                    <div class="card card--tips card--white">
-                        <a href="" class="card__link">
-                            <div class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="img" class="card__image">
-                            </div>
-                            <div class="card__body">
-                                <h1 class="card__header card__header--sm card__header--black">
-                                    How to create a good listing
-                                </h1>
-                            </div>
-                        </a>
+                    <div class="tips__wrapper">
+                        <div class="card card--tips card--white" id="lastClone">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--tips card--white">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        Create a guidebook to share your local tips
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--tips card--white">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--7.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        How to create a good listing
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--tips card--white">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--8.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        How to take good listing pictures
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--tips card--white">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        Lorem ipsum dolor sit amet.
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card card--tips card--white" id="firstClone">
+                            <a href="" class="card__link">
+                                <div class="card__image-box">
+                                    <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
+                                </div>
+                                <div class="card__body">
+                                    <h1 class="card__header card__header--sm card__header--black">
+                                        Create a guidebook to share your local tips
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="card card--tips card--white">
-                        <a href="" class="card__link">
-                            <div class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="img" class="card__image">
-                            </div>
-                            <div class="card__body">
-                                <h1 class="card__header card__header--sm card__header--black">
-                                    How to take good listing pictures
-                                </h1>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card card--tips card--white">
-                        <a href="" class="card__link">
-                            <div class="card__image-box">
-                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
-                            </div>
-                            <div class="card__body">
-                                <h1 class="card__header card__header--sm card__header--black">
-                                    Lorem ipsum dolor sit amet.
-                                </h1>
-                            </div>
-                        </a>
+                    <div class="icon__next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                     </div>
                 </div>
                 <div class="tips__container">

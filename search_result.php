@@ -722,243 +722,310 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__group">
-                    <h1 class="footer__header">
-                        Organization
-                    </h1>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
-                                Donations
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__group">
+                <div class="footer__box">
                     <h1 class="footer__header">
                         Support
                     </h1>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
-                                Donations
+                            <a href="" class="footer__link" name="Join Our Newsletter">
+                                Join Our Newsletter
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
+                            <a href="" class="footer__link" name="Help Center">
+                                Help Center
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
+                            <a href="" class="footer__link" name="Supporting People with disabilities">
+                                Supporting People with disabilities
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
+                            <a href="" class="footer__link" name="Write a review">
+                                Write a review
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
+                            <a href="" class="footer__link" name="Our COVID-19 response">
+                                Our COVID-19 response
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="footer__group">
+                <div class="footer__box">
                     <h1 class="footer__header">
                         Community
                     </h1>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
+                            <a href="" class="footer__link" name="Join Our Community Forum">
+                                Join Our Community Forum
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Explore our blog">
+                                Explore our blog
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Get our mobile app">
+                                Get our mobile app
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Contact us">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h1 class="footer__header">
+                        Our Services
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="E-commerce">
+                                E-commerce
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Profile">
+                                Profile
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Networking">
+                                Networking
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Online Payment">
+                                Online Payment
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h1 class="footer__header">
+                        About Us
+                    </h1>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Newsroom">
+                                Newsroom
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link" name="Blog">
                                 Blog
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
+                            <a href="" class="footer__link" name="Learn about new features">
+                                Learn about new features
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
+                            <a href="" class="footer__link" name="Letter from our founder">
+                                Letter from our founder
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
+                            <a href="" class="footer__link" name="Careers">
+                                Careers
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__group">
-                    <h1 class="footer__header">
-                        Support
-                    </h1>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
-                                Donations
+                            <a href="" class="footer__link" name="Investors">
+                                Investors
                             </a>
                         </li>
                         <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__group">
-                    <h1 class="footer__header">
-                        Support
-                    </h1>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
-                                Donations
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__group">
-                    <h1 class="footer__header">
-                        Support
-                    </h1>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Donations">
-                                Donations
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Meetups">
-                                Meetups
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Contact Us">
-                                Contact Us
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Site Map">
-                                Site Map
-                            </a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="" class="footer__link" name="Help & FAQS">
-                                Help & FAQS
+                            <a href="" class="footer__link" name="Sitemap">
+                                Sitemap
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="extras">
+            <div class="footer__container">
                 <div class="copyright">
-                    <p class="extras__text">
+                    <p class="copyright__paragraph">
                         &copy; 2022 Grootech, Inc.
                     </p>
+                </div>
+                <div class="extras">
                     <ul class="extras__list">
                         <li class="extras__item">
-                            <a href="#" class="extras__link" name="Privacy">
-                                Privacy
+                            <a href="" class="extras__link" name="Privacy">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Privacy
+                                </span>
                             </a>
                         </li>
                         <li class="extras__item">
-                            <a href="#" class="extras__link" name="Terms">
-                                Terms
+                            <a href="" class="extras__link" name="Terms">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Terms
+                                </span>
                             </a>
                         </li>
                         <li class="extras__item">
-                            <a href="#" class="extras__link" name="Site Map">
-                                Site Map
+                            <a href="" class="extras__link" name="Sitemap">
+                                <span class="dot"></span>
+                                <span class="text">
+                                    Sitemap
+                                </span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="locale">
-                    <div class="locale__language">
-                        <span class="icon-globe">
+                <div class="social">
+                    <div class="social__language">
+                        <span class="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </span>
-                        <a href="#" class="locale__link" name="English">
+                        <span class="text">
                             English (US)
-                        </a>
+                        </span>
                     </div>
-                    <div class="locale__currency">
-                         <span class="icon-currency">
+                    <div class="social__currency">
+                        <span class="icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
                         </span>
-                        <a href="#" class="locale__link" name="USD">
+                        <span class="text">
                             USD
-                        </a>
+                        </span>
+                    </div>
+                    <div class="social__media">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="" class="social__link" name="facebook">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link" name="twitter">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link" name="instagram">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- search result mobile -->
+    <div class="mobile">
+        <div class="mobile-header">
+            <div class="mobile-header__wrapper">
+                <div class="edit edit--hidden">
+                    <div class="edit__wrapper">
+                        <button class="mobile-header__link" name="close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                        <p class="edit__paragraph">
+                            Edit your search
+                        </p>
+                        <button class="mobile-header__link mobile-header__link--filter" name="filter">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 416C0 398.3 14.33 384 32 384H86.66C99 355.7 127.2 336 160 336C192.8 336 220.1 355.7 233.3 384H480C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H233.3C220.1 476.3 192.8 496 160 496C127.2 496 99 476.3 86.66 448H32C14.33 448 0 433.7 0 416V416zM192 416C192 398.3 177.7 384 160 384C142.3 384 128 398.3 128 416C128 433.7 142.3 448 160 448C177.7 448 192 433.7 192 416zM352 176C384.8 176 412.1 195.7 425.3 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H425.3C412.1 316.3 384.8 336 352 336C319.2 336 291 316.3 278.7 288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H278.7C291 195.7 319.2 176 352 176zM384 256C384 238.3 369.7 224 352 224C334.3 224 320 238.3 320 256C320 273.7 334.3 288 352 288C369.7 288 384 273.7 384 256zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H265.3C252.1 156.3 224.8 176 192 176C159.2 176 131 156.3 118.7 128H32C14.33 128 0 113.7 0 96C0 78.33 14.33 64 32 64H118.7C131 35.75 159.2 16 192 16C224.8 16 252.1 35.75 265.3 64H480zM160 96C160 113.7 174.3 128 192 128C209.7 128 224 113.7 224 96C224 78.33 209.7 64 192 64C174.3 64 160 78.33 160 96z"/></svg>
+                        </button>
+                    </div>
+                    <div class="edit__container">
+                        <div class="edit__box">
+                            <button class="edit__button" role="dialog">
+                                <span class="edit__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                </span>
+                                <p class="edit__text">
+                                    <span>
+                                        Lagos
+                                    </span>
+                                </p>
+                            </button>
+                            <div class="edit__wrap">
+                                <button class="edit__btn">
+                                    <span class="edit__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+                                    </span>
+                                    <p class="edit__text edit__text--light">
+                                        <span>
+                                            tag e.g (Cattle)
+                                        </span>
+                                    </p>
+                                </button>
+                                <button class="edit__btn">
+                                    <span class="edit__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    </span>
+                                    <p class="edit__text edit__text--light">
+                                        <span>
+                                            Coords
+                                        </span>
+                                    </p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-header__icon">
+                    <a href="" class="mobile-header__link" name="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </a>
+                </div>
+                <form action="" class="mobile-header__form">
+                    <div class="mobile-header__group">
+                        <button class="mobile-header__button">
+                            <span class="text text--location">
+                                Lagos
+                            </span>
+                            <span class="dot">&nbsp;</span>
+                            <span class="text">
+                                Cattle
+                            </span>
+                        </button>
+                    </div>
+                </form>
+                    <button class="mobile-header__link mobile-header__link--filter" name="filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M0 416C0 398.3 14.33 384 32 384H86.66C99 355.7 127.2 336 160 336C192.8 336 220.1 355.7 233.3 384H480C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H233.3C220.1 476.3 192.8 496 160 496C127.2 496 99 476.3 86.66 448H32C14.33 448 0 433.7 0 416V416zM192 416C192 398.3 177.7 384 160 384C142.3 384 128 398.3 128 416C128 433.7 142.3 448 160 448C177.7 448 192 433.7 192 416zM352 176C384.8 176 412.1 195.7 425.3 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H425.3C412.1 316.3 384.8 336 352 336C319.2 336 291 316.3 278.7 288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H278.7C291 195.7 319.2 176 352 176zM384 256C384 238.3 369.7 224 352 224C334.3 224 320 238.3 320 256C320 273.7 334.3 288 352 288C369.7 288 384 273.7 384 256zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H265.3C252.1 156.3 224.8 176 192 176C159.2 176 131 156.3 118.7 128H32C14.33 128 0 113.7 0 96C0 78.33 14.33 64 32 64H118.7C131 35.75 159.2 16 192 16C224.8 16 252.1 35.75 265.3 64H480zM160 96C160 113.7 174.3 128 192 128C209.7 128 224 113.7 224 96C224 78.33 209.7 64 192 64C174.3 64 160 78.33 160 96z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile__container">
+            <div class="mobile__map">
+                &nbsp;
+            </div>
+            <div class="mobile__view">
+                <div class="mobile__view-open">
+                    &nbsp;
+                </div>
+                <div class="search">
+                    <p class="search__paragraph">
+                        Over 300+ businesses
+                    </p>
+                </div>
+            </div>
+            <button class="map__button">
+                <span class="text">
+                    Map
+                </span>
+                <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                </span>
+            </button>
+        </div>
+    </div>
     <script src="./Js/search_result.js"></script>
 </body>
 </html>

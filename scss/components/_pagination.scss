@@ -1,6 +1,11 @@
 .pagination {
   display: flex;
   justify-content: center;
+
+  button {
+    background: transparent;
+  }
+
   &__list {
     list-style-type: none;
     display: flex;
