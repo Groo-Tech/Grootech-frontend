@@ -1014,6 +1014,40 @@
                     <p class="search__paragraph">
                         Over 300+ businesses
                     </p>
+                    <ul class="search__list">
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                    &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <button class="map__button">

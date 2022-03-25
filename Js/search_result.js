@@ -19,8 +19,10 @@ const mobileMapButton = document.querySelector(".map__button");
 
 mobileViewBtn.addEventListener("click", function (e) {
   mobileView.style.setProperty("--view__height", "100vh");
+  mobileViewBtn.style.display = "none";
 });
 
 mobileMapButton.addEventListener("click", function (e) {
   mobileView.style.setProperty("--view__height", "150px");
+  mobileViewBtn.style.display = "block";
 });
