@@ -1014,7 +1014,7 @@
                     <p class="search__paragraph">
                         Over 300+ businesses
                     </p>
-                    <ul class="search__list">
+                    <ul class="search__list ">
                         <li class="search__item">
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
@@ -1027,7 +1027,7 @@
                                 <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
                                 <span class="results__controls">
                                     <button class="results__dot results__dot--active">
-                                    &nbsp;
+                                        &nbsp;
                                     </button>
                                     <button class="results__dot">
                                         &nbsp;
@@ -1045,6 +1045,408 @@
                                         &nbsp;
                                     </button>
                                 </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <span class="results__controls">
+                                    <button class="results__dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                     </ul>

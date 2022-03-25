@@ -18,11 +18,11 @@ const mobileView = document.querySelector(".mobile__view");
 const mobileMapButton = document.querySelector(".map__button");
 
 mobileViewBtn.addEventListener("click", function (e) {
-  mobileView.style.setProperty("--view__height", "100vh");
+  mobileView.classList.add("max");
   mobileViewBtn.style.display = "none";
 });
 
 mobileMapButton.addEventListener("click", function (e) {
-  mobileView.style.setProperty("--view__height", "150px");
+  mobileView.classList.remove("max");
   mobileViewBtn.style.display = "block";
 });
