@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
     <meta name="description" content="Grootech is an agro-based platform with the primary purpose of interconnecting all the players in the agricultural sector">
     <link rel="shortcut icon" href="./assets/illustrations/grootech__logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/dashboard.css">
     <title>Grootech | Dashboard</title>
 </head>
-<body>
+<body class="light-theme">
     <section class="section-header">
         <header class="header header--1 u-flex u-align-center">
             <div class="container u-w-full">
