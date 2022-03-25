@@ -904,12 +904,12 @@
     transition: all 300ms;
     padding: 0 calc(var(--span-s) - 5px);
     padding-top: var(--span-m);
-    overflow-y: hidden;
-    max-height: 350px;
+    max-height: calc(100vh - 50px);
+    transform: translateY(60%);
 
     &.max {
-      max-height: calc(100vh);
-      overflow-y: scroll;
+      overflow-y: scroll !important;
+      transform: translateY(0);
     }
 
     &-open {
@@ -942,6 +942,7 @@
   color: var(--grootech__text__white);
   cursor: pointer;
   display: none;
+  z-index: 5;
 
   @media only screen and (max-width: 600px) {
     display: flex;
@@ -966,6 +967,7 @@
 .search {
   padding-bottom: var(--span-xl);
   overflow-y: scroll;
+  height: 100%;
 
   &__paragraph {
     font-family: var(--Montserrat);
@@ -983,6 +985,7 @@
     list-style-type: none;
     display: grid;
     gap: var(--span-l);
+    overflow-y: scroll;
   }
 
   &__item {
@@ -1086,10 +1089,13 @@
   }
 
   &__tags {
+    position: relative;
+    z-index: 2;
     margin-top: var(--span-s);
     list-style-type: none;
     display: flex;
     gap: var(--span-xs);
+    overflow-x: scroll;
   }
 
   &__tag {

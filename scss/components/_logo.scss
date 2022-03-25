@@ -16,7 +16,7 @@
   }
 
   &__text {
-    background: linear-gradient(90deg, #552200 0%, #a55b28 135.12%) !important;
+    background: var(--logo__text__gradient);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-l) + 3px);
     font-weight: var(--weight-xxlg);

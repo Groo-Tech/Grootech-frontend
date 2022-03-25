@@ -416,6 +416,7 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
+    background: transparent;
 
     .icon {
       width: 24px;
@@ -496,5 +497,6 @@
     border: none;
     text-decoration: none;
     color: var(--grootech__black__shade--5);
+    background: transparent;
   }
 }

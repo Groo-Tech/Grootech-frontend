@@ -679,7 +679,7 @@
 .footer {
   padding-top: var(--span-xl);
   padding-bottom: var(--span-s);
-  background: #f7f7f7;
+  background: var(--footer__bg);
 
   &__wrapper {
     display: flex;
