@@ -220,6 +220,22 @@
   :root .account__button--active {
     color: var(--grootech__white);
   }
+  :root .account__button--active {
+    color: var(--grootech__white);
+  }
+  :root .empty__icon svg {
+    fill: var(--grootech__white);
+    stroke: var(--grootech__white);
+  }
+  :root .empty__text {
+    color: var(--grootech__white);
+  }
+  :root .card--darker {
+    background: var(--grootech__black);
+  }
+  :root .intro__header {
+    color: var(--grootech__black);
+  }
 }
 
 @media (prefers-color-scheme: light) {

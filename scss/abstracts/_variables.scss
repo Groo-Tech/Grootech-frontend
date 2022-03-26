@@ -284,6 +284,29 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     .account__button--active {
       color: var(--grootech__white);
     }
+
+    .account__button--active {
+      color: var(--grootech__white);
+    }
+
+    .empty__icon {
+      svg {
+        fill: var(--grootech__white);
+        stroke: var(--grootech__white);
+      }
+    }
+
+    .empty__text {
+      color: var(--grootech__white);
+    }
+
+    .card--darker {
+      background: var(--grootech__black);
+    }
+
+    .intro__header {
+      color: var(--grootech__black);
+    }
   }
 }
 
