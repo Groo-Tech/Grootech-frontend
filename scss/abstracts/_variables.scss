@@ -229,7 +229,6 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --footer__bg: #ffffff;
     --grootech__white: #000000;
     --grootech__background__white: #000000;
     --logo__text__gradient: #ffffff !important;
@@ -237,9 +236,12 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --logo__brown--2: #ffffff;
     --grootech__black: #ffffff;
     --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
-
     --image-preload: #ffffff;
+    --footer__bg: #000000;
+    --light-grey: #ffffff;
+    --text__gradient: #ffffff !important;
 
+    --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--3: rgba(255, 255, 255, 0.902);
@@ -258,6 +260,13 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+
+    .login {
+      .form__button {
+        color: var(--grootech__white);
+        background: var(--grootech__black);
+      }
+    }
   }
 }
 
