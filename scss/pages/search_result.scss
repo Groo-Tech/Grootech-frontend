@@ -1056,6 +1056,15 @@
         fill: var(--grootech__icon__red);
       }
     }
+
+    .text {
+      font-family: var(--Montserrat);
+      font-size: var(--size-xs);
+      font-weight: var(--weight-md);
+      line-height: 20px;
+      text-align: left;
+      color: var(--grootech__text__black);
+    }
   }
 
   &__title {

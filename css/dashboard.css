@@ -803,7 +803,7 @@ select:-webkit-autofill:active {
           transform: translateX(-50%);
 }
 
-.light-theme :root {
+.light-theme {
   --footer__bg: #f7f7f7;
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
@@ -863,92 +863,81 @@ select:-webkit-autofill:active {
   --bronze-2: #cb7f3aff;
   /* SCSS Gradient */
   --logo__text__gradient: linear-gradient(
-      90deg,
-      #552200 0%,
-      #a55b28 135.12%
-    ) !important;
+    90deg,
+    #552200 0%,
+    #a55b28 135.12%
+  ) !important;
   --gradient-top: linear-gradient(
-      0deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    0deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-right: linear-gradient(
-      90deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    90deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-bottom: linear-gradient(
-      180deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    180deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-left: linear-gradient(
-      270deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    270deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-top-right: linear-gradient(
-      45deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    45deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-bottom-right: linear-gradient(
-      135deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    135deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-top-left: linear-gradient(
-      225deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    225deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-bottom-left: linear-gradient(
-      315deg,
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
+    315deg,
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
   --gradient-radial: radial-gradient(
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
-}
-
-.dark-theme :root {
-  --gradient-radial: radial-gradient(
-      #a25a2aff,
-      #aa5a30ff,
-      #a55a27ff,
-      #cd8136ff,
-      #cb7f3aff
-    );
-  --grootech__white: #000000;
+    #a25a2aff,
+    #aa5a30ff,
+    #a55a27ff,
+    #cd8136ff,
+    #cb7f3aff
+  );
 }
 
 /**

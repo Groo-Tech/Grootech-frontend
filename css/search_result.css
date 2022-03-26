@@ -2013,6 +2013,15 @@ select:-webkit-autofill:active {
   fill: var(--grootech__icon__red);
 }
 
+.search__rating .text {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xs);
+  font-weight: var(--weight-md);
+  line-height: 20px;
+  text-align: left;
+  color: var(--grootech__text__black);
+}
+
 .search__title {
   overflow: clip;
   line-clamp: 1;

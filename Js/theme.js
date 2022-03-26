@@ -20,5 +20,6 @@ btn.addEventListener("click", function () {
       ? "dark"
       : "light";
   }
+
   localStorage.setItem("theme", theme);
 });
