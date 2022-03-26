@@ -35,7 +35,7 @@
 
 // set section header clipped background
 @mixin __section__header__ {
-  background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  background: var(--text__gradient);
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -ms-background-clip: text !important;

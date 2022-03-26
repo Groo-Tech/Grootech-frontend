@@ -121,7 +121,7 @@
     }
 
     &-text {
-      background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+      background: var(--logo__text__gradient);
       @include __text__clip;
 
       font-family: var(--Montserrat);
@@ -997,5 +997,11 @@
       width: 16px;
       height: 16px;
     }
+  }
+}
+
+.dark-theme {
+  .account__button--active {
+    color: var(--grootech__white);
   }
 }

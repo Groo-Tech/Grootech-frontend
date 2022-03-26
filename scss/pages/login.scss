@@ -109,7 +109,7 @@
     border-radius: 50%;
 
     &--blank {
-      background: #c4c4c4;
+      background: var(--image-preload);
       display: flex;
       align-items: center;
       justify-content: center;

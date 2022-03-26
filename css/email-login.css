@@ -75,6 +75,7 @@
   --grootech__grey: #222222;
   --grootech__text__grey: #222222;
   --light-grey: #eeeeee;
+  --image-preload: #c4c4c4;
   --grootech__light__red: #ffe2e5;
   --grootech__red: #ff385c;
   --grootech__icon__red: #ff385c;
@@ -95,6 +96,7 @@
     #552200 0%,
     #a55b28 135.12%
   ) !important;
+  --text__gradient: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
   --gradient-top: linear-gradient(
     0deg,
     #a25a2aff,
@@ -178,6 +180,7 @@
     --logo__brown--2: #ffffff;
     --grootech__black: #ffffff;
     --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
+    --image-preload: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--3: rgba(255, 255, 255, 0.902);
