@@ -1785,18 +1785,22 @@ select:-webkit-autofill:active {
   gap: var(--span-s);
   list-style-type: none;
   margin-bottom: var(--span-m);
+  overflow-x: scroll !important;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.account__tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.account__tabs::-webkit-scrollbar-thumb {
+  display: none;
 }
 
 @media only screen and (max-width: 990px) {
   .account__tabs {
-    overflow-x: scroll;
     gap: 0;
-  }
-  .account__tabs::-webkit-scrollbar {
-    display: none;
-  }
-  .account__tabs::-webkit-scrollbar-thumb {
-    display: none;
   }
 }
 

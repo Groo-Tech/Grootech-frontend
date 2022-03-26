@@ -52,3 +52,30 @@ slideContainer.addEventListener("mousemove", function (e) {
 slideContainer.addEventListener("mousedown", startDragging, false);
 slideContainer.addEventListener("mouseup", stopDragging, false);
 slideContainer.addEventListener("mouseleave", stopDragging, false);
+
+const accountContainer = document.querySelector(".account__tabs");
+let isMouseDown = false;
+let startHorizontal, scrollLeftX;
+
+const startDraggingList = function (event) {
+  isMouseDown = true;
+  startHorizontal = event.pageX - slideContainer.offsetLeft;
+  scrollLeftX = accountContainer.scrollLeft;
+};
+
+const stopDraggingList = function () {
+  isMouseDown = false;
+};
+
+accountContainer.addEventListener("mousemove", function (e) {
+  e.preventDefault();
+  if (!isMouseDown) return;
+  const x = e.pageX - accountContainer.offsetLeft;
+  console.log(x);
+  const scroll = x - startHorizontal;
+  accountContainer.scrollLeft = scrollLeftX - scroll;
+});
+
+accountContainer.addEventListener("mousedown", startDraggingList, false);
+accountContainer.addEventListener("mouseup", stopDraggingList, false);
+accountContainer.addEventListener("mouseleave", stopDraggingList, false);
