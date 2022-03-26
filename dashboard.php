@@ -595,6 +595,6 @@
         </div>
     </footer>
     <script src="./js/dashboard.js"></script>
-    <script src="./Js/theme.js"></script>
+    <!-- <script src="./Js/theme.js"></script> -->
 </body>
 </html>
