@@ -267,6 +267,10 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
         background: var(--grootech__black);
       }
     }
+
+    .account__button--active {
+      color: var(--grootech__white);
+    }
   }
 }
 

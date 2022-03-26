@@ -207,6 +207,9 @@
     color: var(--grootech__white);
     background: var(--grootech__black);
   }
+  :root .account__button--active {
+    color: var(--grootech__white);
+  }
 }
 
 @media (prefers-color-scheme: light) {
