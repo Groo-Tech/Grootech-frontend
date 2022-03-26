@@ -118,6 +118,11 @@
       display: block;
       width: 36px;
       height: 36px;
+
+      @media only screen and (max-width: 600px) {
+        width: 24px;
+        height: 24px;
+      }
     }
 
     &-text {
@@ -130,6 +135,10 @@
       line-height: 33px;
       text-align: left;
       color: var(--grootech__logo__text);
+
+      @media only screen and (max-width: 600px) {
+        font-size: calc(var(--size-l));
+      }
 
       &--white {
         @include __text__clip;
@@ -164,6 +173,12 @@
     background: var(--light-grey);
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 600px) {
+      width: 24px;
+      height: 24px;
+      background: transparent;
+    }
 
     @media only screen and (max-width: 1024px) {
       display: flex;

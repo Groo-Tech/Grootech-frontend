@@ -1388,6 +1388,13 @@ select:-webkit-autofill:active {
   height: 36px;
 }
 
+@media only screen and (max-width: 600px) {
+  .header__logo-image {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 .header__logo-text {
   background: var(--logo__text__gradient);
   -webkit-background-clip: text !important;
@@ -1401,6 +1408,12 @@ select:-webkit-autofill:active {
   line-height: 33px;
   text-align: left;
   color: var(--grootech__logo__text);
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo-text {
+    font-size: calc(var(--size-l));
+  }
 }
 
 .header__logo-text--white {
@@ -1443,6 +1456,14 @@ select:-webkit-autofill:active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__menu {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
