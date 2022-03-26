@@ -196,4 +196,11 @@
   --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
   --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
   --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+
+  .login {
+    .form__button {
+      color: var(--grootech__white);
+      background: var(--grootech__black);
+    }
+  }
 }
