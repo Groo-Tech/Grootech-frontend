@@ -825,7 +825,7 @@
     }
 
     &__button {
-      background: #eeeeee;
+      background: var(--light-grey);
       border-radius: 20px;
       display: flex;
       width: 100%;
@@ -886,7 +886,7 @@
     z-index: -1;
     min-height: 100vh;
     display: none;
-    background: #eeeeee;
+    background: var(--light-grey);
 
     @media only screen and (max-width: 600px) {
       display: block;

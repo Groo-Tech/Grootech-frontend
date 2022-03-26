@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" color-mode="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
                 <div class="header__wrapper">
                     <div class="header__logo">
                         <a href="" class="header__logo-link">
-                            <img src="./assets/illustrations/grootech__logo.svg" alt="grootech logo" class="header__logo-image">
+                            <svg class="header__logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.43 178.43"><defs><style>.cls-1{fill:var(--logo__brown--1);}.cls-2{fill:var(--logo__brown--2);}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M57.17,89.22H0A89.21,89.21,0,0,1,143.06,18.09l-41.4,41.59A32,32,0,0,0,57.17,89.22Z"/><path class="cls-2" d="M178.43,89.22v89.21H121.26V172.5A89.32,89.32,0,0,1,35.1,160.14L76.44,118.6a32,32,0,0,0,44.82-29.39Z"/></g></g></svg>
                             <p class="header__logo-text">
                                 Grootech
                             </p>
@@ -173,7 +173,7 @@
                 </a>
             </li>
             <li class="footer__item">
-                <button class="footer__link" name="Dark-mode">
+                <button class="footer__link btn-toggle" name="Dark-mode">
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                     </span>

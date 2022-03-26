@@ -113,6 +113,8 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
   --grootech__grey: #222222;
   --grootech__text__grey: #222222;
 
+  --light-grey: #eeeeee;
+
   //color - red
   --grootech__light__red: #ffe2e5;
   --grootech__red: #ff385c;
@@ -222,12 +224,37 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
   );
 }
 
-// @media (prefers-color-scheme: dark) {
-//   :root {
-//     --grootech__white: #000000;
-//     --footer__bg: #ffffff;
-//   }
-// }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --footer__bg: #ffffff;
+    --grootech__white: #000000;
+    --grootech__background__white: #000000;
+    --logo__text__gradient: #ffffff !important;
+    --logo__brown--1: #ffffff;
+    --logo__brown--2: #ffffff;
+    --grootech__black: #ffffff;
+    --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
+
+    --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--3: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--4: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--5: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--6: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--7: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--8: rgba(255, 255, 255, 0.902);
+    --grootech__black__shade--9: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--1: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--2: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--3: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--4: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--5: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--6: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
+    --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -242,6 +269,9 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grootech__input__focus: #eeeeee;
     --grootech__shadow: #ebebeb;
 
+    --logo__brown--1: #552200;
+    --logo__brown--2: #a55b28;
+
     //color - brown
     --grootech__brown: #ce8339;
     --grootech__navigation__link__brown: #ce8339;
@@ -252,6 +282,8 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grootech__text__brown__2: #ce8339;
     --grootech__text__brown__3: #cd8136;
     --grootech__button__brown: #ce8339;
+
+    --header__fixed__shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
 
     //color - gray
     --grootech__gray: #848484;

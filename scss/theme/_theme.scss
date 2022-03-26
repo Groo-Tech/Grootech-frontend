@@ -10,6 +10,9 @@
   --grootech__input__focus: #eeeeee;
   --grootech__shadow: #ebebeb;
 
+  --logo__brown--1: #552200;
+  --logo__brown--2: #a55b28;
+
   //color - brown
   --grootech__brown: #ce8339;
   --grootech__navigation__link__brown: #ce8339;
@@ -167,4 +170,30 @@
 }
 
 .dark-theme {
+  --grootech__white: #000000;
+  --grootech__background__white: #000000;
+  --logo__text__gradient: #ffffff !important;
+  --logo__brown--1: #ffffff;
+  --logo__brown--2: #ffffff;
+  --grootech__black: #ffffff;
+  --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
+
+  --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--3: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--4: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--5: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--6: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--7: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--8: rgba(255, 255, 255, 0.902);
+  --grootech__black__shade--9: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--1: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--2: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--3: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--4: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--5: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--6: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
+  --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
 }

@@ -15,6 +15,8 @@
 @import "../layout/grid";
 @import "../layout/navigation";
 
+@import "../theme/theme";
+
 .header {
   height: var(--header__height);
   transition: all 300ms;
@@ -34,7 +36,7 @@
     height: var(--header__height);
     display: flex;
     align-items: center;
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--header__fixed__shadow);
     z-index: 5;
     transition: all 300ms;
     opacity: 1;
@@ -139,7 +141,7 @@
     }
 
     &-text {
-      background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+      background: var(--logo__text__gradient);
       @include __text__clip;
       font-family: var(--Montserrat);
       font-size: calc(var(--size-l) + 3px);
@@ -419,6 +421,15 @@
     align-items: center;
     border-radius: 5px;
     background: transparent;
+    font-family: var(--Montserrat);
+    font-size: calc(var(--size-s));
+    font-weight: var(--weight-md);
+    line-height: 23px;
+    color: var(--grootech__black);
+
+    .text {
+      color: var(--grootech__black);
+    }
 
     .icon {
       width: 24px;
