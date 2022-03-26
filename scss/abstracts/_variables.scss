@@ -145,6 +145,11 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
   ) !important;
 
   --text__gradient: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  --text__gradient--white: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffffe8 131.25%
+  ) !important;
 
   --gradient-top: linear-gradient(
     0deg,
@@ -240,6 +245,7 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --footer__bg: #000000;
     --light-grey: #ffffff;
     --text__gradient: #ffffff !important;
+    --text__gradient--white: #000000 !important;
 
     --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
@@ -265,6 +271,12 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
       .form__button {
         color: var(--grootech__white);
         background: var(--grootech__black);
+      }
+    }
+
+    .tips {
+      &__heading {
+        color: var(--grootech__black);
       }
     }
 

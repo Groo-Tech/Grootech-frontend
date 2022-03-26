@@ -59,7 +59,7 @@
 }
 
 @mixin __section__header__sm--white {
-  background: linear-gradient(90deg, #ffffff 0%, #ffffffe8 131.25%) !important;
+  background: var(--text__gradient--white);
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -ms-background-clip: text !important;

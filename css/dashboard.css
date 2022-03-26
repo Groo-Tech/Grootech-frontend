@@ -97,6 +97,11 @@
     #a55b28 135.12%
   ) !important;
   --text__gradient: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+  --text__gradient--white: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffffe8 131.25%
+  ) !important;
   --gradient-top: linear-gradient(
     0deg,
     #a25a2aff,
@@ -183,6 +188,7 @@
     --footer__bg: #000000;
     --light-grey: #ffffff;
     --text__gradient: #ffffff !important;
+    --text__gradient--white: #000000 !important;
     --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
@@ -206,6 +212,9 @@
   :root .login .form__button {
     color: var(--grootech__white);
     background: var(--grootech__black);
+  }
+  :root .tips__heading {
+    color: var(--grootech__black);
   }
   :root .account__button--active {
     color: var(--grootech__white);
@@ -1129,6 +1138,7 @@ select:-webkit-autofill:active {
   --footer__bg: #000000;
   --light-grey: #ffffff;
   --text__gradient: #ffffff !important;
+  --text__gradient--white: #000000 !important;
   --grootech__text__black: #ffffff;
   --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
   --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
@@ -1884,8 +1894,7 @@ select:-webkit-autofill:active {
 }
 
 .tips__heading {
-  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(131.25%, #ffffffe8)) !important;
-  background: linear-gradient(90deg, #ffffff 0%, #ffffffe8 131.25%) !important;
+  background: var(--text__gradient--white);
   -webkit-background-clip: text !important;
   -moz-background-clip: text !important;
   -ms-background-clip: text !important;
@@ -2521,6 +2530,15 @@ select:-webkit-autofill:active {
 }
 
 .dark-theme .account__button--active {
+  color: var(--grootech__white);
+}
+
+.dark-theme .empty__icon svg {
+  fill: var(--grootech__white);
+  stroke: var(--grootech__white);
+}
+
+.dark-theme .empty__text {
   color: var(--grootech__white);
 }
 /*# sourceMappingURL=dashboard.css.map */
