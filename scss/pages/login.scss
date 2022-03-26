@@ -74,6 +74,7 @@
     height: 18px;
     align-items: center;
     justify-content: center;
+    background: transparent;
 
     svg {
       width: 18px;
@@ -83,6 +84,7 @@
   }
 
   &--fixed &__icon {
+    background: transparent;
     svg {
       stroke: var(--grootech__black);
     }

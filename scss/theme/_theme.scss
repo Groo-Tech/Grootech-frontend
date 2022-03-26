@@ -1,4 +1,4 @@
-body.light-theme {
+.light-theme {
   :root {
     --footer__bg: #f7f7f7;
     //color - white
@@ -168,7 +168,7 @@ body.light-theme {
   }
 }
 
-body.dark-theme {
+.dark-theme {
   :root {
     --gradient-radial: radial-gradient(
       #a25a2aff,
@@ -177,5 +177,7 @@ body.dark-theme {
       #cd8136ff,
       #cb7f3aff
     );
+
+    --grootech__white: #000000;
   }
 }

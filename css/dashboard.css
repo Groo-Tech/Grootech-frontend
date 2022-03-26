@@ -803,7 +803,7 @@ select:-webkit-autofill:active {
           transform: translateX(-50%);
 }
 
-body.light-theme :root {
+.light-theme :root {
   --footer__bg: #f7f7f7;
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
@@ -940,7 +940,7 @@ body.light-theme :root {
     );
 }
 
-body.dark-theme :root {
+.dark-theme :root {
   --gradient-radial: radial-gradient(
       #a25a2aff,
       #aa5a30ff,
@@ -948,6 +948,7 @@ body.dark-theme :root {
       #cd8136ff,
       #cb7f3aff
     );
+  --grootech__white: #000000;
 }
 
 /**

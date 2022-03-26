@@ -893,12 +893,17 @@ select:-webkit-autofill:active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: transparent;
 }
 
 .header__icon svg {
   width: 18px;
   height: 18px;
   stroke: var(--grootech__black);
+}
+
+.header--fixed .header__icon {
+  background: transparent;
 }
 
 .header--fixed .header__icon svg {

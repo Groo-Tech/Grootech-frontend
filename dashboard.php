@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/dashboard.css">
     <title>Grootech | Dashboard</title>
 </head>
-<body class="light-theme">
+<body>
     <section class="section-header">
         <header class="header header--1 u-flex u-align-center">
             <div class="container u-w-full">
@@ -595,5 +595,6 @@
         </div>
     </footer>
     <script src="./js/dashboard.js"></script>
+    <script src="./Js/theme.js"></script>
 </body>
 </html>
