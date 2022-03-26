@@ -189,6 +189,7 @@
     --light-grey: #ffffff;
     --text__gradient: #ffffff !important;
     --text__gradient--white: #000000 !important;
+    --grootech__text__white: #000000;
     --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
@@ -1128,6 +1129,7 @@ select:-webkit-autofill:active {
 
 .dark-theme {
   --grootech__white: #000000;
+  --grootech__text__white: #000000;
   --grootech__background__white: #000000;
   --logo__text__gradient: #ffffff !important;
   --logo__brown--1: #ffffff;

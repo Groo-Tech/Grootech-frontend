@@ -1,5 +1,3 @@
-("use strict");
-
 const tabContainer = document.querySelector(".account__wrapper");
 const tabsButton = document.querySelectorAll(".account__button");
 const tabsContent = document.querySelectorAll(".account__content");
@@ -13,6 +11,8 @@ tabContainer.addEventListener("click", function (e) {
     tabBtn.classList.remove("account__button--active");
   });
 
+  console.log(e.target);
+
   e.target.classList.add("account__button--active");
 
   tabsContent.forEach((tabContent) => {
@@ -20,6 +20,7 @@ tabContainer.addEventListener("click", function (e) {
   });
 
   const contentElement = document.querySelector(`#${id}`);
+  console.log(contentElement);
   contentElement.classList.add("account__content--active");
 });
 

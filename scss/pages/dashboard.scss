@@ -186,7 +186,7 @@
 
 .section-intro {
   height: 260px;
-  // background-image: url(../assets/images/gradient.webp);
+
   background-image: linear-gradient(90deg, #220e01 0%, #a55b28 90%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1014,5 +1014,13 @@
 
   .empty__text {
     color: var(--grootech__white);
+  }
+
+  .card--darker {
+    background: var(--grootech__black);
+  }
+
+  .intro__header {
+    color: var(--grootech__black);
   }
 }
