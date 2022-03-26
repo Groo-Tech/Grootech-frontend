@@ -1,27 +1,23 @@
-const tabContainer = document.querySelector(".account__wrapper");
-const tabsButton = document.querySelectorAll(".account__button");
+const tabs = document.querySelectorAll(".account__button");
+const tabsContainer = document.querySelector(".account__wrapper");
 const tabsContent = document.querySelectorAll(".account__content");
-const body = document.querySelector("body");
 
-tabContainer.addEventListener("click", function (e) {
-  let id = e.target.dataset.category;
-  if (!id) return;
+tabsContainer.addEventListener("click", function (e) {
+  const clicked = e.target.closest(".account__button");
+  //Guard clause
+  if (!clicked) return;
 
-  tabsButton.forEach((tabBtn) => {
-    tabBtn.classList.remove("account__button--active");
+  //Active tab
+  tabs.forEach((tab) => tab.classList.remove("account__button--active"));
+  clicked.classList.add("account__button--active");
+
+  //Active content area
+  tabsContent.forEach((content) => {
+    content.classList.remove("account__content--active");
   });
-
-  console.log(e.target);
-
-  e.target.classList.add("account__button--active");
-
-  tabsContent.forEach((tabContent) => {
-    tabContent.classList.remove("account__content--active");
-  });
-
-  const contentElement = document.querySelector(`#${id}`);
-  console.log(contentElement);
-  contentElement.classList.add("account__content--active");
+  document
+    .querySelector(`.account__content--${clicked.dataset.tab}`)
+    .classList.add("account__content--active");
 });
 
 const notificationBtn = document.querySelector(".header--notification");
