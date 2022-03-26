@@ -57,12 +57,12 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
   --grootech-placement-max-height: calc(100vh - var(--header__height) + 40px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --grootech__white: #000000;
-    --footer__bg: #ffffff;
-  }
-}
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --grootech__white: #000000;
+//     --footer__bg: #ffffff;
+//   }
+// }
 
 @media (prefers-color-scheme: light) {
   :root {

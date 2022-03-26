@@ -33,13 +33,6 @@
   --grootech-placement-max-height: calc(100vh - var(--header__height) + 40px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --grootech__white: #000000;
-    --footer__bg: #ffffff;
-  }
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --footer__bg: #f7f7f7;
