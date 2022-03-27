@@ -140,6 +140,10 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     .intro__header {
       color: var(--grootech__black);
     }
+
+    .header--fixed {
+      box-shadow: 0 1px 12px rgb(27, 27, 27);
+    }
   }
 }
 
@@ -165,6 +169,12 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
       #ffffff 0%,
       #ffffffe8 131.25%
     ) !important;
+    --testimonial__figure: rgba(238, 172, 127, 0.1);
+    --testimonial__overlay: linear-gradient(
+      to top,
+      #fff,
+      rgba(255, 255, 255, 0.05)
+    );
 
     //color - brown
     --grootech__brown: #ce8339;
@@ -419,13 +429,7 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 //   #ffffffe8 131.25%
 // ) !important;
 
-// --testimonial__figure: rgba(238, 172, 127, 0.1);
-
-// --testimonial__overlay: linear-gradient(
-//   to top,
-//   #fff,
-//   rgba(255, 255, 255, 0.05)
-// );
+//
 
 // --gradient-top: linear-gradient(
 //   0deg,

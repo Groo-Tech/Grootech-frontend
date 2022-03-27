@@ -103,6 +103,10 @@
   :root .intro__header {
     color: var(--grootech__black);
   }
+  :root .header--fixed {
+    -webkit-box-shadow: 0 1px 12px #1b1b1b;
+            box-shadow: 0 1px 12px #1b1b1b;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -123,6 +127,12 @@
       #ffffff 0%,
       #ffffffe8 131.25%
     ) !important;
+    --testimonial__figure: rgba(238, 172, 127, 0.1);
+    --testimonial__overlay: linear-gradient(
+      to top,
+      #fff,
+      rgba(255, 255, 255, 0.05)
+    );
     --grootech__brown: #ce8339;
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
@@ -892,6 +902,12 @@ select:-webkit-autofill:active {
   --logo__brown--2: #a55b28;
   --logo__white--1: #ffffff;
   --logo__white--2: #ffffff;
+  --testimonial__figure: rgba(238, 172, 127, 0.1);
+  --testimonial__overlay: linear-gradient(
+    to top,
+    #fff,
+    rgba(255, 255, 255, 0.05)
+  );
   --logo__text__gradient--white: linear-gradient(
     90deg,
     #ffffff 0%,
@@ -1027,9 +1043,9 @@ select:-webkit-autofill:active {
 }
 
 .dark-theme {
-  --grootech__white: #000000;
-  --grootech__text__white: #000000;
-  --grootech__background__white: #000000;
+  --grootech__white: #111111;
+  --grootech__text__white: #111111;
+  --grootech__background__white: #111111;
   --logo__text__gradient: #ffffff !important;
   --logo__brown--1: #ffffff;
   --logo__brown--2: #ffffff;
@@ -1038,14 +1054,14 @@ select:-webkit-autofill:active {
   --grootech__black: #ffffff;
   --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
   --image-preload: #ffffff;
-  --footer__bg: #000000;
+  --footer__bg: #111111;
   --light-grey: #ffffff;
   --text__gradient: #ffffff !important;
   --text__gradient--white: #000000 !important;
   --testimonial__figure: rgba(255, 255, 255, 1);
   --testimonial__overlay: linear-gradient(
     to top,
-    #000,
+    #111111,
     rgba(255, 255, 255, 0.01)
   );
   --logo__text__gradient--white: #000000 !important;
@@ -1073,6 +1089,11 @@ select:-webkit-autofill:active {
 .dark-theme .login .form__button {
   color: var(--grootech__white);
   background: var(--grootech__black);
+}
+
+.dark-theme .header--fixed {
+  -webkit-box-shadow: 0 1px 12px #1b1b1b;
+          box-shadow: 0 1px 12px #1b1b1b;
 }
 
 .header {

@@ -103,6 +103,10 @@
   :root .intro__header {
     color: var(--grootech__black);
   }
+  :root .header--fixed {
+    -webkit-box-shadow: 0 1px 12px #1b1b1b;
+            box-shadow: 0 1px 12px #1b1b1b;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -123,6 +127,12 @@
       #ffffff 0%,
       #ffffffe8 131.25%
     ) !important;
+    --testimonial__figure: rgba(238, 172, 127, 0.1);
+    --testimonial__overlay: linear-gradient(
+      to top,
+      #fff,
+      rgba(255, 255, 255, 0.05)
+    );
     --grootech__brown: #ce8339;
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
