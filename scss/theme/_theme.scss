@@ -12,7 +12,14 @@
 
   --logo__brown--1: #552200;
   --logo__brown--2: #a55b28;
+  --logo__white--1: #ffffff;
+  --logo__white--2: #ffffff;
 
+  --logo__text__gradient--white: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    #ffffffe8 131.25%
+  ) !important;
   //color - brown
   --grootech__brown: #ce8339;
   --grootech__navigation__link__brown: #ce8339;
@@ -176,6 +183,8 @@
   --logo__text__gradient: #ffffff !important;
   --logo__brown--1: #ffffff;
   --logo__brown--2: #ffffff;
+  --logo__white--1: #000000;
+  --logo__white--2: #000000;
   --grootech__black: #ffffff;
   --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
   --image-preload: #ffffff;
@@ -183,6 +192,13 @@
   --light-grey: #ffffff;
   --text__gradient: #ffffff !important;
   --text__gradient--white: #000000 !important;
+  --testimonial__figure: rgba(255, 255, 255, 1);
+  --testimonial__overlay: linear-gradient(
+    to top,
+    #000,
+    rgba(255, 255, 255, 0.01)
+  );
+  --logo__text__gradient--white: #000000 !important;
 
   --grootech__text__black: #ffffff;
   --grootech__black__shade--1: rgba(255, 255, 255, 0.902);

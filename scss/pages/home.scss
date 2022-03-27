@@ -15,6 +15,8 @@
 @import "../layout/footer";
 @import "../layout/navigation";
 
+@import "../theme/theme";
+
 /* check variables.scss for variable references
   BEM convention (Not 100% perfect)
   7 in 1 pattern Architure 
@@ -142,9 +144,9 @@
     }
 
     &-text {
-      background: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
+      background: var(--logo__text__gradient);
       @include __text__clip;
-      overflow: clip;
+
       font-family: var(--Montserrat);
       font-size: calc(var(--size-l) + 3px);
       font-weight: var(--weight-xxlg);
@@ -152,12 +154,12 @@
       text-align: left;
       color: var(--grootech__logo__text);
 
+      @media only screen and (max-width: 600px) {
+        font-size: calc(var(--size-l));
+      }
+
       &--white {
-        background: linear-gradient(
-          90deg,
-          #ffffff 0%,
-          #ffffffe8 131.25%
-        ) !important;
+        background: var(--logo__text__gradient--white);
         color: var(--grootech__text__white);
         @include __text__clip;
       }
@@ -545,7 +547,7 @@
     padding: calc(var(--span-s) + 5px);
     display: flex;
     flex-direction: column;
-    background: rgba(238, 172, 127, 0.1);
+    background: var(--testimonial__figure);
     border-radius: 10px;
   }
 
@@ -604,7 +606,7 @@
     width: 100%;
     padding-top: calc(2 * var(--span-2xl));
     padding-bottom: var(--span-m);
-    background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.05));
+    background-image: var(--testimonial__overlay);
   }
 
   &__button-box {
