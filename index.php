@@ -43,7 +43,7 @@
                         </ul>
                     </nav>
                     <div class="header__profile">
-                        <button class="header__icon">
+                        <button class="header__icon btn-toggle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </button>
                         <div class="header__image-box">
@@ -72,12 +72,12 @@
                         </button>
                         <button class="options__rating">
                             <div class="options__search">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__white)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__white--fixed)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                             </div>
                         </button>
                     </div>
                     <div class="header__profile">
-                        <button class="header__icon">
+                        <button class="header__icon btn-toggle">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--grootech__black)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </button>
                         <div class="header__image-box">
@@ -797,8 +797,11 @@
                 </div>
                 <div class="testimonial__overlay">
                     <div class="testimonial__button-box">
-                        <button class="testimonial__button">
+                        <button class="testimonial__button testimonial__button--show-more">
                             Show more...
+                        </button>
+                        <button class="testimonial__button testimonial__button--show-less">
+                            Show less...
                         </button>
                     </div>
                 </div>

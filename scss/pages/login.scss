@@ -78,6 +78,10 @@
     justify-content: center;
     background: transparent;
 
+    .light {
+      display: none;
+    }
+
     svg {
       width: 18px;
       height: 18px;
@@ -511,5 +515,39 @@
     text-decoration: none;
     color: var(--grootech__black__shade--5);
     background: transparent;
+
+    .light {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .dark {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.dark-theme {
+  .header__icon {
+    .dark {
+      display: none;
+    }
+
+    .light {
+      display: block;
+    }
+  }
+
+  .footer__link {
+    .dark {
+      display: none;
+    }
+
+    .light {
+      display: flex;
+    }
   }
 }
