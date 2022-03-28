@@ -86,6 +86,11 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --testimonial__figure: rgba(255, 255, 255, 1);
     --logo__text__gradient--white: #000000 !important;
     --bronze: #cd8136ff;
+    --palette__brown__darker: #ffffff;
+    --palette__brown__dark: #ffffff;
+    --palette__brown__base: #ffffff;
+    --palette__brown__lighter: #ffffff;
+    --palette__brown__light: #ffffff;
 
     --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
@@ -149,6 +154,26 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
     .header--fixed {
       box-shadow: 0 1px 12px rgb(27, 27, 27);
+    }
+
+    .header__icon {
+      .dark {
+        display: none;
+      }
+
+      .light {
+        display: block;
+      }
+    }
+
+    .footer__link {
+      .dark {
+        display: none;
+      }
+
+      .light {
+        display: flex;
+      }
     }
   }
 }

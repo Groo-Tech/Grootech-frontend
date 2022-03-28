@@ -61,6 +61,11 @@
     --testimonial__figure: rgba(255, 255, 255, 1);
     --logo__text__gradient--white: #000000 !important;
     --bronze: #cd8136ff;
+    --palette__brown__darker: #ffffff;
+    --palette__brown__dark: #ffffff;
+    --palette__brown__base: #ffffff;
+    --palette__brown__lighter: #ffffff;
+    --palette__brown__light: #ffffff;
     --grootech__text__black: #ffffff;
     --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
     --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
@@ -110,6 +115,20 @@
   :root .header--fixed {
     -webkit-box-shadow: 0 1px 12px #1b1b1b;
             box-shadow: 0 1px 12px #1b1b1b;
+  }
+  :root .header__icon .dark {
+    display: none;
+  }
+  :root .header__icon .light {
+    display: block;
+  }
+  :root .footer__link .dark {
+    display: none;
+  }
+  :root .footer__link .light {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
