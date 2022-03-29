@@ -30,7 +30,9 @@
   --tabs-number: 4;
   --view__height: 150px;
   --navigation-bar-offset: 90px;
+  --panel-width: 250px;
   --grootech-placement-max-height: calc(100vh - var(--header__height) + 40px);
+  --black--fixed: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,6 +57,7 @@
       #000,
       rgba(255, 255, 255, 0.01)
     );
+    --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
     --review__text: rgba(255, 255, 255, 0.9);
     --grootech__input__focus: #222;
     --grootech__white--fixed: #ffffff;
@@ -85,6 +88,9 @@
     --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+    --grey--1: #f7f7f7;
+    --panel-grey: #f7f7f7;
+    --panel-link-hover: rgb(8, 8, 8);
   }
   :root .login .form__button {
     color: var(--grootech__white);
@@ -111,10 +117,6 @@
   }
   :root .intro__header {
     color: var(--grootech__black);
-  }
-  :root .header--fixed {
-    -webkit-box-shadow: 0 1px 12px #1b1b1b;
-            box-shadow: 0 1px 12px #1b1b1b;
   }
   :root .header__icon .dark {
     display: none;
@@ -156,8 +158,19 @@
       #fff,
       rgba(255, 255, 255, 0.05)
     );
-    --grootech__white--fixed: #ffffff;
+    --text__gradient: linear-gradient(
+      90deg,
+      #552200 0%,
+      #a55b28 90%
+    ) !important;
+    --text__gradient--white: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #ffffffe8 131.25%
+    ) !important;
+    --grootech__white--fixed: #291f1f;
     --review__text: #1b0b01;
+    --header__fixed__box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
     --grootech__brown: #ce8339;
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
@@ -201,6 +214,9 @@
     --grootech__footer__background: #f7f7f7;
     --light-grey: #eeeeee;
     --image-preload: #c4c4c4;
+    --grey--1: #f7f7f7;
+    --panel-grey: #f7f7f7;
+    --panel-link-hover: #eee;
     --palette__brown__darker: #552200;
     --palette__brown__dark: #7f3a0b;
     --palette__brown__base: #a55b28;

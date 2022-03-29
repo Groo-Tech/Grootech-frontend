@@ -17,15 +17,16 @@
                 <div class="header__wrapper">
                     <div class="header__logo">
                         <a href="" class="header__logo-link">
-                            <img src="./assets/illustrations/grootech__logo.svg" alt="grootech logo" class="header__logo-image">
+                            <svg class="header__logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.43 178.43"><defs><style>.cls-1{fill:var(--logo__brown--1);}.cls-2{fill:var(--logo__brown--2);}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M57.17,89.22H0A89.21,89.21,0,0,1,143.06,18.09l-41.4,41.59A32,32,0,0,0,57.17,89.22Z"/><path class="cls-2" d="M178.43,89.22v89.21H121.26V172.5A89.32,89.32,0,0,1,35.1,160.14L76.44,118.6a32,32,0,0,0,44.82-29.39Z"/></g></g></svg>
                             <p class="header__logo-text">
                                 Grootech
                             </p>
                         </a>
                     </div>
                     <div class="header__profile">
-                        <button class="header__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <button class="header__icon btn-toggle">
+                            <svg class="light" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                            <svg class="dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                         </button>
                         <div class="header__image-box">
                             <span class="header__image header__image--blank">
@@ -155,16 +156,27 @@
                 </a>
             </li>
             <li class="footer__item">
-                <button class="footer__link" name="Dark-mode">
-                    <span class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                    </span>
-                    <span class="text">
-                        Dark Mode
-                    </span>
+                <button class="footer__link btn-toggle" name="Dark-mode">
+                    <div class="dark">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                        </span>
+                        <span class="text">
+                            Dark Mode
+                        </span>
+                    </div>
+                    <div class="light">
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        </span>
+                        <span class="text">
+                            Light Mode
+                        </span>
+                    </div>
                 </button>
             </li>
         </ul>
     </footer>
+    <script src="./Js/theme.js"></script>
 </body>
 </html>

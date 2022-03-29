@@ -24,6 +24,7 @@
   --testimonial__overlay--btn: #1b0b01;
   --review__text: #1b0b01;
   --review__text--2: #5c2503;
+  --header__fixed__box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
 
   --logo__text__gradient--white: linear-gradient(
     90deg,
@@ -49,6 +50,9 @@
   --grootech__border__gray: #848484;
 
   //color - black
+
+  --grey--1: #f7f7f7;
+  --panel-grey: #f7f7f7;
 
   --grootech__black: #000000;
   --grootech__text__black: #000000;
@@ -77,6 +81,8 @@
   //color - grey
   --grootech__grey: #222222;
   --grootech__text__grey: #222222;
+
+  --panel-link-hover: #eee;
 
   //color - red
   --grootech__light__red: #ffe2e5;
@@ -214,6 +220,7 @@
   --testimonial__overlay--btn: #ffffff;
   --review__text: rgba(255, 255, 255, 0.9);
   --review__text--2: #f7f7f7;
+  --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
 
   --logo__text__gradient--white: #000000 !important;
   --palette__brown__darker: #ffffff;
@@ -221,9 +228,13 @@
   --palette__brown__base: #ffffff;
   --palette__brown__lighter: #ffffff;
   --palette__brown__light: #ffffff;
-  // hover- #222
 
-  //TODO TRY BRONZE ON DARK MODE FOR THE INDEX.PHP BANNER
+  --grey--1: #222;
+  --panel-grey: #222;
+  --panel-link-hover: rgb(8, 8, 8);
+
+  // hover-
+
   // BUG Fix colors on dark mode - all connections etc
   // TODO - FIX MESSAGE.PHP PAGE (LIGHT AND DARK), NOTIFICATIONS PAGE AND MENU (ON FILL).
   --bronze: #cd8136ff;
@@ -256,9 +267,5 @@
       color: var(--grootech__white);
       background: var(--grootech__black);
     }
-  }
-
-  .header--fixed {
-    box-shadow: 0 1px 12px rgb(27, 27, 27);
   }
 }

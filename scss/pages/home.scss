@@ -47,7 +47,8 @@
     height: var(--header__height);
     display: flex;
     align-items: center;
-    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
+    // --header__fixed__box-shadow
+    box-shadow: var(--header__fixed__box-shadow);
     z-index: 5;
     transition: all 300ms;
     opacity: 1;

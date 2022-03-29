@@ -51,8 +51,10 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
   --view__height: 150px;
 
   --navigation-bar-offset: 90px;
+  --panel-width: 250px;
 
   --grootech-placement-max-height: calc(100vh - var(--header__height) + 40px);
+  --black--fixed: #000;
   //color - white
 }
 
@@ -78,6 +80,9 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
       #000,
       rgba(255, 255, 255, 0.01)
     );
+
+    --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
+
     --review__text: rgba(255, 255, 255, 0.9);
 
     --grootech__input__focus: #222;
@@ -111,6 +116,10 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
     --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+
+    --grey--1: #f7f7f7;
+    --panel-grey: #f7f7f7;
+    --panel-link-hover: rgb(8, 8, 8);
 
     .login {
       .form__button {
@@ -150,10 +159,6 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
     .intro__header {
       color: var(--grootech__black);
-    }
-
-    .header--fixed {
-      box-shadow: 0 1px 12px rgb(27, 27, 27);
     }
 
     .header__icon {
@@ -206,8 +211,20 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
       #fff,
       rgba(255, 255, 255, 0.05)
     );
-    --grootech__white--fixed: #ffffff;
+
+    --text__gradient: linear-gradient(
+      90deg,
+      #552200 0%,
+      #a55b28 90%
+    ) !important;
+    --text__gradient--white: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      #ffffffe8 131.25%
+    ) !important;
+    --grootech__white--fixed: #291f1f;
     --review__text: #1b0b01;
+    --header__fixed__box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
 
     //color - brown
     --grootech__brown: #ce8339;
@@ -267,6 +284,10 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
     --light-grey: #eeeeee;
     --image-preload: #c4c4c4;
+
+    --grey--1: #f7f7f7;
+    --panel-grey: #f7f7f7;
+    --panel-link-hover: #eee;
 
     //lol
     --palette__brown__darker: #552200;
@@ -453,13 +474,6 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 //   90deg,
 //   #552200 0%,
 //   #a55b28 135.12%
-// ) !important;
-
-// --text__gradient: linear-gradient(90deg, #552200 0%, #a55b28 90%) !important;
-// --text__gradient--white: linear-gradient(
-//   90deg,
-//   #ffffff 0%,
-//   #ffffffe8 131.25%
 // ) !important;
 
 //
