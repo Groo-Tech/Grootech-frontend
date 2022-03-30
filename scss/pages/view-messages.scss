@@ -186,6 +186,7 @@
       width: 24px;
       height: 24px;
       background: transparent;
+      margin-right: 8px;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -465,6 +466,11 @@
       align-items: center;
       justify-content: center;
       transition: all 300ms;
+
+      @media only screen and (max-width: 600px) {
+        width: initial;
+        height: initial;
+      }
 
       &:hover {
         background: var(--grey--1);
