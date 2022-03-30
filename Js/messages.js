@@ -34,3 +34,35 @@ cancelModal.forEach((btn) => {
 });
 
 modalOverlay.addEventListener("click", closeModal);
+
+const exitBtn = document.querySelector(".icon-back");
+const mobileSearch = document.querySelector(".mobile__search");
+const mobilePlaceholder = document.querySelector(".mobile__placeholder");
+const mobileSearchInput = document.querySelector(".mobile__search-input");
+
+exitBtn.addEventListener("click", function (e) {
+  mobileSearch.classList.add("mobile__search--hidden");
+  mobileSearchInput.blur();
+});
+
+mobilePlaceholder.addEventListener("click", function (e) {
+  mobileSearch.classList.remove("mobile__search--hidden");
+  mobileSearchInput.focus();
+});
+
+const menuBtn = document.querySelector(".mobile__form .icon-menu");
+const menuOverlay = document.querySelector(".mobile__overlay");
+const mobileMenu = document.querySelector(".mobile__menu");
+const body = document.querySelector("body");
+
+menuBtn.addEventListener("click", function (e) {
+  mobileMenu.classList.remove("mobile__menu--hidden");
+  menuOverlay.classList.remove("mobile__overlay--hidden");
+  body.classList.add("no-scroll");
+});
+
+menuOverlay.addEventListener("click", function (e) {
+  mobileMenu.classList.add("mobile__menu--hidden");
+  menuOverlay.classList.add("mobile__overlay--hidden");
+  body.classList.remove("no-scroll");
+});

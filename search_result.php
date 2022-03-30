@@ -1464,5 +1464,6 @@
         </div>
     </div>
     <script src="./Js/search_result.js"></script>
+    <script src="./Js/theme.js"></script>
 </body>
 </html>

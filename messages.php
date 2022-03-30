@@ -755,11 +755,261 @@
     </div>
     <!-- mobile and tablet view -->
     <div class="mobile">
+        <div class="mobile__overlay mobile__overlay--hidden">&nbsp;</div>
+        <div class="mobile__menu mobile__menu--hidden">
+            <div class="mobile__menu-header">
+                <div class="header__logo">
+                    <a href="" class="header__logo-link">
+                        <svg class="header__logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 178.43 178.43"><defs><style>.cls-1{fill:var(--logo__brown--1);}.cls-2{fill:var(--logo__brown--2);}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M57.17,89.22H0A89.21,89.21,0,0,1,143.06,18.09l-41.4,41.59A32,32,0,0,0,57.17,89.22Z"/><path class="cls-2" d="M178.43,89.22v89.21H121.26V172.5A89.32,89.32,0,0,1,35.1,160.14L76.44,118.6a32,32,0,0,0,44.82-29.39Z"/></g></g></svg>
+                        <p class="header__logo-text">
+                            Grootech
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="mobile__menu-body">
+                <button class="mobile__menu-heading">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </span>
+                    <span class="text">
+                        All messages
+                    </span>
+                </button>
+                <ul class="mobile__menu-list">
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg>
+                            </span>
+                            <span class="text">
+                                Archived messages
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            </span>
+                            <span class="text">
+                                Starred messages
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                            </span>
+                            <span class="text">
+                                Bookmarked messages
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
+                            </span>
+                            <span class="text">
+                                Mentions
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                            </span>
+                            <span class="text">
+                                Settings
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__menu-item">
+                        <button class="mobile__menu-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            </span>
+                            <span class="text">
+                                Help & feedback
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile__search mobile__search--hidden">
+            <form action="" class="mobile__search-header">
+                <div class="icon icon-back">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                </div>
+                <input type="text" class="mobile__search-input" placeholder="Search inbox...">
+            </form>
+            <div class="mobile__search-body">
+                <h1 class="mobile__search-heading">
+                    Recent searches
+                </h1>
+                <ul class="mobile__search-list">
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                    <li class="mobile__search-item">
+                        <button class="mobile__search-button">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                            </span>
+                            <span class="text">
+                                Ash
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="mobile__header">
             <div class="mobile__form">
-                <div class="icon">
+                <button class="icon icon-menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-                </div>
+                </button>
                 <div class="mobile__placeholder">
                     <p>
                         Search inbox...
@@ -776,160 +1026,56 @@
             </h3>
             <ul class="inbox__list">
                 <li class="inbox__item">
-                    <a href="" class="inbox__link">
+                    <button class="inbox__link">
                         <div class="inbox__image-box">
                             <img src="./assets/images/avatars/avatar--11.jpg" alt="avatar" class="inbox__image">
                         </div>
                         <div class="inbox__details">
                             <div class="inbox__header">
                                 <h2 class="inbox__title">
-                                    Way to go Champ!
+                                    Grootech
                                 </h2>
                                 <p class="inbox__date">
                                     Mar 25
                                 </p>
                             </div>
                             <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
+                                Way to go champ!
                             </h3>
                             <p class="inbox__paragraph">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
                             </p>
                         </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
+                    </button>
+                    <div class="inbox__star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div> 
                 </li>
                 <li class="inbox__item">
-                    <a href="" class="inbox__link">
+                    <button  class="inbox__link">
                         <div class="inbox__image-box">
                             <img src="./assets/images/avatars/avatar--2.jpg" alt="avatar" class="inbox__image">
                         </div>
                         <div class="inbox__details">
                             <div class="inbox__header">
                                 <h2 class="inbox__title">
-                                    Way to go Champ!
+                                    Grootech
                                 </h2>
                                 <p class="inbox__date">
                                     Mar 25
                                 </p>
                             </div>
                             <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
+                                Way to go champ!
                             </h3>
                             <p class="inbox__paragraph">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
                             </p>
                         </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
-                </li>
-                <li class="inbox__item">
-                    <a href="" class="inbox__link">
-                        <div class="inbox__image-box">
-                            <img src="./assets/images/avatars/avatar--6.jpg" alt="avatar" class="inbox__image">
-                        </div>
-                        <div class="inbox__details">
-                            <div class="inbox__header">
-                                <h2 class="inbox__title">
-                                    Way to go Champ!
-                                </h2>
-                                <p class="inbox__date">
-                                    Mar 25
-                                </p>
-                            </div>
-                            <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
-                            </h3>
-                            <p class="inbox__paragraph">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
-                            </p>
-                        </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
-                </li>
-                <li class="inbox__item">
-                    <a href="" class="inbox__link">
-                        <div class="inbox__image-box">
-                            <img src="./assets/images/avatars/avatar--5.jpg" alt="avatar" class="inbox__image">
-                        </div>
-                        <div class="inbox__details">
-                            <div class="inbox__header">
-                                <h2 class="inbox__title">
-                                    Way to go Champ!
-                                </h2>
-                                <p class="inbox__date">
-                                    Mar 25
-                                </p>
-                            </div>
-                            <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
-                            </h3>
-                            <p class="inbox__paragraph">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
-                            </p>
-                        </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
-                </li>
-                <li class="inbox__item">
-                    <a href="" class="inbox__link">
-                        <div class="inbox__image-box">
-                            <img src="./assets/images/avatars/avatar--7.jpg" alt="avatar" class="inbox__image">
-                        </div>
-                        <div class="inbox__details">
-                            <div class="inbox__header">
-                                <h2 class="inbox__title">
-                                    Way to go Champ!
-                                </h2>
-                                <p class="inbox__date">
-                                    Mar 25
-                                </p>
-                            </div>
-                            <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
-                            </h3>
-                            <p class="inbox__paragraph">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
-                            </p>
-                        </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
-                </li>
-                <li class="inbox__item">
-                    <a href="" class="inbox__link">
-                        <div class="inbox__image-box">
-                            <img src="./assets/images/avatars/avatar--15.jpg" alt="avatar" class="inbox__image">
-                        </div>
-                        <div class="inbox__details">
-                            <div class="inbox__header">
-                                <h2 class="inbox__title">
-                                    Way to go Champ!
-                                </h2>
-                                <p class="inbox__date">
-                                    Mar 25
-                                </p>
-                            </div>
-                            <h3 class="inbox__subtitle">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quam. Fugiat, sequi molestiae! Quidem quibusdam quaerat aut cum est quia, mollitia accusantium facere veritatis illo provident doloribus dignissimos ab aspernatur!
-                            </h3>
-                            <p class="inbox__paragraph">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, pariatur cupiditate corrupti iste repellendus minima enim explicabo aperiam atque, nostrum sit ipsa quam quas assumenda eligendi ad, expedita asperiores quia.
-                            </p>
-                        </div>
-                        <div class="inbox__star">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                        </div>
-                    </a>    
+                    </button>
+                    <div class="inbox__star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    </div>
                 </li>
             </ul>
         </div>

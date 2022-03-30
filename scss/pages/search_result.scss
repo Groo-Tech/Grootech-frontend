@@ -910,6 +910,13 @@
     &.max {
       overflow-y: scroll !important;
       transform: translateY(0);
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        display: none;
+      }
     }
 
     &-open {
@@ -969,6 +976,14 @@
   overflow-y: scroll;
   height: 100%;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
   &__paragraph {
     font-family: var(--Montserrat);
     font-size: var(--size-s);
@@ -986,6 +1001,14 @@
     display: grid;
     gap: var(--span-l);
     overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      display: none;
+    }
   }
 
   &__item {
@@ -1105,6 +1128,14 @@
     display: flex;
     gap: var(--span-xs);
     overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      display: none;
+    }
   }
 
   &__tag {
