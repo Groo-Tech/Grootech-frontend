@@ -89,6 +89,478 @@
             </div>
         </header>
     </section>
+    <section class="section-message">
+        <div class="message">
+            <div class="message__sidebar">
+                <div class="message__header message__header--fixed-sm">
+                    <h1 class="message__heading">
+                        Messages
+                    </h1>
+                    <button class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                    </button>
+                </div>
+                <ul class="message__list">
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--7.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--8.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--5.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="message__item">
+                        <a href="" class="message__link">&nbsp;</a>
+                        <div class="message__details">
+                            <div class="message__image-box">
+                                <img src="./assets/images/avatars/avatar--10.jpg" alt="avatar" class="message__image">
+                            </div>
+                            <div class="message__info">
+                                <h2 class="message__title">
+                                    Grootech Support
+                                </h2>
+                                <p class="message__paragraph">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, consequuntur.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="message__view">
+                <div class="message__header message__header--fixed-lg">
+                    <div class="message__image-box">
+                        <img src="./assets/images/avatars/avatar--7.jpg" alt="" class="message__image message__image--sm">
+                    </div>
+                    <h1 class="message__heading message__heading--sm">
+                        Grootech Support
+                    </h1>
+                </div>
+                <div class="message__body">
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--receiver">
+                        <div class="message__box message__box--receiver">
+                            <div class="message__row-header">
+                                Mar 27
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message__row message__row--sender">
+                        <div class="message__box message__box--sender">
+                            <div class="message__row-header">
+                                20:17
+                            </div>
+                            <div class="message__row-body">
+                                <p class="message__row-paragraph">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message__footer">
+                    <button class="icon icon--attachment">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+                    </button>
+                    <button class="icon icon--image">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                    </button>
+                    <input type="text" placeholder="Type your message" name="message" class="message__input">
+                    <button class="message__button">
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./Js/view-messages.js"></script>
     <script src="./Js/theme.js"></script>
 </body>
