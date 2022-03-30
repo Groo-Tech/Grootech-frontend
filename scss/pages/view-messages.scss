@@ -28,6 +28,15 @@
   padding: 0 var(--span-m);
   box-shadow: var(--header__fixed__box-shadow);
 
+  @media only screen and (max-width: 990px) {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: var(--grootech__white);
+    z-index: 5;
+    box-shadow: none;
+  }
+
   @media only screen and (max-width: 600px) {
     height: 50px;
     padding: 0 calc(var(--span-xs) + 5px);
@@ -440,6 +449,7 @@
 
       @media only screen and (max-width: 990px) {
         width: 100vw;
+        box-shadow: var(--header__fixed__box-shadow);
       }
 
       @media only screen and (max-width: 600px) {
@@ -483,8 +493,12 @@
     list-style-type: none;
     display: grid;
 
+    @media only screen and (max-width: 990px) {
+      padding-top: 160px;
+    }
+
     @media only screen and (max-width: 600px) {
-      padding-top: 50px;
+      padding-top: 100px;
     }
   }
 

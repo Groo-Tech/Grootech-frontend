@@ -1226,6 +1226,18 @@ p {
           box-shadow: var(--header__fixed__box-shadow);
 }
 
+@media only screen and (max-width: 990px) {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: var(--grootech__white);
+    z-index: 5;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .header {
     height: 50px;
@@ -1776,6 +1788,8 @@ p {
 @media only screen and (max-width: 990px) {
   .message__header--fixed-sm {
     width: 100vw;
+    -webkit-box-shadow: var(--header__fixed__box-shadow);
+            box-shadow: var(--header__fixed__box-shadow);
   }
 }
 
@@ -1831,9 +1845,15 @@ p {
   display: grid;
 }
 
+@media only screen and (max-width: 990px) {
+  .message__list {
+    padding-top: 160px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .message__list {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 }
 
