@@ -248,7 +248,7 @@
     transition: all 300ms;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.05);
+      background: var(--dashboard__link--hover);
     }
 
     &:hover::after {
@@ -482,6 +482,10 @@
         height: initial;
       }
 
+      svg {
+        stroke: var(--grootech__black);
+      }
+
       &:hover {
         background: var(--grey--1);
       }
@@ -625,6 +629,7 @@
     }
 
     &-paragraph {
+      max-width: max-content;
       padding-top: var(--span-xs);
       font-family: var(--Montserrat);
       font-size: var(--size-s);
@@ -632,6 +637,7 @@
       line-height: 23px;
       text-align: left;
       color: inherit;
+      padding: var(--span-s);
     }
 
     &--sender {
@@ -646,7 +652,6 @@
   &__box {
     flex: 0 0 45%;
     max-width: 45%;
-    padding: var(--span-s);
 
     @media only screen and (max-width: 1200px) {
       flex: 0 0 50%;
@@ -654,13 +659,19 @@
     }
 
     &--receiver {
-      background: #f7f7f7;
-      color: var(--grootech__text__black__shade--2);
+      color: var(--grootech__black--fixed);
+
+      .message__row-paragraph {
+        background: #f7f7f7;
+      }
     }
 
     &--sender {
-      background: #ce8339;
       color: var(--grootech__white);
+
+      .message__row-paragraph {
+        background: #ce8339;
+      }
     }
   }
 

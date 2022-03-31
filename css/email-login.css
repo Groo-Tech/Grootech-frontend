@@ -59,6 +59,7 @@
     );
     --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
     --review__text: rgba(255, 255, 255, 0.9);
+    --dashboard__link--hover: #222222;
     --grootech__input__focus: #222;
     --grootech__white--fixed: #ffffff;
     --recent-search__bg: rgba(32, 32, 32, 1);
@@ -93,6 +94,7 @@
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: rgb(8, 8, 8);
+    --chat__me: #222222;
   }
   :root .login .form__button {
     color: var(--grootech__white);
@@ -160,6 +162,9 @@
       #fff,
       rgba(255, 255, 255, 0.05)
     );
+    --testimonial__overlay--btn: #1b0b01;
+    --chat__me: #f7f7f7;
+    --dashboard__link--hover: rgba(0, 0, 0, 0.05);
     --text__gradient: linear-gradient(
       90deg,
       #552200 0%,
@@ -170,7 +175,7 @@
       #ffffff 0%,
       #ffffffe8 131.25%
     ) !important;
-    --grootech__white--fixed: #291f1f;
+    --grootech__white--fixed: #ffffff;
     --review__text: #1b0b01;
     --header__fixed__box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04);
     --grootech__brown: #ce8339;

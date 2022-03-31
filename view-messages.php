@@ -403,23 +403,23 @@
                 <div class="message__body">
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
+                                    Lorem ipsum dolor sit amet consectetur.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -427,23 +427,23 @@
                     </div>
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
-                                    Lorem
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
+                                    Lorem ipsum dolor.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -451,11 +451,11 @@
                     </div>
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -463,11 +463,11 @@
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -475,11 +475,11 @@
                     </div>
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -487,11 +487,11 @@
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -499,11 +499,11 @@
                     </div>
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -511,11 +511,11 @@
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -523,11 +523,11 @@
                     </div>
                     <div class="message__row message__row--receiver">
                         <div class="message__box message__box--receiver">
-                            <div class="message__row-header">
-                                Mar 27
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>
@@ -535,11 +535,11 @@
                     </div>
                     <div class="message__row message__row--sender">
                         <div class="message__box message__box--sender">
-                            <div class="message__row-header">
-                                20:17
-                            </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
+                                    <span class="message__row-header">
+                                        20:17
+                                    </span>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
                                 </p>
                             </div>

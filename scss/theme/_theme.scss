@@ -14,9 +14,12 @@
   --logo__brown--2: #a55b28;
   --logo__white--1: #ffffff;
   --logo__white--2: #ffffff;
+  --chat__me: #f7f7f7;
 
   --recent-search__bg: #f7f7f7;
   --recent-search__btn: #eeee;
+
+  --dashboard__link--hover: rgba(0, 0, 0, 0.05);
 
   --testimonial__figure: rgba(238, 172, 127, 0.1);
   --testimonial__overlay: linear-gradient(
@@ -219,6 +222,8 @@
     #111111,
     rgba(255, 255, 255, 0.01)
   );
+  --chat__me: #222222;
+  --dashboard__link--hover: #222222;
 
   --testimonial__overlay--btn: #ffffff;
   --review__text: rgba(255, 255, 255, 0.9);
