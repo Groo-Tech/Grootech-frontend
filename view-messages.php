@@ -432,7 +432,7 @@
                             </div>
                             <div class="message__row-body">
                                 <p class="message__row-paragraph">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora aut nam doloribus nulla maiores corporis error, tempore facere pariatur vitae reiciendis totam.
+                                    Lorem
                                 </p>
                             </div>
                         </div>
