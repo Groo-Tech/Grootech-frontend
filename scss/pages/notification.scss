@@ -324,7 +324,12 @@
     font-weight: var(--weight-lg);
     line-height: 35px;
     text-align: left;
-    color: rgb(45, 45, 45);
+    color: var(--notification__header);
+
+    @media only screen and (max-width: 600px) {
+      font-size: calc(var(--size-m) + 4px);
+      line-height: 28px;
+    }
   }
 
   &__list {

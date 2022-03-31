@@ -85,6 +85,7 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
     --review__text: rgba(255, 255, 255, 0.9);
     --dashboard__link--hover: #222222;
+    --notification__header: #ffffff;
 
     --grootech__input__focus: #222;
     --grootech__white--fixed: #ffffff;
@@ -221,6 +222,7 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
 
     --chat__me: #f7f7f7;
     --dashboard__link--hover: rgba(0, 0, 0, 0.05);
+    --notification__header: #2d2d2d;
 
     --text__gradient: linear-gradient(
       90deg,
