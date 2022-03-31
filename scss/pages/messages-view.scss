@@ -39,6 +39,7 @@
   align-items: center;
   border-bottom: 0.5px solid var(--grootech__black__shade--8);
   box-shadow: var(--header__fixed__box-shadow);
+  background: var(--grootech__white);
 
   @media only screen and (max-width: 600px) {
     height: 50px;
@@ -147,6 +148,10 @@
   &__item {
     max-width: 80%;
 
+    &:last-child {
+      margin-bottom: 70px;
+    }
+
     &--receiver {
       margin-right: auto;
 
@@ -174,5 +179,21 @@
     text-align: left;
     color: var(--grootech__black__shade--2);
     border-radius: 10px;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 0.5px solid var(--grootech__black__shade--8);
+  background: var(--grootech__white);
+
+  @media only screen and (max-width: 600px) {
+    height: 50px;
   }
 }

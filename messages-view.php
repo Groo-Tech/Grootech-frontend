@@ -48,9 +48,32 @@
                             Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nostrum enim sunt in sed, dolorum impedit earum soluta blanditiis dolore magni doloremque placeat non numquam sint tempore. Fugiat voluptates veniam rerum modi totam quidem, nobis reiciendis hic, aspernatur ea, nulla optio distinctio asperiores iure! At.
                         </p>
                     </li>
+                    <li class="chat__item chat__item--sender">
+                        <p class="chat__text">
+                            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nostrum enim sunt in sed, dolorum impedit earum soluta blanditiis dolore magni doloremque placeat non numquam sint tempore. Fugiat voluptates veniam rerum modi totam quidem, nobis reiciendis hic, aspernatur ea, nulla optio distinctio asperiores iure! At.
+                        </p>
+                    </li>
+                    <li class="chat__item chat__item--receiver">
+                        <p class="chat__text">
+                            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nostrum enim sunt in sed, dolorum impedit earum soluta blanditiis dolore magni doloremque placeat non numquam sint tempore. Fugiat voluptates veniam rerum modi totam quidem, nobis reiciendis hic, aspernatur ea, nulla optio distinctio asperiores iure! At.
+                        </p>
+                    </li>
+                    <li class="chat__item chat__item--receiver">
+                        <p class="chat__text">
+                            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nostrum enim sunt in sed, dolorum impedit earum soluta blanditiis dolore magni doloremque placeat non numquam sint tempore. Fugiat voluptates veniam rerum modi totam quidem, nobis reiciendis hic, aspernatur ea, nulla optio distinctio asperiores iure! At.
+                        </p>
+                    </li>
+                    <li class="chat__item chat__item--sender">
+                        <p class="chat__text">
+                            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit nostrum enim sunt in sed, dolorum impedit earum soluta blanditiis dolore magni doloremque placeat non numquam sint tempore. Fugiat voluptates veniam rerum modi totam quidem, nobis reiciendis hic, aspernatur ea, nulla optio distinctio asperiores iure! At.
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
+        <footer class="footer">
+            &nbsp;
+        </footer>
     </div>
     <script src="./Js/messages-view.js"></script>
     <script src="./Js/theme.js"></script>
