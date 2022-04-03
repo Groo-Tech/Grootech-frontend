@@ -57,6 +57,8 @@
       #000,
       rgba(255, 255, 255, 0.01)
     );
+    --overview__bg: var(--grootech__black);
+    --overview__color: var(--grootech__white);
     --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
     --review__text: rgba(255, 255, 255, 0.9);
     --dashboard__link--hover: #222222;
@@ -167,6 +169,8 @@
     --chat__me: #f7f7f7;
     --dashboard__link--hover: rgba(0, 0, 0, 0.05);
     --notification__header: #2d2d2d;
+    --overview__bg: var(--grootech__black);
+    --overview__color: var(--grootech__white);
     --text__gradient: linear-gradient(
       90deg,
       #552200 0%,
@@ -340,6 +344,7 @@ body {
   font-family: var(--Montserrat);
   -webkit-font-smoothing: antialiased;
   background: var(--grootech__background__white);
+  scroll-behavior: smooth;
 }
 
 input {
@@ -926,6 +931,8 @@ p {
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
   --grootech__background__white: #ffffff;
+  --overview__bg: var(--grootech__black);
+  --overview__color: var(--grootech__white);
   --grootech__background__gray: #f8f8f8;
   --grootech__input__focus: #eeeeee;
   --grootech__shadow: #ebebeb;
@@ -1121,6 +1128,8 @@ p {
   --palette__brown__base: #ffffff;
   --palette__brown__lighter: #ffffff;
   --palette__brown__light: #ffffff;
+  --overview__bg: var(--grootech__black);
+  --overview__color: var(--grootech__white);
   --grey--1: #222;
   --panel-grey: #222;
   --panel-link-hover: rgb(8, 8, 8);
@@ -1498,39 +1507,16 @@ p {
 
 .footer__button {
   -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 36px;
-  height: 36px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: var(--grootech__black);
-  border-radius: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-  .footer__button {
-    width: 24px;
-    height: 24px;
-  }
-}
-
-.footer__button svg {
-  width: 20px;
-  height: 20px;
-  stroke: var(--grootech__white);
-}
-
-@media only screen and (max-width: 600px) {
-  .footer__button svg {
-    width: 16px;
-    height: 16px;
-  }
+  padding: var(--span-xs) calc(var(--span-xs) + 5px);
+  border-radius: 5px;
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 15px;
+  text-align: center;
+  color: var(--grootech__white--fixed);
+  background: #ce8339;
 }
 /*# sourceMappingURL=messages-view.css.map */

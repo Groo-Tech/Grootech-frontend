@@ -228,28 +228,14 @@
 
   &__button {
     align-self: center;
-    display: flex;
-    width: 36px;
-    height: 36px;
-    align-items: center;
-    justify-content: center;
-    background: var(--grootech__black);
-    border-radius: 50%;
-
-    @media only screen and (max-width: 600px) {
-      width: 24px;
-      height: 24px;
-    }
-
-    svg {
-      width: 20px;
-      height: 20px;
-      stroke: var(--grootech__white);
-
-      @media only screen and (max-width: 600px) {
-        width: 16px;
-        height: 16px;
-      }
-    }
+    padding: var(--span-xs) calc(var(--span-xs) + 5px);
+    border-radius: 5px;
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-md);
+    line-height: 15px;
+    text-align: center;
+    color: var(--grootech__white--fixed);
+    background: #ce8339;
   }
 }

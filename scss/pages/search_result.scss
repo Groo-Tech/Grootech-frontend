@@ -13,6 +13,8 @@
 
 @import "../layout/grid";
 
+@import "../theme/theme";
+
 .header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -546,7 +548,7 @@
 .footer {
   padding-top: var(--span-xl);
   padding-bottom: var(--span-s);
-  background: #f7f7f7;
+  background: var(--footer__bg);
 
   @media only screen and (max-width: 600px) {
     display: none;

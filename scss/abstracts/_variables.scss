@@ -80,6 +80,8 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
       #000,
       rgba(255, 255, 255, 0.01)
     );
+    --overview__bg: var(--grootech__black);
+    --overview__color: var(--grootech__white);
 
     --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
 
@@ -223,6 +225,8 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --chat__me: #f7f7f7;
     --dashboard__link--hover: rgba(0, 0, 0, 0.05);
     --notification__header: #2d2d2d;
+    --overview__bg: var(--grootech__black);
+    --overview__color: var(--grootech__white);
 
     --text__gradient: linear-gradient(
       90deg,

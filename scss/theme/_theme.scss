@@ -4,6 +4,8 @@
   --grootech__white: #ffffff;
   --grootech__text__white: #ffffff;
   --grootech__background__white: #ffffff;
+  --overview__bg: var(--grootech__black);
+  --overview__color: var(--grootech__white);
 
   //color - light gray
   --grootech__background__gray: #f8f8f8;
@@ -238,6 +240,9 @@
   --palette__brown__base: #ffffff;
   --palette__brown__lighter: #ffffff;
   --palette__brown__light: #ffffff;
+
+  --overview__bg: var(--grootech__black);
+  --overview__color: var(--grootech__white);
 
   --grey--1: #222;
   --panel-grey: #222;
