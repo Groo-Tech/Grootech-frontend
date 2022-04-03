@@ -99,6 +99,7 @@
     --panel-link-hover: rgb(8, 8, 8);
     --view__open: #f7f7f7;
     --chat__me: #222222;
+    --grootech__logo__text--2: #000000;
     --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
@@ -190,6 +191,7 @@
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
     --grootech__logo__text: #a55a28;
+    --grootech__logo__text--2: #a55a28;
     --grootech__icon__brown: #a55a28;
     --grootech__text__brown: #a55a28;
     --grootech__text__brown__2: #ce8339;
@@ -415,6 +417,18 @@ p {
 
 .u-mb-none {
   margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .u-hidden-md {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .u-hidden-sm {
+    display: none !important;
+  }
 }
 
 .btn {
@@ -871,6 +885,7 @@ p {
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
   --grootech__logo__text: #a55a28;
+  --grootech__logo__text--2: #a55a28;
   --grootech__icon__brown: #a55a28;
   --grootech__text__brown: #a55a28;
   --grootech__text__brown__2: #ce8339;
@@ -1031,6 +1046,7 @@ p {
   --review__text--2: #f7f7f7;
   --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
   --logo__text__gradient--white: #000000 !important;
+  --grootech__logo__text--2: #000000;
   --palette__brown__darker: #ffffff;
   --palette__brown__dark: #ffffff;
   --palette__brown__base: #ffffff;
@@ -1849,7 +1865,7 @@ p {
   list-style-type: none;
   display: -ms-grid;
   display: grid;
-  gap: calc(var(--span-xs) + 5px);
+  gap: calc(var(--span-s) + 5px);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2135,7 +2151,7 @@ p {
   top: 0;
   width: 100vw;
   background: var(--grootech__white) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid var(--grootech__black__shade--8);
   -webkit-transition: background 200ms cubic-bezier(0.35, 0, 0.65, 1) 0s !important;
   transition: background 200ms cubic-bezier(0.35, 0, 0.65, 1) 0s !important;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px !important;
@@ -2254,8 +2270,8 @@ p {
   border-top-left-radius: 30px !important;
   background: var(--grootech__white);
   display: none;
-  -webkit-transition: all 300ms;
-  transition: all 300ms;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
   padding: 0 calc(var(--span-s) - 5px);
   padding-top: var(--span-m);
   max-height: calc(100vh - 50px);
@@ -2267,6 +2283,8 @@ p {
   overflow-y: scroll !important;
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
 }
 
 .mobile__view.max::-webkit-scrollbar {

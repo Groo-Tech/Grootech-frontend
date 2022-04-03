@@ -99,6 +99,7 @@
     --panel-link-hover: rgb(8, 8, 8);
     --view__open: #f7f7f7;
     --chat__me: #222222;
+    --grootech__logo__text--2: #000000;
     --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
@@ -190,6 +191,7 @@
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
     --grootech__logo__text: #a55a28;
+    --grootech__logo__text--2: #a55a28;
     --grootech__icon__brown: #a55a28;
     --grootech__text__brown: #a55a28;
     --grootech__text__brown__2: #ce8339;
@@ -415,6 +417,18 @@ p {
 
 .u-mb-none {
   margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .u-hidden-md {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .u-hidden-sm {
+    display: none !important;
+  }
 }
 
 .btn {
@@ -792,148 +806,6 @@ p {
   }
 }
 
-.footer {
-  padding-top: calc(var(--span-2xl) + var(--span-m));
-}
-
-.footer__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer__logo-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-}
-
-.footer__logo-image {
-  margin-right: calc(var(--span-xs) + 5px);
-  display: block;
-  width: 48px;
-  height: 48px;
-}
-
-.footer__logo-text {
-  font-family: var(--Montserrat);
-  font-size: calc(var(--size-l) + 3px);
-  font-weight: var(--weight-xxlg);
-  line-height: 33px;
-  text-align: left;
-  color: var(--grootech__logo__text);
-}
-
-.footer__paragraph {
-  margin-top: var(--span-xs);
-  font-family: var(--Montserrat);
-  font-size: var(--size-s);
-  font-weight: var(--weight-sm);
-  line-height: 20px;
-  text-align: left;
-  color: var(--grootech__text__gray);
-  max-width: 360px;
-}
-
-.footer__header {
-  font-family: var(--Montserrat);
-  font-size: calc(var(--size-m) + 4px);
-  font-weight: var(--weight-xxlg);
-  line-height: 30px;
-  text-align: left;
-  color: var(--grootech__text__brown);
-}
-
-.footer__list {
-  list-style-type: none;
-  margin-top: var(--span-xs);
-}
-
-.footer__item:not(:last-child) {
-  margin-bottom: var(--span-xs);
-}
-
-.footer__link {
-  text-decoration: none;
-  font-family: var(--Montserrat);
-  font-size: var(--size-s);
-  font-weight: var(--weight-sm);
-  line-height: 21px;
-  text-align: left;
-  color: var(--grootech__text__gray);
-}
-
-.footer__link:hover {
-  text-decoration: underline;
-}
-
-.footer__copyright {
-  margin-top: var(--span-l);
-  padding-top: var(--span-xs);
-  padding-bottom: var(--span-xs);
-  font-family: var(--Montserrat);
-  font-size: var(--size-s);
-  font-weight: var(--weight-sm);
-  line-height: 23px;
-  text-align: center;
-  color: var(--grootech__text__white);
-  background: var(--grootech__text__brown);
-}
-
-.socials {
-  margin-top: var(--span-m);
-}
-
-.socials__list {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.socials__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.socials__item:not(:last-child) {
-  margin-right: var(--span-s);
-}
-
-.socials__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.socials__icon svg {
-  width: 18px;
-  height: 18px;
-}
-
 .navigation {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -1074,6 +946,7 @@ p {
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
   --grootech__logo__text: #a55a28;
+  --grootech__logo__text--2: #a55a28;
   --grootech__icon__brown: #a55a28;
   --grootech__text__brown: #a55a28;
   --grootech__text__brown__2: #ce8339;
@@ -1234,6 +1107,7 @@ p {
   --review__text--2: #f7f7f7;
   --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
   --logo__text__gradient--white: #000000 !important;
+  --grootech__logo__text--2: #000000;
   --palette__brown__darker: #ffffff;
   --palette__brown__dark: #ffffff;
   --palette__brown__base: #ffffff;
@@ -2037,7 +1911,7 @@ p {
   list-style-type: none;
   display: -ms-grid;
   display: grid;
-  gap: calc(var(--span-xs) + 5px);
+  gap: calc(var(--span-s) + 5px);
 }
 
 @media only screen and (max-width: 1024px) {

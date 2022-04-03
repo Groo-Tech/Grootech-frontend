@@ -99,6 +99,7 @@
     --panel-link-hover: rgb(8, 8, 8);
     --view__open: #f7f7f7;
     --chat__me: #222222;
+    --grootech__logo__text--2: #000000;
     --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
@@ -190,6 +191,7 @@
     --grootech__navigation__link__brown: #ce8339;
     --grootech__join__button__brown: #cd8136;
     --grootech__logo__text: #a55a28;
+    --grootech__logo__text--2: #a55a28;
     --grootech__icon__brown: #a55a28;
     --grootech__text__brown: #a55a28;
     --grootech__text__brown__2: #ce8339;
@@ -415,6 +417,18 @@ p {
 
 .u-mb-none {
   margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .u-hidden-md {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .u-hidden-sm {
+    display: none !important;
+  }
 }
 
 .btn {
@@ -967,6 +981,7 @@ p {
   --grootech__navigation__link__brown: #ce8339;
   --grootech__join__button__brown: #cd8136;
   --grootech__logo__text: #a55a28;
+  --grootech__logo__text--2: #a55a28;
   --grootech__icon__brown: #a55a28;
   --grootech__text__brown: #a55a28;
   --grootech__text__brown__2: #ce8339;
@@ -1127,6 +1142,7 @@ p {
   --review__text--2: #f7f7f7;
   --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
   --logo__text__gradient--white: #000000 !important;
+  --grootech__logo__text--2: #000000;
   --palette__brown__darker: #ffffff;
   --palette__brown__dark: #ffffff;
   --palette__brown__base: #ffffff;

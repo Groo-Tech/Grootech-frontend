@@ -211,7 +211,7 @@
     flex: 0 0 48px;
     width: 48px !important;
     height: 48px !important;
-    background: var(--grootech__logo__text);
+    background: var(--grootech__logo__text--2);
     color: var(--grootech__white--fixed);
     display: flex;
     justify-content: center;
@@ -298,7 +298,7 @@
     font-weight: var(--weight-sm);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__gray);
+    color: var(--grootech__black__shade--2);
 
     span {
       padding: 0 calc(var(--span-xs) + 5px);
@@ -331,7 +331,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: var(--grootech__logo__text);
+    background: var(--grootech__logo__text--2);
     color: var(--grootech__white--fixed);
 
     svg {
@@ -529,6 +529,14 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--span-m);
     grid-auto-flow: dense;
+
+    @media only screen and (max-width: 990px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
 
   &__list {
@@ -789,6 +797,7 @@
   &__wrapper {
     display: flex;
     padding-bottom: var(--span-l);
+
     @media only screen and (max-width: 1024px) {
       flex-wrap: wrap;
     }
@@ -823,7 +832,7 @@
     margin-top: var(--span-s);
     list-style-type: none;
     display: grid;
-    gap: calc(var(--span-xs) + 5px);
+    gap: calc(var(--span-s) + 5px);
 
     @media only screen and (max-width: 1024px) {
       grid-template-columns: repeat(3, 1fr);

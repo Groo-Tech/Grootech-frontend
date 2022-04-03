@@ -637,7 +637,7 @@
     margin-top: var(--span-s);
     list-style-type: none;
     display: grid;
-    gap: calc(var(--span-xs) + 5px);
+    gap: calc(var(--span-s) + 5px);
 
     @media only screen and (max-width: 1024px) {
       grid-template-columns: repeat(3, 1fr);

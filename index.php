@@ -504,7 +504,7 @@
                             </figure>
                         </li>
                     </ul>
-                    <ul class="testimonial__list">
+                    <ul class="testimonial__list u-hidden-sm">
                         <li class="testimonial__item">
                             <figure class="testimonial__figure">
                                 <figcaption class="testimonial__figcation">
@@ -660,7 +660,7 @@
                             </figure>
                         </li>
                     </ul>
-                    <ul class="testimonial__list">
+                    <ul class="testimonial__list u-hidden-md">
                         <li class="testimonial__item">
                             <figure class="testimonial__figure">
                                 <figcaption class="testimonial__figcation">
