@@ -97,7 +97,9 @@
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: rgb(8, 8, 8);
+    --view__open: #f7f7f7;
     --chat__me: #222222;
+    --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
     color: var(--grootech__white);
@@ -232,6 +234,7 @@
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: #eee;
+    --view__open: rgba(32, 32, 32, 0.2);
     --palette__brown__darker: #552200;
     --palette__brown__dark: #7f3a0b;
     --palette__brown__base: #a55b28;
@@ -976,6 +979,7 @@ p {
   --grootech__border__gray: #848484;
   --grey--1: #f7f7f7;
   --panel-grey: #f7f7f7;
+  --view__open: rgba(32, 32, 32, 0.2);
   --grootech__black: #000000;
   --grootech__text__black: #000000;
   --grootech__white--fixed: #ffffff;
@@ -1139,6 +1143,8 @@ p {
   --grootech__input__focus: #222;
   --grootech__logo__text: #000;
   --grootech__white--fixed: #ffffff;
+  --grootech__logo__text: #ffffff;
+  --view__open: #f7f7f7;
   --grootech__text__black: #ffffff;
   --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
   --grootech__black__shade--2: rgba(255, 255, 255, 0.902);

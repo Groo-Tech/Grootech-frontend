@@ -126,8 +126,11 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: rgb(8, 8, 8);
+    --view__open: #f7f7f7;
 
     --chat__me: #222222;
+
+    --grootech__logo__text: #ffffff;
 
     .login {
       .form__button {
@@ -306,8 +309,8 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: #eee;
+    --view__open: rgba(32, 32, 32, 0.2);
 
-    //lol
     --palette__brown__darker: #552200;
     --palette__brown__dark: #7f3a0b;
     --palette__brown__base: #a55b28;
