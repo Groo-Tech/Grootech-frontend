@@ -1159,7 +1159,9 @@ p {
 */
 /*header styles starts here*/
 .section-header {
-  background: var(--bronze);
+  background: #c70f0f;
+  background: -webkit-gradient(linear, left top, right top, from(#c70f0f), color-stop(62%, #3b1c1c));
+  background: linear-gradient(90deg, #c70f0f 0%, #3b1c1c 62%);
   padding-bottom: calc(var(--span-2xl) + 30px + var(--banner-image-height) / 2);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
