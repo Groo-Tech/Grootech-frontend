@@ -25,12 +25,7 @@
 
 /*header styles starts here*/
 .section-header {
-  background: rgb(199, 15, 15);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 15, 15, 1) 0%,
-    rgba(59, 28, 28, 1) 62%
-  );
+  background: #996515;
   padding-bottom: calc(var(--span-2xl) + 30px + var(--banner-image-height) / 2);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
