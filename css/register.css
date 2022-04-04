@@ -395,6 +395,14 @@ p {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .heading--primary {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+    padding: 0 var(--span-s);
+  }
+}
+
 .u-h-100 {
   height: 100%;
 }

@@ -609,7 +609,7 @@ body {
   position: relative;
 
   @media only screen and (max-width: 600px) {
-    display: none;
+    margin-top: calc(-1 * 225px);
   }
 
   &__image {
@@ -618,6 +618,10 @@ body {
     border-radius: 15px;
     width: 100%;
     height: var(--banner-image-height);
+
+    @media only screen and (max-width: 600px) {
+      height: 450px;
+    }
   }
 
   &__overlay {
