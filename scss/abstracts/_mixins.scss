@@ -67,6 +67,7 @@
   color: var(--palette__brown__darker);
 
   @media only screen and (max-width: 600px) {
+    margin-top: 0;
     font-size: calc(var(--size-l) + 4px);
     line-height: 32px;
   }

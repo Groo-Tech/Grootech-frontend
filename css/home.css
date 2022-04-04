@@ -1503,8 +1503,6 @@ body.no-scroll {
 .section-header {
   background: #996515;
   padding-bottom: calc(var(--span-2xl) + 30px + var(--banner-image-height) / 2);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .header {
@@ -2082,6 +2080,7 @@ body.no-scroll {
 
 @media only screen and (max-width: 600px) {
   .intro__header {
+    margin-top: 0;
     font-size: calc(var(--size-l) + 4px);
     line-height: 32px;
   }
@@ -2134,6 +2133,7 @@ body.no-scroll {
 
 @media only screen and (max-width: 600px) {
   .features__header {
+    margin-top: 0;
     font-size: calc(var(--size-l) + 4px);
     line-height: 32px;
   }
@@ -2185,6 +2185,7 @@ body.no-scroll {
 
 @media only screen and (max-width: 600px) {
   .experience__header {
+    margin-top: 0;
     font-size: calc(var(--size-l) + 4px);
     line-height: 32px;
   }
@@ -2317,6 +2318,7 @@ body.no-scroll {
 
 @media only screen and (max-width: 600px) {
   .testimonial__header {
+    margin-top: 0;
     font-size: calc(var(--size-l) + 4px);
     line-height: 32px;
   }
