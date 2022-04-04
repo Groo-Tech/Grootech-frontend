@@ -1705,6 +1705,13 @@ p {
   line-height: 28px;
 }
 
+@media only screen and (max-width: 600px) {
+  .dashboard__heading {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
+}
+
 .dashboard__wrapper--grid {
   margin-top: var(--span-m) !important;
   display: -ms-grid;
@@ -1751,6 +1758,12 @@ p {
 .section-notifications {
   padding-top: var(--header__height);
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+}
+
+@media only screen and (max-width: 600px) {
+  .section-notifications {
+    padding-bottom: var(--span-xl);
+  }
 }
 
 @media only screen and (max-width: 600px) {

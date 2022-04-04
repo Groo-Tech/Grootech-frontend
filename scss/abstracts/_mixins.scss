@@ -1,22 +1,39 @@
 // set top spacing between sections
 @mixin __section__space__top {
   padding-top: calc(var(--span-2xl) + var(--span-m));
+
+  @media only screen and (max-width: 600px) {
+    padding-top: var(--span-xl);
+  }
 }
 
 // set top spacing between sections -- medium
 @mixin __section__space__top__md {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
+
+  @media only screen and (max-width: 600px) {
+    padding-top: var(--span-xl);
+  }
 }
 
 // set bottom spacing between sections
 @mixin __section__space__bottom {
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+
+  @media only screen and (max-width: 600px) {
+    padding-bottom: var(--span-xl);
+  }
 }
 
 // set spacing between sections -- full
 @mixin __section__space {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
+
+  @media only screen and (max-width: 600px) {
+    padding-top: var(--span-2xl);
+    padding-bottom: var(--span-2xl);
+  }
 }
 
 @mixin __section__margin__top__md {
@@ -48,6 +65,11 @@
   line-height: 43px;
   text-align: left;
   color: var(--palette__brown__darker);
+
+  @media only screen and (max-width: 600px) {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
 }
 
 // set section header clipped background -- small

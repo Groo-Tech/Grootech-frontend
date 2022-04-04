@@ -2049,6 +2049,12 @@ body.no-scroll {
   padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
+@media only screen and (max-width: 600px) {
+  .section-intro {
+    padding-top: var(--span-xl);
+  }
+}
+
 .intro__heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2074,6 +2080,13 @@ body.no-scroll {
   color: var(--palette__brown__darker);
 }
 
+@media only screen and (max-width: 600px) {
+  .intro__header {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
+}
+
 .intro__container {
   margin-top: var(--span-m) !important;
   display: -webkit-box;
@@ -2086,6 +2099,12 @@ body.no-scroll {
 .section-features {
   padding-top: calc(var(--span-2xl) + var(--span-m));
   background: var(--grootech__background__white);
+}
+
+@media only screen and (max-width: 600px) {
+  .section-features {
+    padding-top: var(--span-xl);
+  }
 }
 
 .features__heading {
@@ -2113,6 +2132,13 @@ body.no-scroll {
   color: var(--palette__brown__darker);
 }
 
+@media only screen and (max-width: 600px) {
+  .features__header {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
+}
+
 .features__wrapper {
   margin-top: var(--span-m) !important;
   display: -webkit-box;
@@ -2124,6 +2150,12 @@ body.no-scroll {
 
 .section-experience {
   padding-top: calc(var(--span-2xl) + var(--span-m));
+}
+
+@media only screen and (max-width: 600px) {
+  .section-experience {
+    padding-top: var(--span-xl);
+  }
 }
 
 .experience__heading {
@@ -2149,6 +2181,13 @@ body.no-scroll {
   line-height: 43px;
   text-align: left;
   color: var(--palette__brown__darker);
+}
+
+@media only screen and (max-width: 600px) {
+  .experience__header {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
 }
 
 .experience__wrapper {
@@ -2215,6 +2254,13 @@ body.no-scroll {
   padding-right: var(--span-2xl);
 }
 
+@media only screen and (max-width: 600px) {
+  .experience__text {
+    font-size: calc(var(--size-xl) - 4px);
+    line-height: 44px;
+  }
+}
+
 .experience__link {
   margin-top: var(--span-m);
   display: inline-block;
@@ -2232,6 +2278,12 @@ body.no-scroll {
 
 .section-testimonial {
   padding-top: calc(var(--span-2xl) + var(--span-m));
+}
+
+@media only screen and (max-width: 600px) {
+  .section-testimonial {
+    padding-top: var(--span-xl);
+  }
 }
 
 .testimonial {
@@ -2261,6 +2313,13 @@ body.no-scroll {
   line-height: 43px;
   text-align: left;
   color: var(--palette__brown__darker);
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial__header {
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
 }
 
 .testimonial__wrapper {
@@ -2455,6 +2514,13 @@ body.no-scroll {
   color: #1b0b01;
 }
 
+@media only screen and (max-width: 600px) {
+  .review__header--lg {
+    font-size: calc(var(--size-xl) - 4px);
+    line-height: 40px;
+  }
+}
+
 .review__header--sm {
   font-family: var(--Montserrat);
   font-size: var(--size-s);
@@ -2472,6 +2538,13 @@ body.no-scroll {
   line-height: 28px;
   text-align: center;
   color: var(--review__text);
+}
+
+@media only screen and (max-width: 600px) {
+  .review__paragraph--lg {
+    font-size: var(--size-s);
+    line-height: 23px;
+  }
 }
 
 .review__paragraph--sm {
@@ -2496,10 +2569,23 @@ body.no-scroll {
   padding-top: calc(var(--span-2xl) + var(--span-m));
 }
 
+@media only screen and (max-width: 600px) {
+  .section-lo {
+    padding-top: var(--span-xl);
+  }
+}
+
 .section-categories {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
   background: var(--grootech__background__white);
+}
+
+@media only screen and (max-width: 600px) {
+  .section-categories {
+    padding-top: var(--span-2xl);
+    padding-bottom: var(--span-2xl);
+  }
 }
 
 .categories__header {
@@ -2554,6 +2640,13 @@ body.no-scroll {
   padding-top: calc(var(--span-2xl) + var(--span-xs));
   padding-bottom: calc(var(--span-2xl) + var(--span-xs));
   background: var(--grootech__background__gray);
+}
+
+@media only screen and (max-width: 600px) {
+  .section-newsletter {
+    padding-top: var(--span-2xl);
+    padding-bottom: var(--span-2xl);
+  }
 }
 
 .newsletter__header {
