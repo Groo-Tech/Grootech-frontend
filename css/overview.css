@@ -100,6 +100,7 @@
     --view__open: #f7f7f7;
     --chat__me: #222222;
     --grootech__logo__text--2: #000000;
+    --search-result-image-bg: #222222;
     --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
@@ -168,6 +169,7 @@
       #fff,
       rgba(255, 255, 255, 0.05)
     );
+    --search-result-image-bg: #ebebeb;
     --testimonial__overlay--btn: #1b0b01;
     --chat__me: #f7f7f7;
     --dashboard__link--hover: rgba(0, 0, 0, 0.05);
@@ -421,6 +423,10 @@ p {
 
 .u-mt-sm {
   margin-top: var(--span-s) !important;
+}
+
+.u-mt-md {
+  margin-top: var(--span-l) !important;
 }
 
 .u-mb-none {
@@ -1001,6 +1007,7 @@ p {
   --grootech__background__white: #ffffff;
   --overview__bg: var(--grootech__black);
   --overview__color: var(--grootech__white);
+  --search-result-image-bg: #ebebeb;
   --grootech__background__gray: #f8f8f8;
   --grootech__input__focus: #eeeeee;
   --grootech__shadow: #ebebeb;
@@ -1188,6 +1195,7 @@ p {
   --chat__me: #222222;
   --dashboard__link--hover: #222222;
   --notification__header: #ffffff;
+  --search-result-image-bg: #222222;
   --testimonial__overlay--btn: #ffffff;
   --review__text: rgba(255, 255, 255, 0.9);
   --review__text--2: #f7f7f7;

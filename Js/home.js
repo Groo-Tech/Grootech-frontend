@@ -85,7 +85,7 @@ const headerHeight = header.getBoundingClientRect().height;
 
 const stickyNav = function (entries) {
   const [entry] = entries;
-  console.log(entry);
+
   if (!entry.isIntersecting) {
     header.classList.add("header--hidden");
     headerFixed.classList.remove("header--hidden");
@@ -128,4 +128,19 @@ showLess.addEventListener("click", function (e) {
 
   showLess.style.display = "none";
   showMore.style.display = "block";
+});
+
+const mobileForms = Array.from(document.querySelectorAll(".form"));
+const mobileSearch = document.querySelector(".modal-search");
+const mobileSearchCloseBtn = document.querySelector(".modal__header .icon");
+
+mobileForms.forEach((form) => {
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    mobileSearch.classList.remove("modal-search--hidden");
+  });
+});
+
+mobileSearchCloseBtn.addEventListener("click", function (e) {
+  mobileSearch.classList.add("modal-search--hidden");
 });

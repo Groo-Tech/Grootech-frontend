@@ -11,6 +11,149 @@
     <title>Grootech</title>
 </head>
 <body>
+    <div class="modal-search modal-search--hidden">
+        <div class="modal__header">
+            <button class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <input type="text" class="modal__input" placeholder="What are you looking for?" name="tag">
+        </div>
+        <div class="modal__body">
+            <p class="modal__paragraph">
+                Search for businesses, anytime.
+            </p>
+            <div class="modal__cta">
+                <a href="" class="">
+                    <span class="text">
+                        I'm a guest
+                    </span>
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </span>
+                </a>
+            </div>
+            <ul class="modal__list">
+                <h1 class="modal__heading">
+                    Recent Searches
+                </h1>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="icon">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 22px; width: 22px; fill: currentcolor;"><path d="m15.9999.3335c8.6524795 0 15.6667 7.01422051 15.6667 15.6667 0 8.6524795-7.0142205 15.6667-15.6667 15.6667-8.65247949 0-15.6667-7.0142205-15.6667-15.6667 0-8.65247949 7.01422051-15.6667 15.6667-15.6667zm0 2c-7.54790999 0-13.6667 6.11879001-13.6667 13.6667 0 7.54791 6.11879001 13.6667 13.6667 13.6667 7.54791 0 13.6667-6.11879 13.6667-13.6667 0-7.54790999-6.11879-13.6667-13.6667-13.6667zm1.0001 3v10.0895l8.7375978 5.0444733-.9999956 1.7320534-9.7376022-5.6219748v-11.2440519z"></path></svg>
+                        </span>
+                        <span class="text">
+                            Poultry
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="icon">
+                            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 22px; width: 22px; fill: currentcolor;"><path d="m15.9999.3335c8.6524795 0 15.6667 7.01422051 15.6667 15.6667 0 8.6524795-7.0142205 15.6667-15.6667 15.6667-8.65247949 0-15.6667-7.0142205-15.6667-15.6667 0-8.65247949 7.01422051-15.6667 15.6667-15.6667zm0 2c-7.54790999 0-13.6667 6.11879001-13.6667 13.6667 0 7.54791 6.11879001 13.6667 13.6667 13.6667 7.54791 0 13.6667-6.11879 13.6667-13.6667 0-7.54790999-6.11879-13.6667-13.6667-13.6667zm1.0001 3v10.0895l8.7375978 5.0444733-.9999956 1.7320534-9.7376022-5.6219748v-11.2440519z"></path></svg>
+                        </span>
+                        <span class="text">
+                            Cattle
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="modal__list u-mt-md">
+                <h1 class="modal__heading">
+                    Businesses near you
+                </h1>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--7.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Lagos
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--8.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Abuja
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--6.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Benin
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--5.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Abia
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--4.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Ondo
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--3.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Port Harcourt
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--2.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Kaduna
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--1.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Sango
+                        </span>
+                    </a>
+                </li>
+                <li class="modal__item">
+                    <a href="" class="modal__link">
+                        <span class="modal__image-box">
+                            <img src="./assets/images/cities/grootech__city--9.jpg" alt="image" class="modal__image">
+                        </span>
+                        <span class="text">
+                            Cotonou
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <section class="section-header">
         <header class="header header--1 u-flex u-align-center header--hidden">
             <div class="container u-w-full">
@@ -51,6 +194,18 @@
                         </div>
                     </div>
                 </div>
+                <form action="" class="form">
+                    <div class="form__group">
+                        <button class="form__btn">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </span>
+                            <span class="text">
+                                What are you looking for?
+                            </span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </header>
         <header class="header header--2 header--fixed ">
@@ -85,6 +240,18 @@
                         </div>
                     </div>
                 </div>
+                <form action="" class="form">
+                    <div class="form__group">
+                        <button class="form__btn form__btn--grey">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            </span>
+                            <span class="text">
+                                What are you looking for?
+                            </span>
+                        </button>
+                    </div>
+                </form>
             </div>
         </header>
         <div class="drop">&nbsp;</div>
