@@ -29,6 +29,10 @@
   padding-bottom: calc(var(--span-2xl) + 30px + var(--banner-image-height) / 2);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .header {
@@ -344,6 +348,11 @@
 .banner {
   margin-top: calc(-1 * var(--banner-image-height) / 2);
   position: relative;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+
   &__image {
     display: block;
     object-fit: cover;
@@ -450,6 +459,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: var(--span-m);
+
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__image-box {
@@ -478,6 +491,14 @@
       rgba(0, 0, 0, 0.1) 100%
     );
     padding: var(--span-2xl);
+
+    @media only screen and (max-width: 990px) {
+      padding: var(--span-l);
+    }
+
+    @media only screen and (max-width: 600px) {
+      padding: var(--span-m);
+    }
   }
 
   &__text {

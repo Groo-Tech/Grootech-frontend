@@ -104,6 +104,21 @@
     flex-basis: calc(100% / 3.5);
     flex-shrink: 0 !important;
   }
+
+  @media only screen and (max-width: 990px) {
+    max-width: calc(100% / 2.5);
+    flex-basis: calc(100% / 2.5);
+  }
+
+  @media only screen and (max-width: 600px) {
+    max-width: calc(100% / 1.5);
+    flex-basis: calc(100% / 1.5);
+  }
+
+  @media only screen and (max-width: 414px) {
+    max-width: calc(100% / 1.2);
+    flex-basis: calc(100% / 1.2);
+  }
 }
 
 @mixin __header__space {
