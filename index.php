@@ -305,10 +305,18 @@
         <div class="container">
             <div class="intro">
                 <div class="intro__wrapper">
-                    <div class="intro__heading">
-                        <h1 class="intro__header">
+                    <div class="intro__header">
+                        <h1 class="intro__heading">
                             Popular Cities
                         </h1>
+                        <div class="carousel-controls">
+                            <button class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            <button class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                        </div>
                     </div>
                     <div class="intro__container">
                         <div class="card card--intro card--light">
@@ -379,10 +387,18 @@
     <section class="section-features">
         <div class="container">
             <div class="features">
-                <div class="features__heading">
-                    <h1 class="features__header">
+                <div class="features__header">
+                    <h1 class="features__heading">
                         Popular Businesses
                     </h1>
+                    <div class="carousel-controls">
+                        <button class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
                 </div>
                 <div class="features__wrapper">
                     <div class="card card--features card--light">
@@ -1184,6 +1200,12 @@
             </div>
         </div>
     </footer>
+    <!-- mobile navigation -->
+    <div class="mobile__nav">
+        <div class="">
+            &nbsp;
+        </div>
+    </div>
     <script src="./Js/home.js"></script>
     <script src="./Js/theme.js"></script>
 </body>

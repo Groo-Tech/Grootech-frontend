@@ -668,12 +668,48 @@ body {
 
 .intro {
   &__heading {
-    display: flex;
-    justify-content: flex-start;
+    @include __section__header__;
   }
 
   &__header {
-    @include __section__header__;
+    display: flex;
+    justify-content: space-between;
+
+    .carousel-controls {
+      display: none;
+      margin-top: var(--span-s);
+      align-self: center;
+      gap: var(--span-xs);
+
+      @media only screen and (max-width: 1200px) {
+        display: flex;
+      }
+
+      @media only screen and (max-width: 600px) {
+        margin-top: 0;
+      }
+
+      @media only screen and (max-width: 540px) and (min-width: 375px) {
+        margin-left: 40px;
+      }
+
+      .icon {
+        background: var(--carousel-controls-bg);
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--carousel-controls-border);
+        border-radius: 50%;
+
+        svg {
+          width: 12px;
+          height: 12px;
+          stroke: var(--grootech__black);
+        }
+      }
+    }
   }
 
   &__container {
@@ -688,12 +724,48 @@ body {
 
 .features {
   &__heading {
-    display: flex;
-    justify-content: flex-start;
+    @include __section__header__;
   }
 
   &__header {
-    @include __section__header__;
+    display: flex;
+    justify-content: space-between;
+
+    .carousel-controls {
+      display: none;
+      margin-top: var(--span-s);
+      align-self: center;
+      gap: var(--span-xs);
+
+      @media only screen and (max-width: 1200px) {
+        display: flex;
+      }
+
+      @media only screen and (max-width: 600px) {
+        margin-top: 0;
+      }
+
+      @media only screen and (max-width: 540px) and (min-width: 375px) {
+        margin-left: 40px;
+      }
+
+      .icon {
+        background: var(--carousel-controls-bg);
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--carousel-controls-border);
+        border-radius: 50%;
+
+        svg {
+          width: 12px;
+          height: 12px;
+          stroke: var(--grootech__black);
+        }
+      }
+    }
   }
 
   &__wrapper {
@@ -1406,6 +1478,24 @@ body {
     svg {
       width: 16px;
       height: 16px;
+    }
+  }
+}
+
+.mobile {
+  &__nav {
+    display: none;
+    height: 60px;
+    background: var(--grootech__white);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    box-shadow: var(--header__fixed__box-shadow);
+
+    @media only screen and (max-width: 600px) {
+      display: flex;
     }
   }
 }

@@ -59,6 +59,8 @@
     );
     --overview__bg: var(--grootech__black);
     --overview__color: var(--grootech__white);
+    --carousel-controls-bg: #222222;
+    --carousel-controls-border: transparent;
     --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
     --review__text: rgba(255, 255, 255, 0.9);
     --dashboard__link--hover: #222222;
@@ -176,6 +178,8 @@
     --notification__header: #2d2d2d;
     --overview__bg: var(--grootech__black);
     --overview__color: var(--grootech__white);
+    --carousel-controls-bg: #ffffff;
+    --carousel-controls-border: #dddddd;
     --text__gradient: linear-gradient(
       90deg,
       #552200 0%,
@@ -525,7 +529,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
   .card--features {
     max-width: calc(100% / 1.2);
     -ms-flex-preferred-size: calc(100% / 1.2);
@@ -570,7 +574,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
   .card--popular {
     max-width: calc(100% / 1.2);
     -ms-flex-preferred-size: calc(100% / 1.2);
@@ -626,7 +630,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
   .card--intro {
     max-width: calc(100% / 1.2);
     -ms-flex-preferred-size: calc(100% / 1.2);
@@ -1096,6 +1100,8 @@ p {
   --grey--1: #f7f7f7;
   --panel-grey: #f7f7f7;
   --view__open: rgba(32, 32, 32, 0.2);
+  --carousel-controls-bg: #ffffff;
+  --carousel-controls-border: #dddddd;
   --grootech__black: #000000;
   --grootech__text__black: #000000;
   --grootech__white--fixed: #ffffff;
@@ -1239,6 +1245,8 @@ p {
   --dashboard__link--hover: #222222;
   --notification__header: #ffffff;
   --search-result-image-bg: #222222;
+  --carousel-controls-bg: #222222;
+  --carousel-controls-border: transparent;
   --testimonial__overlay--btn: #ffffff;
   --review__text: rgba(255, 255, 255, 0.9);
   --review__text--2: #f7f7f7;
