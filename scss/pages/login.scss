@@ -32,7 +32,7 @@
     width: 100vw;
     top: 0;
     left: 0;
-    background: var(--grootech__white);
+    background: var(--g__white);
     height: var(--header__height);
     display: flex;
     align-items: center;
@@ -85,21 +85,21 @@
     svg {
       width: 18px;
       height: 18px;
-      stroke: var(--grootech__black);
+      stroke: var(--g__black);
     }
   }
 
   &--fixed &__icon {
     background: transparent;
     svg {
-      stroke: var(--grootech__black);
+      stroke: var(--g__black);
     }
   }
 
   &__image-box {
     display: flex;
     align-items: center;
-    border: 2px solid var(--grootech__white);
+    border: 2px solid var(--g__white);
     border-radius: 50%;
     cursor: pointer;
     gap: var(--span-xs);
@@ -121,7 +121,7 @@
       svg {
         width: 18px;
         height: 18px;
-        stroke: var(--grootech__white);
+        stroke: var(--g__white);
       }
     }
   }
@@ -152,7 +152,7 @@
       font-weight: var(--weight-xxlg);
       line-height: 33px;
       text-align: left;
-      color: var(--grootech__logo__text);
+      color: var(--g__logo__text);
 
       @media only screen and (max-width: 768px) {
         display: none;
@@ -165,7 +165,7 @@
           #ffffffe8 131.25%
         ) !important;
         @include __text__clip;
-        color: var(--grootech__text__white);
+        color: var(--g__text__white);
       }
     }
   }
@@ -187,7 +187,7 @@
 
 .form {
   @include __form__login;
-  @include __form__border(1px, var(--grootech__black__shade--6));
+  @include __form__border(1px, var(--g__black__shade--6));
   @include __form__curve(10px);
 
   @media only screen and (max-width: 600px) {
@@ -199,7 +199,7 @@
     display: flex;
     justify-content: center;
     padding: var(--span-s) 0;
-    border-bottom: 1px solid var(--grootech__black__shade--8);
+    border-bottom: 1px solid var(--g__black__shade--8);
   }
 
   &__paragraph {
@@ -208,7 +208,7 @@
     font-weight: var(--weight-xlg);
     line-height: 25px;
     text-align: left;
-    color: var(--grootech__text__black__shade--1);
+    color: var(--g__text__black__shade--1);
 
     @media only screen and (max-width: 600px) {
       font-size: var(--size-s);
@@ -231,7 +231,7 @@
     font-weight: var(--weight-lg);
     line-height: 30px;
     text-align: left;
-    color: var(--grootech__text__black__shade--1);
+    color: var(--g__text__black__shade--1);
 
     @media only screen and (max-width: 600px) {
       font-size: calc(var(--size-m) + 2px);
@@ -264,23 +264,23 @@
     }
 
     &--border-top {
-      @include __form__border__top(1px, var(--grootech__black__shade--6));
+      @include __form__border__top(1px, var(--g__black__shade--6));
     }
 
     &--border-round-top {
-      @include __form__border__top(1px, var(--grootech__black__shade--6));
-      @include __form__border__left(1px, var(--grootech__black__shade--6));
-      @include __form__border__right(1px, var(--grootech__black__shade--6));
+      @include __form__border__top(1px, var(--g__black__shade--6));
+      @include __form__border__left(1px, var(--g__black__shade--6));
+      @include __form__border__right(1px, var(--g__black__shade--6));
     }
 
     &--border-round-bottom {
-      @include __form__border__bottom(1px, var(--grootech__black__shade--6));
-      @include __form__border__left(1px, var(--grootech__black__shade--6));
-      @include __form__border__right(1px, var(--grootech__black__shade--6));
+      @include __form__border__bottom(1px, var(--g__black__shade--6));
+      @include __form__border__left(1px, var(--g__black__shade--6));
+      @include __form__border__right(1px, var(--g__black__shade--6));
     }
 
     &--border-bottom {
-      @include __form__border__bottom(1px, var(--grootech__black__shade--6));
+      @include __form__border__bottom(1px, var(--g__black__shade--6));
     }
 
     &--border-top-radius {
@@ -306,7 +306,7 @@
     .dash {
       flex-grow: 1;
       height: 0;
-      border: 0.1px solid var(--grootech__text__black__shade--8);
+      border: 0.1px solid var(--g__text__black__shade--8);
     }
 
     .text {
@@ -315,7 +315,7 @@
       font-weight: var(--weight-sm);
       line-height: 20px;
       text-align: left;
-      color: var(--grootech__text__black__shade--2);
+      color: var(--g__text__black__shade--2);
     }
   }
 
@@ -326,7 +326,7 @@
     font-weight: var(--weight-sm);
     line-height: 20px;
     text-align: left;
-    color: var(--grootech__text__black__shade--3);
+    color: var(--g__text__black__shade--3);
     align-self: center;
   }
 
@@ -337,7 +337,7 @@
     font-weight: var(--weight-sm);
     line-height: 15px;
     text-align: left;
-    color: var(--grootech__text__black__shade--3);
+    color: var(--g__text__black__shade--3);
     margin-bottom: 3px;
   }
 
@@ -352,7 +352,7 @@
     font-weight: var(--weight-sm);
     line-height: 20px;
     text-align: left;
-    color: var(--grootech__text__black__shade--2);
+    color: var(--g__text__black__shade--2);
 
     &::-webkit-input-placeholder {
       font-family: var(--Montserrat);
@@ -360,7 +360,7 @@
       font-weight: var(--weight-md);
       line-height: 20px;
       text-align: left;
-      color: var(--grootech__text__black__shade--2);
+      color: var(--g__text__black__shade--2);
     }
   }
 
@@ -371,7 +371,7 @@
     font-weight: var(--weight-sm);
     line-height: 15px;
     text-align: left;
-    color: var(--grootech__text__black__shade--2);
+    color: var(--g__text__black__shade--2);
 
     @media only screen and (max-width: 600px) {
       margin-top: var(--span-xs);
@@ -385,7 +385,7 @@
     font-weight: var(--weight-lg);
     line-height: 15px;
     text-align: left;
-    color: var(--grootech__text__black__shade--1);
+    color: var(--g__text__black__shade--1);
     color: var(--palette__brown__base);
 
     @media only screen and (max-width: 600px) {
@@ -399,9 +399,9 @@
     border: none;
     width: 100%;
     display: block;
-    background: var(--grootech__black);
-    background: var(--grootech__join__button__brown);
-    color: var(--grootech__text__white);
+    background: var(--g__black);
+    background: var(--g__join__button__brown);
+    color: var(--g__text__white);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-s));
     font-weight: var(--weight-md);
@@ -420,7 +420,7 @@
     border: none;
     width: 100%;
     padding: calc(var(--span-xs)) var(--span-m);
-    border: 1px solid var(--grootech__black);
+    border: 1px solid var(--g__black);
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -429,10 +429,10 @@
     font-size: calc(var(--size-s));
     font-weight: var(--weight-md);
     line-height: 23px;
-    color: var(--grootech__black);
+    color: var(--g__black);
 
     .text {
-      color: var(--grootech__black);
+      color: var(--g__black);
     }
 
     .icon {
@@ -473,12 +473,12 @@
 
 .footer {
   height: 70px;
-  border-top: 1px solid var(--grootech__black__shade--8);
+  border-top: 1px solid var(--g__black__shade--8);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100vw;
-  background: var(--grootech__white);
+  background: var(--g__white);
   display: none;
   padding: var(--span-xs) var(--span-s);
 
@@ -499,7 +499,7 @@
       width: 22px;
       height: 22px;
       stroke-width: 1px;
-      stroke: var(--grootech__black__shade--4);
+      stroke: var(--g__black__shade--4);
     }
 
     display: flex;
@@ -513,7 +513,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    color: var(--grootech__black__shade--5);
+    color: var(--g__black__shade--5);
     background: transparent;
 
     .light {

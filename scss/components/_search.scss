@@ -12,7 +12,7 @@
 
   &__box {
     display: flex;
-    background: var(--grootech__white);
+    background: var(--g__white);
     border-radius: 10px;
     transition: all 300ms;
 
@@ -21,7 +21,7 @@
     }
 
     &:focus-within {
-      background: var(--grootech__input__focus);
+      background: var(--g__input__focus);
     }
   }
 
@@ -36,7 +36,7 @@
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: left;
-    color: var(--grootech__text__gray);
+    color: var(--g__text__gray);
 
     &::-webkit-input-placeholder {
       font-family: var(--Montserrat);
@@ -44,7 +44,7 @@
       font-weight: var(--weight-md);
       line-height: 28px;
       text-align: left;
-      color: var(--grootech__text__gray);
+      color: var(--g__text__gray);
     }
   }
 
@@ -57,7 +57,7 @@
     svg {
       width: 24px;
       height: 24px;
-      stroke: var(--grootech__icon__gray);
+      stroke: var(--g__icon__gray);
     }
   }
 
@@ -68,13 +68,13 @@
     width: 100%;
     outline: none;
     border: none;
-    background: var(--grootech__button__brown);
+    background: var(--g__button__brown);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-m) + 2px);
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: center;
-    color: var(--grootech__text__white);
+    color: var(--g__text__white);
     border-radius: 10px;
   }
 }

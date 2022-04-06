@@ -29,7 +29,7 @@
 
         svg {
           opacity: 1;
-          stroke: var(--grootech__black);
+          stroke: var(--g__black);
         }
       }
 
@@ -37,7 +37,7 @@
         width: 16px;
         height: 16px;
         opacity: 0.6;
-        stroke: var(--grootech__black);
+        stroke: var(--g__black);
       }
     }
 
@@ -56,7 +56,7 @@
 
         svg {
           opacity: 1;
-          stroke: var(--grootech__black);
+          stroke: var(--g__black);
         }
       }
 
@@ -64,7 +64,7 @@
         width: 16px;
         height: 16px;
         opacity: 0.6;
-        stroke: var(--grootech__black);
+        stroke: var(--g__black);
       }
     }
   }
@@ -82,29 +82,29 @@
     font-weight: var(--weight-sm);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__black);
+    color: var(--g__text__black);
 
     &--active {
-      color: var(--grootech__text__white);
-      background: var(--grootech__black);
+      color: var(--g__text__white);
+      background: var(--g__black);
 
       &:hover {
-        color: var(--grootech__text__white) !important;
-        background: var(--grootech__black) !important;
+        color: var(--g__text__white) !important;
+        background: var(--g__black) !important;
       }
     }
   }
 
   &__button:hover .icon-next {
-    background: var(--grootech__input__focus);
+    background: var(--g__input__focus);
   }
 
   &__button:hover .icon-prev {
-    background: var(--grootech__input__focus);
+    background: var(--g__input__focus);
   }
 
   &__button:hover &__number {
-    background: var(--grootech__input__focus);
+    background: var(--g__input__focus);
   }
 
   &__divide {
@@ -119,6 +119,6 @@
     font-weight: var(--weight-sm);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__black);
+    color: var(--g__text__black);
   }
 }

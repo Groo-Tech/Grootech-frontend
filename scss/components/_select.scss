@@ -5,7 +5,7 @@
   &__field {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid var(--white);
+    border-bottom: 2px solid var(--g__white);
     padding-bottom: 5px;
     cursor: pointer;
 
@@ -17,7 +17,7 @@
   &__list {
     position: absolute;
     list-style-type: none;
-    background: var(--grootech__white);
+    background: var(--g__white);
     width: 100%;
     left: 0;
     transform: translateY(10px);
@@ -40,9 +40,9 @@
     font-weight: var(--weight-md);
     line-height: 23px;
     padding: var(--span-s) var(--span-m);
-    color: var(--grootech__text__gray);
+    color: var(--g__text__gray);
     cursor: pointer;
-    background: var(--grootech__white);
+    background: var(--g__white);
 
     &:nth-child(1) {
       border-top-right-radius: 6px;
@@ -55,8 +55,8 @@
     }
 
     &:hover {
-      background: var(--grootech__brown);
-      color: var(--grootech__white);
+      background: var(--g__brown);
+      color: var(--g__white);
     }
   }
 }

@@ -35,7 +35,7 @@
     font-weight: var(--weight-lg);
     line-height: 28px;
     text-align: left;
-    color: var(--grootech__text__brown__3);
+    color: var(--g__text__brown__3);
   }
 
   &__group {
@@ -66,13 +66,13 @@
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: left;
-    color: var(--grootech__text__brown__3) !important;
+    color: var(--g__text__brown__3) !important;
     border-radius: 6px;
-    border: 1px solid var(--grootech__border__gray);
+    border: 1px solid var(--g__border__gray);
     padding: calc(var(--span-xs) + 5px) var(--span-m);
 
     &::-ms-value {
-      color: var(--grootech__text__brown__3) !important;
+      color: var(--g__text__brown__3) !important;
     }
 
     &::-webkit-input-placeholder {
@@ -81,12 +81,12 @@
       font-weight: var(--weight-md);
       line-height: 28px;
       text-align: left;
-      color: var(--grootech__text__brown__3);
+      color: var(--g__text__brown__3);
     }
 
     &:internal-autofill-selected {
       background-color: transparent !important;
-      color: var(--grootech__text__brown__3) !important;
+      color: var(--g__text__brown__3) !important;
     }
   }
 
@@ -99,9 +99,9 @@
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: center;
-    color: var(--grootech__text__white);
+    color: var(--g__text__white);
     padding: calc(var(--span-xs) + 5px) var(--span-m);
-    background: var(--grootech__join__button__brown);
+    background: var(--g__join__button__brown);
   }
 
   &__extras {
@@ -117,7 +117,7 @@
     font-weight: var(--weight-md);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__brown__3);
+    color: var(--g__text__brown__3);
 
     @media only screen and (max-width: 600px) {
       font-size: var(--size-xs);

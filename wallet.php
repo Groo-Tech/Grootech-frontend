@@ -101,10 +101,35 @@
     <section class="section-transactions">
         <div class="container">
             <div class="transactions">
-                <div class="transactions__header">
-                    <h1 class="transactions__heading">
-                        Transactions
-                    </h1>
+                <div class="transactions__sidebar">
+                    <div class="transactions__header">
+                        <h1 class="transactions__heading">
+                            Transactions
+                        </h1>
+                    </div>
+                    <div class="transactions__wrapper">
+                        <ul class="transactions__list">
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/sucessful.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    &nbsp;
+                                </div>
+                            </li>
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/transactions.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    &nbsp;
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="transactions__view">
+                    &nbsp;
                 </div>
             </div>
         </div>

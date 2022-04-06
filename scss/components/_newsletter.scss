@@ -18,13 +18,13 @@
     outline: none;
     width: 100%;
     border: none;
-    background: var(--grootech__white);
+    background: var(--g__white);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-m) + 2px);
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: left;
-    color: var(--grootech__text__gray);
+    color: var(--g__text__gray);
     padding: calc(var(--span-xs) + 5px) var(--span-m);
     border-radius: 10px;
 
@@ -34,7 +34,7 @@
       font-weight: var(--weight-md);
       line-height: 28px;
       text-align: left;
-      color: var(--grootech__text__gray);
+      color: var(--g__text__gray);
     }
   }
 
@@ -45,13 +45,13 @@
     width: 100%;
     outline: none;
     border: none;
-    background: var(--grootech__button__brown);
+    background: var(--g__button__brown);
     font-family: var(--Montserrat);
     font-size: calc(var(--size-m) + 2px);
     font-weight: var(--weight-md);
     line-height: 28px;
     text-align: center;
-    color: var(--grootech__text__white);
+    color: var(--g__text__white);
     border-radius: 15px;
   }
 }

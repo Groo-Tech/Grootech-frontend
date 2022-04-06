@@ -24,6 +24,6 @@ html {
 body {
   font-family: var(--Montserrat);
   -webkit-font-smoothing: antialiased;
-  @include __section__background(var(--grootech__background__white));
+  @include __section__background(var(--g__background__white));
   scroll-behavior: smooth;
 }

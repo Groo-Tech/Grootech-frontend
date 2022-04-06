@@ -58,7 +58,7 @@
     font-weight: var(--weight-sm);
     line-height: 35px;
     text-align: left;
-    color: var(--grootech__text__white);
+    color: var(--g__text__white);
 
     &--sm {
       font-family: var(--Montserrat);
@@ -71,7 +71,7 @@
       font-size: calc(var(--size-m));
       font-weight: var(--weight-lg);
       line-height: 23px;
-      color: var(--grootech__text__black__shade--1) !important;
+      color: var(--g__text__black__shade--1) !important;
     }
   }
 
@@ -82,7 +82,7 @@
     font-weight: var(--weight-sm);
     line-height: 23px;
     text-align: left;
-    color: var(--grootech__text__white);
+    color: var(--g__text__white);
   }
 
   &--light {
@@ -102,6 +102,6 @@
   }
 
   &--white {
-    background: var(--grootech__white);
+    background: var(--g__white);
   }
 }

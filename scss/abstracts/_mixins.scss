@@ -47,7 +47,7 @@
   font-weight: var(--weight-md);
   line-height: 43px;
   text-align: left;
-  color: var(--grootech__header__gray);
+  color: var(--g__header__gray);
 }
 
 // set section header clipped background
@@ -92,7 +92,7 @@
   margin-top: 0;
   font-size: calc(var(--size-l) + 2px);
   line-height: 28px;
-  color: var(--grootech__white) !important;
+  color: var(--g__white) !important;
 }
 
 // sets section background
@@ -117,7 +117,7 @@
 
 @mixin __card__ {
   border-radius: 10px;
-  background: var(--grootech__white);
+  background: var(--g__white);
   max-width: calc(100% / 4);
   flex-grow: 1 !important;
   flex-basis: calc(100% / 4);
