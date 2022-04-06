@@ -231,7 +231,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: var(--grootech__logo__text);
+    background: var(--grootech__logo__text--2);
     color: var(--grootech__white--fixed);
 
     svg {
@@ -239,6 +239,165 @@
       height: 16px;
     }
   }
+}
+
+.section-wallet {
+  padding-top: var(--span-s);
+}
+
+.wallet {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  &__sidebar {
+    border-right: 1px solid var(--grey--1);
+    padding-right: var(--span-l);
+  }
+
+  &__view {
+    padding-left: var(--span-l);
+  }
+
+  &__header {
+    display: flex;
+  }
+
+  &__heading {
+    @include __section__header__;
+    font-size: var(--size-l);
+    line-height: 30px;
+  }
+
+  &__wrapper {
+    margin-top: var(--span-m);
+    display: flex;
+    gap: var(--span-m);
+  }
+
+  &__container {
+    flex-grow: 1;
+    display: flex;
+    gap: var(--span-m);
+    overflow-x: scroll;
+    cursor: grabbing;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      display: none;
+    }
+  }
+
+  &__card {
+    flex: 0 0 390px;
+    max-width: 390px;
+    flex-grow: 1;
+    min-height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: var(--grey--1);
+
+    &--empty {
+      background: var(--grey--1);
+    }
+  }
+
+  &__add {
+    display: flex;
+    justify-content: center;
+
+    .icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 10px;
+      border: 1px dashed var(--grootech__black__shade--5);
+      background: transparent;
+
+      svg {
+        stroke: var(--grootech__black);
+      }
+    }
+  }
+
+  .balance {
+    padding-top: var(--span-l);
+
+    &__header {
+      display: flex;
+    }
+
+    &__value {
+      @include __section__header__;
+    }
+
+    &__account {
+      margin-top: var(--span-xs);
+      font-family: var(--Montserrat);
+      font-size: var(--size-s);
+      font-weight: var(--weight-lg);
+      line-height: 23px;
+      text-align: left;
+      color: var(--grootech__text__black);
+      letter-spacing: 3px;
+      vertical-align: middle;
+    }
+
+    &__action {
+      padding-top: var(--span-m);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--span-s);
+    }
+
+    &__button {
+      padding: calc(var(--span-xs) + 5px) var(--span-m);
+      border-radius: 10px;
+      width: 100%;
+      font-family: var(--Montserrat);
+      font-size: var(--size-s);
+      font-weight: var(--weight-md);
+      line-height: 23px;
+      text-align: center;
+
+      &--withdraw {
+        background: var(--grootech__red);
+        color: var(--grootech__white--fixed);
+      }
+
+      &--fund {
+        background: var(--wallet__green);
+        color: var(--grootech__white--fixed);
+      }
+    }
+  }
+}
+
+.section-transactions {
+  @include __section__space__top__md;
+}
+
+.transactions {
+  &__header {
+    display: flex;
+  }
+
+  &__heading {
+    @include __section__header__;
+    font-size: var(--size-l);
+    line-height: 30px;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--grootech__white);
+  display: none;
 }
 
 .footer {

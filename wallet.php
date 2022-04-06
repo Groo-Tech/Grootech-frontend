@@ -47,7 +47,73 @@
             </div>
         </header>
     </section>
-
+    <section class="section-wallet">
+        <div class="container">
+            <div class="wallet">
+                <div class="wallet__sidebar">
+                    <div class="wallet__header">
+                        <h1 class="wallet__heading">
+                            My cards
+                        </h1>
+                    </div>
+                    <div class="wallet__wrapper">
+                        <div class="wallet__add">
+                            <button class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                            </button>
+                        </div>
+                        <div class="wallet__container">
+                            <div class="wallet__card wallet__card--filled"></div>
+                            <div class="wallet__card wallet__card--empty"></div>
+                            <div class="wallet__card wallet__card--empty"></div>
+                            <div class="wallet__card wallet__card--empty"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wallet__view">
+                    <div class="wallet__header">
+                        <h1 class="wallet__heading">
+                            Balance
+                        </h1>
+                    </div>
+                    <div class="balance">
+                        <div class="balance__header">
+                            <h1 class="balance__value">
+                                $5,000,000.00
+                            </h1>
+                        </div>
+                        <p class="balance__account">
+                            **** **** **** 2580
+                        </p>
+                        <div class="balance__action">
+                            <button class="balance__button balance__button--fund">
+                                Fund wallet
+                            </button>
+                            <button class="balance__button balance__button--withdraw">
+                                Withdraw
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-transactions">
+        <div class="container">
+            <div class="transactions">
+                <div class="transactions__header">
+                    <h1 class="transactions__heading">
+                        Transactions
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+        <div class="modal__header">
+            &nbsp;
+        </div>
+    </div>
     <!-- <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
@@ -254,6 +320,7 @@
             </div>
         </div>
     </footer> -->
+    <script src="./Js/wallet.js"></script>
     <script src="./Js/theme.js"></script>
 </body>
 </html>

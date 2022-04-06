@@ -103,6 +103,7 @@
     --chat__me: #222222;
     --grootech__logo__text--2: #000000;
     --search-result-image-bg: #222222;
+    --wallet__green: #05634f;
     --grootech__logo__text: #ffffff;
   }
   :root .login .form__button {
@@ -180,6 +181,7 @@
     --overview__color: var(--grootech__white);
     --carousel-controls-bg: #ffffff;
     --carousel-controls-border: #dddddd;
+    --wallet__green: #05634f;
     --text__gradient: linear-gradient(
       90deg,
       #552200 0%,
