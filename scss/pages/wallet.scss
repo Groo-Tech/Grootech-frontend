@@ -386,6 +386,7 @@
 
   &__sidebar {
     border-right: 1px solid var(--grey--1);
+    padding-right: var(--span-l);
   }
 
   &__header {
@@ -438,7 +439,74 @@
   }
 
   &__details {
+    padding-top: var(--span-xs);
     flex-grow: 1;
+    display: flex;
+  }
+
+  &__info {
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-family: var(--Montserrat);
+    font-size: var(--size-m);
+    font-weight: var(--weight-md);
+    line-height: 23px;
+    text-align: left;
+    color: var(--g__black__shade--2);
+  }
+
+  &__type {
+    font-family: var(--Montserrat);
+    font-size: var(--size-xs);
+    font-weight: var(--weight-sm);
+    line-height: 18px;
+    text-align: left;
+    color: var(--g__black__shade--3);
+  }
+
+  &__price {
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-md);
+    line-height: 23px;
+    text-align: left;
+    color: var(--g__black__shade--2);
+
+    &--credit {
+      color: var(--wallet__green);
+    }
+
+    &--debit {
+      color: var(--g__red);
+    }
+  }
+
+  &__date {
+    font-family: var(--Montserrat);
+    font-size: var(--size-xs);
+    font-weight: var(--weight-sm);
+    line-height: 18px;
+    text-align: left;
+    color: var(--g__black__shade--3);
+  }
+
+  &__view-more {
+    padding-top: var(--span-s);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--Montserrat);
+    font-size: var(--size-s);
+    font-weight: var(--weight-md);
+    line-height: 20px;
+    text-align: left;
+    color: var(--g__black__shade--3);
   }
 }
 

@@ -114,7 +114,22 @@
                                     <img src="./assets/illustrations/sucessful.svg" alt="" class="transactions__image">
                                 </div>
                                 <div class="transactions__details">
-                                    &nbsp;
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--credit">
+                                            +$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            Yesterday
+                                        </h4>
+                                    </div>
                                 </div>
                             </li>
                             <li class="transactions__item">
@@ -122,10 +137,122 @@
                                     <img src="./assets/illustrations/transactions.svg" alt="" class="transactions__image">
                                 </div>
                                 <div class="transactions__details">
-                                    &nbsp;
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--debit">
+                                            -$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            27 Mar 2022
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/sucessful.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--credit">
+                                            +$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            Yesterday
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/transactions.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--debit">
+                                            -$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            27 Mar 2022
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/sucessful.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--credit">
+                                            +$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            Yesterday
+                                        </h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="transactions__item">
+                                <div class="transactions__image-box">
+                                    <img src="./assets/illustrations/transactions.svg" alt="" class="transactions__image">
+                                </div>
+                                <div class="transactions__details">
+                                    <div class="transactions__info">
+                                        <h1 class="transactions__title">
+                                            Lorem ipsum dolor.
+                                        </h1>
+                                        <p class="transactions__type">
+                                            Lorem ipsum dolor sit.
+                                        </p>
+                                    </div>
+                                    <div class="transactions__extras">
+                                        <h3 class="transactions__price transactions__price--debit">
+                                            -$123.00
+                                        </h3>
+                                        <h4 class="transactions__date">
+                                            27 Mar 2022
+                                        </h4>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
+                        <div class="transactions__view-more">
+                            <a href="" class="transactions__link">
+                                View all
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="transactions__view">
@@ -134,11 +261,6 @@
             </div>
         </div>
     </section>
-    <div class="modal">
-        <div class="modal__header">
-            &nbsp;
-        </div>
-    </div>
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
@@ -345,6 +467,11 @@
             </div>
         </div>
     </footer>
+    <div class="modal">
+        <div class="modal__header">
+            &nbsp;
+        </div>
+    </div>
     <script src="./Js/wallet.js"></script>
     <script src="./Js/theme.js"></script>
 </body>

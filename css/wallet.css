@@ -1786,6 +1786,7 @@ p {
 
 .transactions__sidebar {
   border-right: 1px solid var(--grey--1);
+  padding-right: var(--span-l);
 }
 
 .transactions__header {
@@ -1871,9 +1872,84 @@ p {
 }
 
 .transactions__details {
+  padding-top: var(--span-xs);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.transactions__info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.transactions__title {
+  font-family: var(--Montserrat);
+  font-size: var(--size-m);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__black__shade--2);
+}
+
+.transactions__type {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xs);
+  font-weight: var(--weight-sm);
+  line-height: 18px;
+  text-align: left;
+  color: var(--g__black__shade--3);
+}
+
+.transactions__price {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__black__shade--2);
+}
+
+.transactions__price--credit {
+  color: var(--wallet__green);
+}
+
+.transactions__price--debit {
+  color: var(--g__red);
+}
+
+.transactions__date {
+  font-family: var(--Montserrat);
+  font-size: var(--size-xs);
+  font-weight: var(--weight-sm);
+  line-height: 18px;
+  text-align: left;
+  color: var(--g__black__shade--3);
+}
+
+.transactions__view-more {
+  padding-top: var(--span-s);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.transactions__link {
+  text-decoration: none;
+  display: inline-block;
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 20px;
+  text-align: left;
+  color: var(--g__black__shade--3);
 }
 
 .modal {

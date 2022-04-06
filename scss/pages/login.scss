@@ -57,11 +57,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media only screen and (min-width: 1960px) {
-      margin-left: -15%;
-      margin-right: -15%;
-    }
   }
 
   &__profile {
