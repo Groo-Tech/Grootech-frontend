@@ -1,17 +1,17 @@
 .light-theme {
   --footer__bg: #f7f7f7;
   //color - white
-  --grootech__white: #ffffff;
-  --grootech__text__white: #ffffff;
-  --grootech__background__white: #ffffff;
-  --overview__bg: var(--grootech__black);
-  --overview__color: var(--grootech__white);
+  --g__white: #ffffff;
+  --g__text__white: #ffffff;
+  --g__background__white: #ffffff;
+  --overview__bg: var(--g__black);
+  --overview__color: var(--g__white);
   --search-result-image-bg: #ebebeb;
 
   //color - light gray
-  --grootech__background__gray: #f8f8f8;
-  --grootech__input__focus: #eeeeee;
-  --grootech__shadow: #ebebeb;
+  --g__background__gray: #f8f8f8;
+  --g__input__focus: #eeeeee;
+  --g__shadow: #ebebeb;
 
   --logo__brown--1: #552200;
   --logo__brown--2: #a55b28;
@@ -43,23 +43,23 @@
     #ffffffe8 131.25%
   ) !important;
   //color - brown
-  --grootech__brown: #ce8339;
-  --grootech__navigation__link__brown: #ce8339;
-  --grootech__join__button__brown: #cd8136;
-  --grootech__logo__text: #a55a28;
-  --grootech__logo__text--2: #a55a28;
-  --grootech__icon__brown: #a55a28;
-  --grootech__text__brown: #a55a28;
-  --grootech__text__brown__2: #ce8339;
-  --grootech__text__brown__3: #cd8136;
-  --grootech__button__brown: #ce8339;
+  --g__brown: #ce8339;
+  --g__navigation__link__brown: #ce8339;
+  --g__join__button__brown: #cd8136;
+  --g__logo__text: #a55a28;
+  --g__logo__text--2: #a55a28;
+  --g__icon__brown: #a55a28;
+  --g__text__brown: #a55a28;
+  --g__text__brown__2: #ce8339;
+  --g__text__brown__3: #cd8136;
+  --g__button__brown: #ce8339;
 
   //color - gray
-  --grootech__gray: #848484;
-  --grootech__icon__gray: #848484;
-  --grootech__text__gray: #848484;
-  --grootech__header__gray: #848484;
-  --grootech__border__gray: #848484;
+  --g__gray: #848484;
+  --g__icon__gray: #848484;
+  --g__text__gray: #848484;
+  --g__header__gray: #848484;
+  --g__border__gray: #848484;
 
   //color - black
 
@@ -69,42 +69,42 @@
   --carousel-controls-bg: #ffffff;
   --carousel-controls-border: #dddddd;
 
-  --grootech__black: #000000;
-  --grootech__text__black: #000000;
-  --grootech__white--fixed: #ffffff;
+  --g__black: #000000;
+  --g__text__black: #000000;
+  --g__white--fixed: #ffffff;
 
   //color -  black: opacity < 1
-  --grootech__black__shade--1: #000000cc;
-  --grootech__black__shade--2: #000000b3;
-  --grootech__black__shade--3: #00000099;
-  --grootech__black__shade--4: #00000080;
-  --grootech__black__shade--5: #00000066;
-  --grootech__black__shade--6: #0000004d;
-  --grootech__black__shade--7: #00000033;
-  --grootech__black__shade--8: #0000001a;
-  --grootech__black__shade--9: #000000e6;
-  --grootech__text__black__shade--1: #000000cc;
-  --grootech__text__black__shade--2: #000000b3;
-  --grootech__text__black__shade--3: #00000099;
-  --grootech__text__black__shade--4: #00000080;
-  --grootech__text__black__shade--5: #00000066;
-  --grootech__text__black__shade--6: #0000004d;
-  --grootech__text__black__shade--7: #00000033;
-  --grootech__text__black__shade--8: #0000001a;
-  --grootech__text__black__shade--9: #000000e6;
+  --g__black__shade--1: #000000cc;
+  --g__black__shade--2: #000000b3;
+  --g__black__shade--3: #00000099;
+  --g__black__shade--4: #00000080;
+  --g__black__shade--5: #00000066;
+  --g__black__shade--6: #0000004d;
+  --g__black__shade--7: #00000033;
+  --g__black__shade--8: #0000001a;
+  --g__black__shade--9: #000000e6;
+  --g__text__black__shade--1: #000000cc;
+  --g__text__black__shade--2: #000000b3;
+  --g__text__black__shade--3: #00000099;
+  --g__text__black__shade--4: #00000080;
+  --g__text__black__shade--5: #00000066;
+  --g__text__black__shade--6: #0000004d;
+  --g__text__black__shade--7: #00000033;
+  --g__text__black__shade--8: #0000001a;
+  --g__text__black__shade--9: #000000e6;
 
   //color - grey
-  --grootech__grey: #222222;
-  --grootech__text__grey: #222222;
+  --g__grey: #222222;
+  --g__text__grey: #222222;
 
   --panel-link-hover: #eee;
 
   //color - red
-  --grootech__light__red: #ffe2e5;
-  --grootech__red: #ff385c;
-  --grootech__icon__red: #ff385c;
+  --g__light__red: #ffe2e5;
+  --g__red: #ff385c;
+  --g__icon__red: #ff385c;
 
-  --grootech__footer__background: #f7f7f7;
+  --g__footer__background: #f7f7f7;
 
   //lol
   --palette__brown__darker: #552200;
@@ -210,15 +210,15 @@
 
 // dark #111111
 .dark-theme {
-  --grootech__white: #111111;
-  --grootech__text__white: #111111;
-  --grootech__background__white: #111111;
+  --g__white: #111111;
+  --g__text__white: #111111;
+  --g__background__white: #111111;
   --logo__text__gradient: #ffffff !important;
   --logo__brown--1: #ffffff;
   --logo__brown--2: #ffffff;
   --logo__white--1: #000000;
   --logo__white--2: #000000;
-  --grootech__black: #ffffff;
+  --g__black: #ffffff;
   --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
   --image-preload: #ffffff;
   --footer__bg: #111111;
@@ -245,15 +245,15 @@
   --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
 
   --logo__text__gradient--white: #000000 !important;
-  --grootech__logo__text--2: #000000;
+  --g__logo__text--2: #000000;
   --palette__brown__darker: #ffffff;
   --palette__brown__dark: #ffffff;
   --palette__brown__base: #ffffff;
   --palette__brown__lighter: #ffffff;
   --palette__brown__light: #ffffff;
 
-  --overview__bg: var(--grootech__black);
-  --overview__color: var(--grootech__white);
+  --overview__bg: var(--g__black);
+  --overview__color: var(--g__white);
 
   --grey--1: #222;
   --panel-grey: #222;
@@ -266,36 +266,36 @@
   // BUG Fix colors on dark mode - all connections etc
   // TODO - FIX MESSAGE.PHP PAGE (LIGHT AND DARK), NOTIFICATIONS PAGE AND MENU (ON FILL).
   --bronze: #cd8136ff;
-  --grootech__input__focus: #222;
-  --grootech__logo__text: #000;
-  --grootech__white--fixed: #ffffff;
-  --grootech__logo__text: #ffffff;
+  --g__input__focus: #222;
+  --g__logo__text: #000;
+  --g__white--fixed: #ffffff;
+  --g__logo__text: #ffffff;
   --view__open: #f7f7f7;
 
-  --grootech__text__black: #ffffff;
-  --grootech__black__shade--1: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--2: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--3: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--4: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--5: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--6: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--7: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--8: rgba(255, 255, 255, 0.902);
-  --grootech__black__shade--9: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--1: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--2: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--3: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--4: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--5: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--6: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--7: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--8: rgba(255, 255, 255, 0.902);
-  --grootech__text__black__shade--9: rgba(255, 255, 255, 0.902);
+  --g__text__black: #ffffff;
+  --g__black__shade--1: rgba(255, 255, 255, 0.902);
+  --g__black__shade--2: rgba(255, 255, 255, 0.902);
+  --g__black__shade--3: rgba(255, 255, 255, 0.902);
+  --g__black__shade--4: rgba(255, 255, 255, 0.902);
+  --g__black__shade--5: rgba(255, 255, 255, 0.902);
+  --g__black__shade--6: rgba(255, 255, 255, 0.902);
+  --g__black__shade--7: rgba(255, 255, 255, 0.902);
+  --g__black__shade--8: rgba(255, 255, 255, 0.902);
+  --g__black__shade--9: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--1: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--2: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--3: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--4: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--5: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--6: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--7: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--8: rgba(255, 255, 255, 0.902);
+  --g__text__black__shade--9: rgba(255, 255, 255, 0.902);
 
   .login {
     .form__button {
-      color: var(--grootech__white);
-      background: var(--grootech__black);
+      color: var(--g__white);
+      background: var(--g__black);
     }
   }
 }

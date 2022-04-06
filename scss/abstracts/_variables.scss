@@ -71,15 +71,16 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --g__black: #ffffff;
     --header__fixed__shadow: 0 1px 12px rgba(255, 255, 255, 0.1);
     --image-preload: #ffffff;
-    --footer__bg: #000000;
+    --footer__bg: #111111;
     --light-grey: #ffffff;
     --text__gradient: #ffffff !important;
     --text__gradient--white: #000000 !important;
     --testimonial__overlay: linear-gradient(
       to top,
-      #000,
+      #111111,
       rgba(255, 255, 255, 0.01)
     );
+
     --overview__bg: var(--g__black);
     --overview__color: var(--g__white);
     --carousel-controls-bg: #222222;
@@ -124,7 +125,6 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --g__text__black__shade--7: rgba(255, 255, 255, 0.902);
     --g__text__black__shade--8: rgba(255, 255, 255, 0.902);
     --g__text__black__shade--9: rgba(255, 255, 255, 0.902);
-
     --grey--1: #f7f7f7;
     --panel-grey: #f7f7f7;
     --panel-link-hover: rgb(8, 8, 8);
@@ -135,7 +135,39 @@ $dot-spacing: $dot-width + $dot-width * 0.5 !default;
     --search-result-image-bg: #222222;
     --wallet__green: #05634f;
 
-    --g__logo__text: #ffffff;
+    --chat__me: #222222;
+    --dashboard__link--hover: #222222;
+    --notification__header: #ffffff;
+    --search-result-image-bg: #222222;
+    --carousel-controls-bg: #222222;
+    --carousel-controls-border: transparent;
+    --wallet__green: #05634f;
+
+    --testimonial__overlay--btn: #ffffff;
+    --review__text: rgba(255, 255, 255, 0.9);
+    --review__text--2: #f7f7f7;
+    --header__fixed__box-shadow: 0 1px 12px rgba(27, 27, 27, 1);
+
+    --logo__text__gradient--white: #000000 !important;
+    --g__logo__text--2: #000000;
+    --palette__brown__darker: #ffffff;
+    --palette__brown__dark: #ffffff;
+    --palette__brown__base: #ffffff;
+    --palette__brown__lighter: #ffffff;
+    --palette__brown__light: #ffffff;
+
+    --overview__bg: var(--g__black);
+    --overview__color: var(--g__white);
+
+    --grey--1: #222;
+    --panel-grey: #222;
+    --panel-link-hover: rgb(8, 8, 8);
+    --recent-search__bg: rgba(32, 32, 32, 1);
+    --recent-search__btn: rgba(45, 45, 45, 1);
+
+    --bronze: #cd8136ff;
+    --g__input__focus: #222;
+    --g__logo__text: #000;
 
     .login {
       .form__button {

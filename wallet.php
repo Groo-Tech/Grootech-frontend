@@ -139,7 +139,7 @@
             &nbsp;
         </div>
     </div>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__box">
@@ -344,7 +344,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script src="./Js/wallet.js"></script>
     <script src="./Js/theme.js"></script>
 </body>
