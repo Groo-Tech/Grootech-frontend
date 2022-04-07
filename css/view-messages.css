@@ -373,18 +373,19 @@
   padding: 0;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--Montserrat);
   -webkit-font-smoothing: antialiased;
   background: var(--g__background__white);
-  scroll-behavior: smooth;
 }
 
 input {
@@ -560,9 +561,9 @@ p {
 
 @media only screen and (max-width: 475px) {
   .card--features {
-    max-width: calc(100% / 1.2);
-    -ms-flex-preferred-size: calc(100% / 1.2);
-        flex-basis: calc(100% / 1.2);
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 
@@ -605,9 +606,9 @@ p {
 
 @media only screen and (max-width: 475px) {
   .card--popular {
-    max-width: calc(100% / 1.2);
-    -ms-flex-preferred-size: calc(100% / 1.2);
-        flex-basis: calc(100% / 1.2);
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 
@@ -661,9 +662,9 @@ p {
 
 @media only screen and (max-width: 475px) {
   .card--intro {
-    max-width: calc(100% / 1.2);
-    -ms-flex-preferred-size: calc(100% / 1.2);
-        flex-basis: calc(100% / 1.2);
+    max-width: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 

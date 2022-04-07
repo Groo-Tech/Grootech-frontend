@@ -373,18 +373,19 @@
   padding: 0;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--Montserrat);
   -webkit-font-smoothing: antialiased;
   background: var(--g__background__white);
-  scroll-behavior: smooth;
 }
 
 input {

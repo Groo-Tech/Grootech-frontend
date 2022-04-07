@@ -47,7 +47,7 @@
             </div>
         </header>
     </section>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__box">
@@ -252,7 +252,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <div class="modal">
         <div class="modal__header">
             &nbsp;

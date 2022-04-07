@@ -13,11 +13,13 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 // global box model setting
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 // global font setting
@@ -25,5 +27,4 @@ body {
   font-family: var(--Montserrat);
   -webkit-font-smoothing: antialiased;
   @include __section__background(var(--g__background__white));
-  scroll-behavior: smooth;
 }

@@ -392,16 +392,16 @@
                         Popular Businesses
                     </h1>
                     <div class="carousel-controls">
-                        <button class="icon">
+                        <button class="icon prev">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
                         </button>
-                        <button class="icon">
+                        <button class="icon next">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                         </button>
                     </div>
                 </div>
-                <div class="features__wrapper">
-                    <div class="card card--features card--light">
+                <div class="features__wrapper scroll-snap-slider">
+                    <div class="scroll-snap-slide card card--features card--light">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--8.jpg" alt="image" class="card__image">
@@ -416,7 +416,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features card--dark">
+                    <div class="scroll-snap-slide card card--features card--dark">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--2.jpg" alt="image" class="card__image">
@@ -431,7 +431,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features card--darker">
+                    <div class="scroll-snap-slide card card--features card--darker">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--1.jpg" alt="image" class="card__image">
@@ -446,7 +446,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="card card--features card--lighter">
+                    <div class="scroll-snap-slide card card--features card--lighter">
                         <a href="" class="card__link" name="businesses">
                             <div class="card__image-box">
                                 <img src="./assets/images/businesses/grootech__image--9.jpg" alt="image" class="card__image">
@@ -1206,6 +1206,7 @@
             &nbsp;
         </div>
     </div>
+    <script src="./Js/scroll-snap-slider/index.js" type="module"></script>
     <script src="./Js/home.js"></script>
     <script src="./Js/theme.js"></script>
 </body>
