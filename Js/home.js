@@ -133,14 +133,17 @@ showLess.addEventListener("click", function (e) {
 const mobileForms = Array.from(document.querySelectorAll(".form"));
 const mobileSearch = document.querySelector(".modal-search");
 const mobileSearchCloseBtn = document.querySelector(".modal__header .icon");
+const body = document.querySelector("body");
 
 mobileForms.forEach((form) => {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     mobileSearch.classList.remove("modal-search--hidden");
+    body.classList.add("no-scroll");
   });
 });
 
 mobileSearchCloseBtn.addEventListener("click", function (e) {
   mobileSearch.classList.add("modal-search--hidden");
+  body.classList.remove("no-scroll");
 });

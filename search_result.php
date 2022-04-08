@@ -99,35 +99,37 @@
                         <a href="" class="results__link" name="Cattle Farm"></a>
                         <span class="results__image-box">
                             <a href="" class="results__link" name="Cattle Farm"></a>
-                            <button class="results__button results__button--left hidden">
+                            <button class="results__button results__button--left prev">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
                             </button>
-                            <button class="results__button results__button--right">
+                            <button class="results__button results__button--right next">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                             </button>
-                            <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image">
-                            <img src="./assets/images/cities/grootech__city--3.jpg" alt="Cattle Farm" class="results__image">
-                            <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image">
-                            <img src="./assets/images/cities/grootech__city--5.jpg" alt="Cattle Farm" class="results__image">
-                            <img src="./assets/images/cities/grootech__city--6.jpg" alt="Cattle Farm" class="results__image">
-                            <img src="./assets/images/cities/grootech__city--1.jpg" alt="Cattle Farm" class="results__image">
+                            <div class="scroll-snap-slider">
+                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="Cattle Farm" class="results__image scroll-snap-slide">
+                            </div>
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -206,22 +208,22 @@
                             <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image">
                             <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image">
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                 &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -291,22 +293,22 @@
                             <img src="./assets/images/cities/grootech__city--1.jpg" alt="Cattle Farm" class="results__image">
                             <img src="./assets/images/cities/grootech__city--1.jpg" alt="Cattle Farm" class="results__image">
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -382,22 +384,22 @@
                             <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image">
                             <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image">
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                 &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -473,22 +475,22 @@
                             <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image">
                             <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image">
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                 &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -564,22 +566,22 @@
                             <img src="./assets/images/cities/grootech__city--4.jpg" alt="Cattle Farm" class="results__image">
                             <img src="./assets/images/cities/grootech__city--2.jpg" alt="Cattle Farm" class="results__image">
                             <span class="results__controls">
-                                <button class="results__dot results__dot--active">
+                                <button class="results__dot dot results__dot--active">
                                 &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
-                                <button class="results__dot">
+                                <button class="results__dot dot">
                                     &nbsp;
                                 </button>
                             </span>
@@ -1017,29 +1019,29 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1079,29 +1081,29 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--2.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1144,29 +1146,29 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--9.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1206,29 +1208,91 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
+                                        &nbsp;
+                                    </button>
+                                </span>
+                            </div>
+                            <div class="search__detials">
+                                <div class="search__rating">
+                                    <span class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </span>
+                                    <span class="text">
+                                        5.0 (3)
+                                    </span>
+                                </div>
+                                <h3 class="search__title">
+                                    Lorem ipsum dolor sit amet.
+                                </h3>
+                                <h1 class="search__heading">
+                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
+                                </h1>
+                                <ul class="search__tags">
+                                    <li class="search__tag">
+                                        Cattle
+                                    </li>
+                                    <li class="search__tag">
+                                        Poultry
+                                    </li>
+                                    <li class="search__tag">
+                                        Forestry
+                                    </li>
+                                    <li class="search__tag">
+                                        Ranching
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="search__item">
+                            <a href="" class="search__link"></a>
+                            <div class="search__image-box scroll-snap-slider">
+                                <div class="search__image-overlay">&nbsp;</div>
+                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <span class="results__controls">
+                                    <button class="results__dot dot results__dot--active">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot dot">
+                                        &nbsp;
+                                    </button>
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1268,29 +1332,29 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--7.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1330,91 +1394,29 @@
                             <a href="" class="search__link"></a>
                             <div class="search__image-box">
                                 <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--3.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image scroll-snap-slide">
+                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image scroll-snap-slide">
                                 <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
+                                    <button class="results__dot dot results__dot--active">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
-                                    <button class="results__dot">
-                                        &nbsp;
-                                    </button>
-                                </span>
-                            </div>
-                            <div class="search__detials">
-                                <div class="search__rating">
-                                    <span class="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                    </span>
-                                    <span class="text">
-                                        5.0 (3)
-                                    </span>
-                                </div>
-                                <h3 class="search__title">
-                                    Lorem ipsum dolor sit amet.
-                                </h3>
-                                <h1 class="search__heading">
-                                    Agroove Molam Farms Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, deserunt.
-                                </h1>
-                                <ul class="search__tags">
-                                    <li class="search__tag">
-                                        Cattle
-                                    </li>
-                                    <li class="search__tag">
-                                        Poultry
-                                    </li>
-                                    <li class="search__tag">
-                                        Forestry
-                                    </li>
-                                    <li class="search__tag">
-                                        Ranching
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="search__item">
-                            <a href="" class="search__link"></a>
-                            <div class="search__image-box">
-                                <div class="search__image-overlay">&nbsp;</div>
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--8.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--6.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--5.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--1.jpg" alt="city" class="search__image">
-                                <img src="./assets/images/cities/grootech__city--4.jpg" alt="city" class="search__image">
-                                <span class="results__controls">
-                                    <button class="results__dot results__dot--active">
-                                        &nbsp;
-                                    </button>
-                                    <button class="results__dot">
-                                        &nbsp;
-                                    </button>
-                                    <button class="results__dot">
-                                        &nbsp;
-                                    </button>
-                                    <button class="results__dot">
-                                        &nbsp;
-                                    </button>
-                                    <button class="results__dot">
-                                        &nbsp;
-                                    </button>
-                                    <button class="results__dot">
+                                    <button class="results__dot dot">
                                         &nbsp;
                                     </button>
                                 </span>
@@ -1463,6 +1465,7 @@
             </button>
         </div>
     </div>
+    <script src="./Js/scroll-snap-slider/index.js" type="module"></script>
     <script src="./Js/search_result.js"></script>
     <script src="./Js/theme.js"></script>
 </body>

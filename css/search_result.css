@@ -1227,6 +1227,30 @@ p {
   background: var(--g__black);
 }
 
+.scroll-snap-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.scroll-snap-slider::-webkit-scrollbar {
+  display: none;
+}
+
 .header {
   border-bottom: 1px solid var(--g__black__shade--8);
   position: fixed;
