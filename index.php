@@ -1226,10 +1226,10 @@
             <li class="mobile-nav__item">
                 <a href="" class="mobile-nav__link">
                     <span class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
                     </span>
                     <span class="text">
-                        Search
+                        Bookmarks
                     </span>
                 </a>
             </li>
@@ -1255,8 +1255,8 @@
             </li>
         </ul>
     </div>
-    <script src="./Js/scroll-snap-slider/index.js" type="module"></script>
-    <script src="./Js/home.js"></script>
+    <script src="./Js/scroll-snap-slider/home.js" type="module"></script>
+    <script src="./Js/home.js" type="module"></script>
     <script src="./Js/theme.js"></script>
 </body>
 </html>

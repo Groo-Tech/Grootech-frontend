@@ -276,11 +276,11 @@
                     </h1>
                 </div>
                 <div class="tips__wrap">
-                    <div class="icon__prev">
+                    <button class="icon__prev prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
-                    </div>
-                    <div class="tips__wrapper">
-                        <div class="card card--tips card--white" id="lastClone">
+                    </button>
+                    <div class="tips__wrapper scroll-snap-slider">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
@@ -292,7 +292,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card card--tips card--white">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
@@ -304,7 +304,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card card--tips card--white">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--7.jpg" alt="img" class="card__image">
@@ -316,7 +316,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card card--tips card--white">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--8.jpg" alt="img" class="card__image">
@@ -328,7 +328,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card card--tips card--white">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--9.jpg" alt="img" class="card__image">
@@ -340,7 +340,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card card--tips card--white" id="firstClone">
+                        <div class="card card--tips card--white scroll-snap-slide">
                             <a href="" class="card__link">
                                 <div class="card__image-box">
                                     <img src="./assets/images/cities/grootech__city--6.jpg" alt="img" class="card__image">
@@ -353,9 +353,9 @@
                             </a>
                         </div>
                     </div>
-                    <div class="icon__next">
+                    <button class="icon__next next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                    </div>
+                    </button>
                 </div>
                 <div class="tips__container">
                     <div class="tips__header">
@@ -595,6 +595,62 @@
             </div>
         </div>
     </footer>
+    <!-- mobile navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+                <a href="" class="mobile-nav__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                    </span>
+                    <span class="text">
+                        Explore
+                    </span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="" class="mobile-nav__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </span>
+                    <span class="text">
+                        Inbox
+                    </span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="" class="mobile-nav__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                    </span>
+                    <span class="text">
+                        Bookmarks
+                    </span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="" class="mobile-nav__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </span>
+                    <span class="text">
+                        Profile
+                    </span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <button class="mobile-nav__link">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </span>
+                    <span class="text">
+                        Menu
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <script src="./Js/scroll-snap-slider/dashboard.js" type="module"></script>
     <script src="./js/dashboard.js"></script>
     <script src="./Js/theme.js"></script>
 </body>

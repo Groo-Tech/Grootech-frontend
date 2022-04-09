@@ -18,6 +18,7 @@
 @import "../theme/theme";
 
 @import "../vendors/dot-flashing-three-dots";
+@import "../vendors/scroll-snap-slider";
 
 .header {
   height: var(--header__height);
@@ -382,7 +383,6 @@
     font-weight: var(--weight-lg);
     line-height: 20px;
     text-align: left;
-    color: var(--g__text__black__shade--1);
     text-decoration: underline;
     cursor: pointer;
     padding: var(--span-xs) var(--span-s);
@@ -399,6 +399,7 @@
       display: none;
       margin-top: var(--span-s);
       padding: 0;
+      color: var(--g__text__black__shade--1);
 
       @media only screen and (max-width: 600px) {
         display: block;
@@ -406,11 +407,15 @@
     }
 
     a {
-      color: inherit;
+      color: var(--g__black__shade--1);
     }
 
     &:hover {
       background: var(--light-grey);
+
+      a {
+        color: var(--black--fixed);
+      }
     }
   }
 
@@ -570,7 +575,6 @@
     transform-style: preserve-3d;
     transition: transform 0.3s;
     transform: translateX(0px);
-    overflow-x: visible !important;
   }
 
   #lastClone {
@@ -1042,5 +1046,62 @@
 
   .intro__header {
     color: var(--g__black);
+  }
+}
+
+.mobile {
+  &-nav {
+    display: none;
+    height: 70px;
+    background: var(--g__white);
+    position: fixed;
+    bottom: -0.5px;
+    left: 0;
+    z-index: 5;
+    width: 100vw;
+    box-shadow: var(--header__fixed__box-shadow);
+    padding: 0 var(--span-s);
+
+    @media only screen and (max-width: 600px) {
+      display: flex;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      flex: 0 0 100%;
+      justify-content: space-between;
+    }
+
+    &__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: var(--Montserrat);
+      font-size: var(--size-xs);
+      font-weight: var(--weight-sm);
+      line-height: 15px;
+      text-align: center;
+      color: var(--g__text__black__shade--5);
+      text-decoration: none;
+      outline: none;
+      border: none;
+      background: transparent;
+
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+      }
+
+      svg {
+        width: 22px;
+        height: 22px;
+        stroke-width: 1px;
+        stroke: var(--g__black__shade--4);
+      }
+    }
   }
 }
