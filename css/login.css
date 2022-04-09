@@ -1935,10 +1935,10 @@ p {
   font-weight: var(--weight-sm);
   line-height: 15px;
   text-align: center;
+  color: var(--g__black__shade--5);
+  text-decoration: none;
   outline: none;
   border: none;
-  text-decoration: none;
-  color: var(--g__black__shade--5);
   background: transparent;
 }
 
