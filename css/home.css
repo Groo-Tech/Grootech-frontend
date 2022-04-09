@@ -3257,7 +3257,7 @@ body.no-scroll {
   height: 16px;
 }
 
-.mobile__nav {
+.mobile-nav {
   display: none;
   height: 60px;
   background: var(--g__white);
@@ -3271,7 +3271,7 @@ body.no-scroll {
 }
 
 @media only screen and (max-width: 600px) {
-  .mobile__nav {
+  .mobile-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
