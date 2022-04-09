@@ -7,8 +7,8 @@
     <meta name="color-scheme" content="dark light">
     <meta name="description" content="Grootech is an agro-based platform with the primary purpose of interconnecting all the players in the agricultural sector">
     <link rel="shortcut icon" href="./assets/illustrations/grootech__logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/wallet.css">
-    <title>Grootech | Wallet</title>
+    <link rel="stylesheet" href="css/proposals.css">
+    <title>Grootech | Proposal</title>
 </head>
 <body>
     <section class="section-header">
@@ -47,7 +47,55 @@
             </div>
         </header>
     </section>
-    <!-- <footer class="footer">
+    <section class="section-proposals">
+        <div class="container">
+            <div class="proposals">
+                <div class="proposals__header">
+                    <div class="proposals__left">
+                        <p class="proposals__paragraph">
+                            From: Agba manager
+                        </p>
+                        <p class="proposals__paragraph">
+                            Role: Investor
+                        </p>
+                        <p class="proposals__paragraph">
+                            Business name: Sams Farms
+                        </p>
+                    </div>
+                </div>
+                <div class="proposals__body">
+                    <div class="proposals__box">
+                        <h1 class="proposals__heading">
+                            Lorem ipsum dolor sit
+                        </h1>
+                    </div>
+                    <p class="proposals__text"> 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptatum voluptates harum, iste architecto fuga dignissimos necessitatibus accusantium adipisci possimus voluptatibus vitae culpa quo suscipit saepe excepturi aliquam officiis nesciunt dolor consequatur rem eveniet accusamus laboriosam. Exercitationem non commodi sunt similique totam nostrum, quia iusto soluta ratione id eum repudiandae?
+                    </p>
+                    <img src="./assets/images/cities/grootech__city--7.jpg" alt="" class="proposals__image">
+                    <p class="proposals__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores molestiae dolorem perferendis consectetur autem tempore commodi harum blanditiis ducimus itaque sed ea maiores? Molestiae expedita nemo cumque sapiente similique impedit sint praesentium voluptates error laudantium corporis corrupti repellendus labore laborum distinctio facere voluptas sequi sit perferendis, assumenda dolor fuga. Nostrum cupiditate cum obcaecati modi explicabo ducimus optio voluptatum odio?
+                    </p>
+                    <div class="proposals__box">
+                        <h1 class="proposals__heading proposals__heading--sm">
+                            Lorem ipsum dolor sit
+                        </h1>
+                    </div>
+                    <p class="proposals__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores molestiae dolorem perferendis consectetur autem tempore commodi harum blanditiis ducimus itaque sed ea maiores? Molestiae expedita nemo cumque sapiente similique impedit sint praesentium voluptates error laudantium corporis corrupti repellendus labore laborum distinctio facere voluptas sequi sit perferendis, assumenda dolor fuga. Nostrum cupiditate cum obcaecati modi explicabo ducimus optio voluptatum odio?
+                    </p>
+                    <img src="./assets/images/cities/grootech__city--6.jpg" alt="" class="proposals__image">
+                    <p class="proposals__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores molestiae dolorem perferendis consectetur autem tempore commodi harum blanditiis ducimus itaque sed ea maiores? Molestiae expedita nemo cumque sapiente similique impedit sint praesentium voluptates error laudantium corporis corrupti repellendus labore laborum distinctio facere voluptas sequi sit perferendis, assumenda dolor fuga. Nostrum cupiditate cum obcaecati modi explicabo ducimus optio voluptatum odio?
+                    </p>
+                    <p class="proposals__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, dolores molestiae dolorem perferendis consectetur autem tempore commodi harum blanditiis ducimus itaque sed ea maiores? Molestiae expedita nemo cumque sapiente similique impedit sint praesentium voluptates error laudantium corporis corrupti repellendus labore laborum distinctio facere voluptas sequi sit perferendis, assumenda dolor fuga. Nostrum cupiditate cum obcaecati modi explicabo ducimus optio voluptatum odio?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__box">
@@ -252,7 +300,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <div class="modal">
         <div class="modal__header">
             &nbsp;

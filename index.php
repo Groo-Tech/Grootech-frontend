@@ -1201,9 +1201,9 @@
         </div>
     </footer>
     <!-- mobile navigation -->
-    <div class="mobile__nav">
-        <div class="">
-            &nbsp;
+    <div class="mobile-nav">
+        <div class="mobile-nav__list">
+            
         </div>
     </div>
     <script src="./Js/scroll-snap-slider/index.js" type="module"></script>
