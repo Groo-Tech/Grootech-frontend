@@ -1548,7 +1548,7 @@ p {
 .form {
   max-width: 600px;
   margin: 0 auto;
-  border: 1px solid var(--g__black__shade--6);
+  border: 1px solid var(--grey--1);
   border-radius: 10px;
 }
 
@@ -1567,7 +1567,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   padding: var(--span-s) 0;
-  border-bottom: 1px solid var(--g__black__shade--8);
+  border-bottom: 1px solid var(--grey--1);
 }
 
 .form__paragraph {
@@ -1616,6 +1616,12 @@ p {
 .form__group {
   padding: var(--span-xs);
   height: 60px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.form__group:focus-within {
+  background: var(--grey--1);
 }
 
 .form__group--sm {
@@ -1641,23 +1647,23 @@ p {
 }
 
 .form__group--border-top {
-  border-top: 1px solid var(--g__black__shade--6);
+  border-top: 1px solid var(--grey--1);
 }
 
 .form__group--border-round-top {
-  border-top: 1px solid var(--g__black__shade--6);
-  border-left: 1px solid var(--g__black__shade--6);
-  border-right: 1px solid var(--g__black__shade--6);
+  border-top: 1px solid var(--grey--1);
+  border-left: 1px solid var(--grey--1);
+  border-right: 1px solid var(--grey--1);
 }
 
 .form__group--border-round-bottom {
-  border-bottom: 1px solid var(--g__black__shade--6);
-  border-left: 1px solid var(--g__black__shade--6);
-  border-right: 1px solid var(--g__black__shade--6);
+  border-bottom: 1px solid var(--grey--1);
+  border-left: 1px solid var(--grey--1);
+  border-right: 1px solid var(--grey--1);
 }
 
 .form__group--border-bottom {
-  border-bottom: 1px solid var(--g__black__shade--6);
+  border-bottom: 1px solid var(--grey--1);
 }
 
 .form__group--border-top-radius {
@@ -1693,7 +1699,7 @@ p {
       -ms-flex-positive: 1;
           flex-grow: 1;
   height: 0;
-  border: 0.1px solid var(--g__text__black__shade--8);
+  border: 0.1px solid var(--grey--1);
 }
 
 .form__branch .text {
@@ -1791,7 +1797,6 @@ p {
   border: none;
   width: 100%;
   display: block;
-  background: var(--g__black);
   background: var(--g__join__button__brown);
   color: var(--g__text__white);
   font-family: var(--Montserrat);
@@ -1814,7 +1819,7 @@ p {
   border: none;
   width: 100%;
   padding: calc(var(--span-xs)) var(--span-m);
-  border: 1px solid var(--g__black);
+  border: 1px solid var(--grey--1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1828,6 +1833,12 @@ p {
   font-weight: var(--weight-md);
   line-height: 23px;
   color: var(--g__black);
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.form__alternative:hover {
+  background: var(--grey--1);
 }
 
 .form__alternative .text {

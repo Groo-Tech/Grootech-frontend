@@ -1299,6 +1299,10 @@ p {
   7 in 1 pattern Architure 
 
 */
+body.no-scroll {
+  overflow-y: hidden;
+}
+
 /*header styles starts here*/
 .header {
   height: var(--header__height);
@@ -2021,7 +2025,303 @@ p {
   width: 100vw;
   height: 100vh;
   background: var(--g__white);
+}
+
+.modal--hidden {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+}
+
+.modal__view {
+  padding: var(--span-m);
+  overflow-y: scroll;
+  padding-right: calc(var(--span-2xl) + var(--span-m));
+}
+
+.modal__view::-webkit-scrollbar {
   display: none;
+}
+
+.modal__view::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.modal__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.modal__image {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modal__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: var(--span-s);
+}
+
+.modal__close {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal__close .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: transparent;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modal__close .icon svg {
+  width: 22px;
+  height: 22px;
+  stroke: var(--g__black__shade--2);
+}
+
+.modal__close .icon:hover {
+  background: var(--grey--1);
+}
+
+.modal__heading {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: var(--text__gradient);
+  -webkit-background-clip: text !important;
+  -moz-background-clip: text !important;
+  -ms-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  overflow: clip;
+  margin-top: var(--span-s);
+  font-family: var(--Montserrat);
+  font-size: var(--size-xl);
+  font-weight: var(--weight-xlg);
+  line-height: 43px;
+  text-align: left;
+  color: var(--palette__brown__darker);
+  font-size: var(--size-l);
+  line-height: 30px;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal__heading {
+    margin-top: 0;
+    font-size: calc(var(--size-l) + 4px);
+    line-height: 32px;
+  }
+}
+
+.modal .form {
+  padding-top: var(--span-m);
+  padding-left: calc(var(--span-xl) + 6px);
+}
+
+.modal .form__group {
+  padding-bottom: var(--span-s);
+}
+
+.modal .form__label {
+  display: block;
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__text__black);
+}
+
+.modal .form__paragraph {
+  font-family: var(--Montserrat);
+  font-size: calc(var(--size-xs) + 1px);
+  font-weight: var(--weight-sm);
+  line-height: 18px;
+  text-align: left;
+  color: var(--g__text__black__shade--2);
+  margin-bottom: var(--span-s);
+}
+
+.modal .form__logo {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.modal .form__logo--hidden {
+  display: none;
+}
+
+.modal .form__logo-image {
+  width: 36px;
+  height: 36px;
+}
+
+.modal .form__custom-input {
+  padding: 0 var(--span-s);
+  height: 50px;
+  border: 1px solid var(--grey--1);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.modal .form__custom-input:focus-within {
+  background: var(--grey--1);
+}
+
+.modal .form__input {
+  display: block;
+  padding: 0 var(--span-xs);
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__black__shade--3);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: none;
+  outline: none;
+  letter-spacing: 5px;
+}
+
+.modal .form__input::-webkit-input-placeholder {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__black__shade--3);
+  letter-spacing: 5px;
+}
+
+.modal .form__success {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background: var(--wallet__green);
+}
+
+.modal .form__success--hidden {
+  display: none;
+}
+
+.modal .form__success .icon {
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.modal .form__success .icon svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--g__white--fixed);
+}
+
+.modal .form__error {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  background: var(--g__red);
+}
+
+.modal .form__error--hidden {
+  display: none;
+}
+
+.modal .form__error .icon {
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.modal .form__error .icon svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--g__white--fixed);
 }
 
 .footer {

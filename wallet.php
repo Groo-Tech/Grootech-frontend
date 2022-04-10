@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/wallet.css">
     <title>Grootech | Wallet</title>
 </head>
-<body>
+<body class="no-scroll">
     <section class="section-header">
         <header class="header header--1 u-flex u-align-center">
             <div class="container u-w-full">
@@ -468,8 +468,48 @@
         </div>
     </footer>
     <div class="modal">
-        <div class="modal__header">
-            &nbsp;
+        <div class="modal__wrapper">
+            <div class="modal__view">
+                <div class="modal__header">
+                    <div class="modal__close">
+                        <button class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                    </div>
+                    <h1 class="modal__heading">
+                        Add wallet
+                    </h1>
+                </div>
+                <form action="" class="form">
+                    <label for="card-number" class="form__label">
+                        Card Number
+                    </label>
+                    <p class="form__paragraph">
+                        Enter the 16-digit card number on the card 
+                    </p>
+                    <div class="form__group">
+                        <div class="form__custom-input">
+                            <div class="form__logo form__logo--hidden">
+                                <img src="./assets/svgs/icon-visa.svg" alt="" class="form__logo-image">
+                            </div>
+                            <input type="text" class="form__input" id="card-number" name="card-number" placeholder="xxxx-xxxx-xxxx-xxxx">
+                            <span class="form__success form__success--hidden">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                </span>
+                            </span>
+                            <span class="form__error form__error--hidden">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal__sidebar">
+                <img src="./assets/illustrations/g__wallet__illustration.jpg" alt="image" class="modal__image">
+            </div>
         </div>
     </div>
     <script src="./Js/wallet.js"></script>
