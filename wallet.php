@@ -481,13 +481,13 @@
                     </h1>
                 </div>
                 <form action="" class="form">
-                    <label for="card-number" class="form__label">
-                        Card Number
-                    </label>
-                    <p class="form__paragraph">
-                        Enter the 16-digit card number on the card 
-                    </p>
                     <div class="form__group">
+                        <label for="card-number" class="form__label">
+                            Card Number
+                        </label>
+                        <p class="form__paragraph">
+                            Enter the 16-digit card number on the card 
+                        </p>
                         <div class="form__custom-input">
                             <div class="form__logo form__logo--hidden">
                                 <img src="./assets/svgs/icon-visa.svg" alt="" class="form__logo-image">
@@ -503,6 +503,100 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                                 </span>
                             </span>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__grid">
+                            <div class="form__left">
+                                <label for="cvv" class="form__label">
+                                    CVV Number
+                                </label>
+                                <p class="form__paragraph">
+                                    Enter the 3 or 4 digit on the card 
+                                </p>
+                            </div>
+                            <div class="form__right">
+                                <div class="form__custom-input">
+                                    <input type="text" class="form__input" id="cvv" name="cvv" placeholder="346">
+                                    <span class="form__lock">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                        </span>
+                                    </span>
+                                    <span class="form__success form__success--hidden">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        </span>
+                                    </span>
+                                    <span class="form__error form__error--hidden">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__grid">
+                            <div class="form__left">
+                                <label for="expiry-date" class="form__label">
+                                    Expiry Date
+                                </label>
+                                <p class="form__paragraph">
+                                    Enter the expiration date of the card
+                                </p>
+                            </div>
+                            <div class="form__right">
+                                <div class="form__container">
+                                    <div class="form__custom-input--sm">
+                                        <input type="text" class="form__input" id="expiry-date" name="expiry-date" placeholder="09">
+                                    </div>
+                                    <span class="form__slash">
+                                        /
+                                    </span>
+                                    <div class="form__custom-input--sm">
+                                        <input type="text" class="form__input" id="expiry-date" name="expiry-date" placeholder="22">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__grid">
+                            <div class="form__left">
+                                <label for="password" class="form__label">
+                                    Password 
+                                </label>
+                                <p class="form__paragraph">
+                                    Enter your transaction password 
+                                </p>
+                            </div>
+                            <div class="form__right">
+                                <div class="form__custom-input">
+                                    <input type="password" class="form__input form__password" id="password" name="password" placeholder="xxxxxxx">
+                                    <span class="form__lock form__lock--toggle">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye-off"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+                                        </span>
+                                    </span>
+                                    <span class="form__unlock form__unlock--hidden">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                        </span>
+                                    </span>
+                                    <span class="form__success form__success--hidden">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                        </span>
+                                    </span>
+                                    <span class="form__error form__error--hidden">
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>

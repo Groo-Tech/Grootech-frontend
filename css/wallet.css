@@ -2040,6 +2040,24 @@ body.no-scroll {
   padding-right: calc(var(--span-2xl) + var(--span-m));
 }
 
+@media only screen and (max-width: 1140px) {
+  .modal__view {
+    padding-right: var(--span-m);
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .modal__view {
+    padding-right: calc(var(--span-2xl) + var(--span-m));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal__view {
+    padding: var(--span-s);
+  }
+}
+
 .modal__view::-webkit-scrollbar {
   display: none;
 }
@@ -2053,6 +2071,19 @@ body.no-scroll {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 990px) {
+  .modal__wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .modal__sidebar {
+    display: none;
+  }
 }
 
 .modal__image {
@@ -2142,13 +2173,46 @@ body.no-scroll {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .modal__heading {
+    font-size: var(--size-m);
+    line-height: 25px;
+  }
+}
+
 .modal .form {
   padding-top: var(--span-m);
   padding-left: calc(var(--span-xl) + 6px);
 }
 
+@media only screen and (max-width: 600px) {
+  .modal .form {
+    padding-left: 0;
+  }
+}
+
 .modal .form__group {
-  padding-bottom: var(--span-s);
+  padding-bottom: var(--span-m);
+}
+
+.modal .form__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 600px) {
+  .modal .form__grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.modal .form__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .modal .form__label {
@@ -2195,6 +2259,19 @@ body.no-scroll {
   height: 36px;
 }
 
+.modal .form__slash {
+  font-family: var(--Montserrat);
+  font-size: var(--size-s);
+  font-weight: var(--weight-md);
+  line-height: 23px;
+  text-align: left;
+  color: var(--g__black__shade--3);
+  margin: 0 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .modal .form__custom-input {
   padding: 0 var(--span-s);
   height: 50px;
@@ -2205,6 +2282,34 @@ body.no-scroll {
   display: flex;
   -webkit-transition: all 300ms;
   transition: all 300ms;
+  gap: var(--span-xs);
+}
+
+.modal .form__custom-input--sm {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(50% - 30px);
+          flex: 1 0 calc(50% - 30px);
+  height: 50px;
+  border: 1px solid var(--grey--1);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  gap: var(--span-xs);
+}
+
+.modal .form__custom-input--sm input {
+  text-align: center !important;
+}
+
+.modal .form__custom-input--sm input::-webkit-input-placeholder {
+  text-align: center !important;
+}
+
+.modal .form__custom-input--sm:focus-within {
+  background: var(--grey--1);
 }
 
 .modal .form__custom-input:focus-within {
@@ -2213,6 +2318,7 @@ body.no-scroll {
 
 .modal .form__input {
   display: block;
+  width: 100%;
   padding: 0 var(--span-xs);
   font-family: var(--Montserrat);
   font-size: var(--size-s);
@@ -2279,6 +2385,50 @@ body.no-scroll {
   width: 16px;
   height: 16px;
   stroke: var(--g__white--fixed);
+}
+
+.modal .form__lock, .modal .form__unlock {
+  background: transparent;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal .form__lock--hidden, .modal .form__unlock--hidden {
+  display: none;
+}
+
+.modal .form__lock .icon, .modal .form__unlock .icon {
+  width: 24px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+}
+
+.modal .form__lock .icon svg, .modal .form__unlock .icon svg {
+  width: 16px;
+  height: 16px;
+  stroke: var(--g__black__shade--2);
 }
 
 .modal .form__error {
