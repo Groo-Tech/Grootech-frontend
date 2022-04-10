@@ -1735,6 +1735,7 @@ body.no-scroll {
   .wallet__add .icon {
     width: 36px;
     height: 36px;
+    border: none;
   }
 }
 
@@ -2964,5 +2965,86 @@ body.no-scroll {
 .social__link svg {
   width: 16px;
   height: 16px;
+}
+
+.mobile-nav {
+  display: none;
+  height: 70px;
+  background: var(--g__white);
+  position: fixed;
+  bottom: -0.5px;
+  left: 0;
+  z-index: 5;
+  width: 100vw;
+  -webkit-box-shadow: var(--header__fixed__box-shadow);
+          box-shadow: var(--header__fixed__box-shadow);
+  padding: 0 var(--span-s);
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.mobile-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile-nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: var(--Montserrat);
+  font-size: var(--size-xs);
+  font-weight: var(--weight-sm);
+  line-height: 15px;
+  text-align: center;
+  color: var(--g__text__black__shade--5);
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.mobile-nav__link .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+}
+
+.mobile-nav__link svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 1px;
+  stroke: var(--g__black__shade--4);
 }
 /*# sourceMappingURL=wallet.css.map */
