@@ -30,8 +30,6 @@ const lockBtn = document.querySelector(".form__lock--toggle");
 const unlockBtn = document.querySelector(".form__unlock");
 const passwordInput = document.querySelector(".form__password");
 
-console.log(passwordInput);
-
 lockBtn.addEventListener("click", function (e) {
   unlockBtn.classList.remove("form__unlock--hidden");
   lockBtn.classList.add("form__lock--hidden");
@@ -42,4 +40,21 @@ unlockBtn.addEventListener("click", function (e) {
   unlockBtn.classList.add("form__unlock--hidden");
   lockBtn.classList.remove("form__lock--hidden");
   passwordInput.type = "password";
+});
+
+const addWalletBtns = document.querySelectorAll(".wallet__add");
+const walletModal = document.querySelector(".modal");
+const closeWalletModal = document.querySelector(".modal__close .icon");
+const body = document.querySelector("body");
+
+addWalletBtns.forEach((btn) => {
+  btn.addEventListener("click", function (e) {
+    walletModal.classList.remove("modal--hidden");
+    body.classList.add("no-scroll");
+  });
+});
+
+closeWalletModal.addEventListener("click", function (e) {
+  walletModal.classList.add("modal--hidden");
+  body.classList.remove("no-scroll");
 });

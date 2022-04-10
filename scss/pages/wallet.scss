@@ -632,11 +632,13 @@ body {
   width: 100vw;
   height: 100vh;
   background: var(--g__white);
+  transition: all 300ms;
 
   &--hidden {
     opacity: 0;
     visibility: hidden;
     transform: translateY(30%);
+    transition: all 300ms;
   }
 
   &__view {
@@ -840,6 +842,20 @@ body {
       &:focus-within {
         background: var(--grey--1);
       }
+    }
+
+    &__button {
+      width: 100%;
+      display: block;
+      font-family: var(--Montserrat);
+      font-size: var(--size-s);
+      font-weight: var(--weight-md);
+      line-height: 23px;
+      text-align: center;
+      color: var(--g__white);
+      padding: calc(var(--span-xs) + 5px) var(--span-m);
+      border-radius: 10px;
+      background: var(--g__black);
     }
 
     &__input {

@@ -1490,12 +1490,6 @@ p {
   position: relative;
 }
 
-@media only screen and (max-width: 1024px) {
-  .header__profile {
-    display: none;
-  }
-}
-
 .header__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1508,6 +1502,12 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__icon {
+    display: none;
+  }
 }
 
 .header__icon--lg {
@@ -1589,6 +1589,7 @@ p {
 @media only screen and (max-width: 600px) {
   .header__logo-text {
     font-size: calc(var(--size-l));
+    display: none;
   }
 }
 

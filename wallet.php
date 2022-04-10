@@ -604,6 +604,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="form__group">
+                        <button class="form__button" type="submit">
+                            Create
+                        </button>
+                    </div>
                 </form>
             </div>
             <div class="modal__sidebar">

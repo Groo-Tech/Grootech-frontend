@@ -1,6 +1,5 @@
 // TODO - SETTINGS PAGE
 // TODO - PROFILE PAGE
-// TODO - CONFIRM NUMBER PAGE
 
 // TODO - POLICY AGREEMENT Join our community
 // Before you join
