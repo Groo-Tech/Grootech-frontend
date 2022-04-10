@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/wallet.css">
     <title>Grootech | Wallet</title>
 </head>
-<body class="no-scroll">
+<body>
     <section class="section-header">
         <header class="header header--1 u-flex u-align-center">
             <div class="container u-w-full">
@@ -55,9 +55,14 @@
                         <h1 class="wallet__heading">
                             My cards
                         </h1>
+                        <div class="wallet__add wallet__add--mobile">
+                            <button class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                            </button>
+                        </div>
                     </div>
                     <div class="wallet__wrapper">
-                        <div class="wallet__add">
+                        <div class="wallet__add wallet__add--desktop">
                             <button class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                             </button>
@@ -467,7 +472,7 @@
             </div>
         </div>
     </footer>
-    <div class="modal">
+    <div class="modal modal--hidden">
         <div class="modal__wrapper">
             <div class="modal__view">
                 <div class="modal__header">

@@ -1618,6 +1618,9 @@ body.no-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .wallet__heading {
@@ -1702,6 +1705,24 @@ body.no-scroll {
           justify-content: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .wallet__add--desktop {
+    display: none;
+  }
+}
+
+.wallet__add--mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .wallet__add--mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .wallet__add .icon {
   width: 72px;
   height: 72px;
@@ -1710,8 +1731,22 @@ body.no-scroll {
   background: transparent;
 }
 
+@media only screen and (max-width: 600px) {
+  .wallet__add .icon {
+    width: 36px;
+    height: 36px;
+  }
+}
+
 .wallet__add .icon svg {
   stroke: var(--g__black);
+}
+
+@media only screen and (max-width: 600px) {
+  .wallet__add .icon svg {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .wallet .balance {
@@ -1929,12 +1964,26 @@ body.no-scroll {
   border-radius: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+  .transactions__image-box {
+    width: 36px;
+    height: 36px;
+  }
+}
+
 .transactions__image {
   width: 36px;
   height: 36px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .transactions__image {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .transactions__details {
@@ -1945,6 +1994,12 @@ body.no-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .transactions__details {
+    padding-top: 0;
+  }
 }
 
 .transactions__info {
@@ -1960,6 +2015,12 @@ body.no-scroll {
   line-height: 23px;
   text-align: left;
   color: var(--g__black__shade--2);
+  overflow: clip;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .transactions__type {
@@ -1969,6 +2030,12 @@ body.no-scroll {
   line-height: 18px;
   text-align: left;
   color: var(--g__black__shade--3);
+  overflow: clip;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .transactions__price {
