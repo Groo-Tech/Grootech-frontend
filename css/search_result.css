@@ -2302,8 +2302,8 @@ p {
   bottom: 0;
   background: var(--g__white);
   z-index: 6;
-  -webkit-transition: translate 300ms;
-  transition: translate 300ms;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
   opacity: 1;
   visibility: visible;
   pointer-events: all;
@@ -2357,6 +2357,26 @@ p {
 .modal-search .modal__header a.icon svg,
 .modal-search .modal__header button.icon svg {
   stroke: var(--g__black);
+}
+
+.modal-search .modal__header button.clear {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--grey--1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.modal-search .modal__header button.clear svg {
+  stroke: var(--g__black__shade--1);
+  width: 16px;
+  height: 16px;
 }
 
 .modal-search .modal__input {

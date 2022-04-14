@@ -1393,6 +1393,27 @@ body.no-scroll {
   stroke: var(--g__black);
 }
 
+.modal-search .modal__header button.clear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--grey--1);
+  width: 24px;
+  height: 24px;
+}
+
+.modal-search .modal__header button.clear svg {
+  stroke: var(--g__black__shade--1);
+  width: 12px;
+  height: 12px;
+}
+
 .modal-search .modal__input {
   height: 40px;
   border: none;

@@ -77,6 +77,21 @@ body {
         stroke: var(--g__black);
       }
     }
+
+    button.clear {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--grey--1);
+      width: 24px;
+      height: 24px;
+
+      svg {
+        stroke: var(--g__black__shade--1);
+        width: 12px;
+        height: 12px;
+      }
+    }
   }
 
   .modal__input {

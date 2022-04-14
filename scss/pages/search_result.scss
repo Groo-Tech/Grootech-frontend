@@ -843,7 +843,7 @@
   bottom: 0;
   background: var(--g__white);
   z-index: 6;
-  transition: translate 300ms;
+  transition: all 300ms;
   opacity: 1;
   visibility: visible;
   pointer-events: all;
@@ -878,6 +878,22 @@
 
       svg {
         stroke: var(--g__black);
+      }
+    }
+
+    button.clear {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: var(--grey--1);
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+
+      svg {
+        stroke: var(--g__black__shade--1);
+        width: 16px;
+        height: 16px;
       }
     }
   }
