@@ -8,9 +8,17 @@ const closeUserAction = function () {
 user_button.addEventListener("click", closeUserAction);
 
 const mobileForm = document.querySelector(".mobile-header__form");
+const mobileEditBox = document.querySelector(".edit");
+const mobileEditCloseBtn = document.querySelector(
+  ".mobile-header__link--close"
+);
 
-mobileForm.addEventListener("submit", function (e) {
-  e.preventDefault();
+mobileEditCloseBtn.addEventListener("click", function (e) {
+  mobileEditBox.classList.add("edit--hidden");
+});
+
+mobileForm.addEventListener("click", function (e) {
+  mobileEditBox.classList.remove("edit--hidden");
 });
 
 const mobileViewBtn = document.querySelector(".mobile__view-open");
